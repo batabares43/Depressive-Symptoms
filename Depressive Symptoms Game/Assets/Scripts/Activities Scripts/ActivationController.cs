@@ -15,7 +15,7 @@ public class ActivationController : MonoBehaviour
     {
         if (isInRange)
         {
-            if(Input.GetKey("e") && !inActivity)
+            if(Input.GetKey("space") && !inActivity)
             {
                 inActivity = true;
                 activity.activate();

@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: fe4d0efe4288fd048bd59d1e9404a95d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7237591171755428418
+    second: cuerpos base-8_0
+  - first:
+      213: 6718644866362824476
+    second: cuerpos base-8_1
+  - first:
+      213: 4458324044235189479
+    second: cuerpos base-8_2
+  - first:
+      213: 8080446857213409632
+    second: cuerpos base-8_3
+  - first:
+      213: 8404588156823530514
+    second: cuerpos base-8_4
+  - first:
+      213: 6524523089374064931
+    second: cuerpos base-8_5
+  - first:
+      213: -5637793435691731317
+    second: cuerpos base-8_6
+  - first:
+      213: 9112224161318410099
+    second: cuerpos base-8_7
+  - first:
+      213: 4827917463624999897
+    second: cuerpos base-8_8
+  - first:
+      213: 1338778844940711302
+    second: cuerpos base-8_9
+  - first:
+      213: -5752623656826122340
+    second: cuerpos base-8_10
+  - first:
+      213: 1006426426824909478
+    second: cuerpos base-8_11
+  - first:
+      213: -5669515796308999065
+    second: cuerpos base-8_12
+  - first:
+      213: 8361562505764536367
+    second: cuerpos base-8_13
+  - first:
+      213: -7001090436761820244
+    second: cuerpos base-8_14
+  - first:
+      213: -2180283415761082188
+    second: cuerpos base-8_15
+  - first:
+      213: -3655852050961288235
+    second: cuerpos base-8_16
+  - first:
+      213: 6399493831522890394
+    second: cuerpos base-8_17
+  - first:
+      213: -7529095321386078168
+    second: cuerpos base-8_18
+  - first:
+      213: 1586703161639235611
+    second: cuerpos base-8_19
+  - first:
+      213: 4910389680074296257
+    second: cuerpos base-8_20
+  - first:
+      213: -8036787793836714728
+    second: cuerpos base-8_21
+  - first:
+      213: -3572929868602249561
+    second: cuerpos base-8_22
+  - first:
+      213: -2823007797536253277
+    second: cuerpos base-8_23
+  - first:
+      213: -4734873928509876662
+    second: cuerpos base-8_24
+  - first:
+      213: -5093085221097133743
+    second: cuerpos base-8_25
+  - first:
+      213: -3493493961021658675
+    second: cuerpos base-8_26
+  - first:
+      213: 3744476611493671608
+    second: cuerpos base-8_27
+  - first:
+      213: -8809584150670017611
+    second: cuerpos base-8_28
+  - first:
+      213: 3349569012775948541
+    second: cuerpos base-8_29
+  - first:
+      213: 9117992421021164091
+    second: cuerpos base-8_30
+  - first:
+      213: 4407726720104110580
+    second: cuerpos base-8_31
+  - first:
+      213: -2683565675986606912
+    second: cuerpos base-8_32
+  - first:
+      213: -4232806469301535166
+    second: cuerpos base-8_33
+  - first:
+      213: -2109692902317772342
+    second: cuerpos base-8_34
+  - first:
+      213: -311648684323310982
+    second: cuerpos base-8_35
+  - first:
+      213: -3000972420478160188
+    second: cuerpos base-8_36
+  - first:
+      213: 5137198518486024936
+    second: cuerpos base-8_37
+  - first:
+      213: 3845984670284245427
+    second: cuerpos base-8_38
+  - first:
+      213: -1033437594090387003
+    second: cuerpos base-8_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cuerpos base-8_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 750
+        width: 164
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4cf503d6117460800000000000000
+      internalID: 7237591171755428418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 750
+        width: 164
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17de87b8eb6d3d50800000000000000
+      internalID: 6718644866362824476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 750
+        width: 164
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca836d8162fdd30800000000000000
+      internalID: 4458324044235189479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 654
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06970a6ca93832070800000000000000
+      internalID: 8080446857213409632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 624
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cebe2366813a470800000000000000
+      internalID: 8404588156823530514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 655
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b9fe6e23cb8a50800000000000000
+      internalID: 6524523089374064931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 654
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86b0949db882c1b0800000000000000
+      internalID: -5637793435691731317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_7
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 624
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779d19989f157e70800000000000000
+      internalID: 9112224161318410099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_8
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 655
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3e5409a55300340800000000000000
+      internalID: 4827917463624999897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_9
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 654
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685bf7d244c449210800000000000000
+      internalID: 1338778844940711302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_10
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 624
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fce5843439a20b0800000000000000
+      internalID: -5752623656826122340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 655
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2e67fb08b87fd00800000000000000
+      internalID: 1006426426824909478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 588
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7644980fb65d151b0800000000000000
+      internalID: -5669515796308999065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 562
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20025b2ccc3a0470800000000000000
+      internalID: 8361562505764536367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 563
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca36d64575127de90800000000000000
+      internalID: -7001090436761820244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 583
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a2e5f8c31eb1e0800000000000000
+      internalID: -2180283415761082188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 588
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b11fddedc34dc0800000000000000
+      internalID: -3655852050961288235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_17
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 562
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92b93adbb19fc850800000000000000
+      internalID: 6399493831522890394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_18
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 563
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8203ab032b7438790800000000000000
+      internalID: -7529095321386078168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_19
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 583
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10fe796e1a150610800000000000000
+      internalID: 1586703161639235611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 588
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb829dc565352440800000000000000
+      internalID: 4910389680074296257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 562
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815da2d0518977090800000000000000
+      internalID: -8036787793836714728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_22
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 563
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae6496f6376a6ec0800000000000000
+      internalID: -3572929868602249561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_23
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 583
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa91b57d59a2d8d0800000000000000
+      internalID: -2823007797536253277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 493
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4619ea9f395a4eb0800000000000000
+      internalID: -4734873928509876662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 493
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159a6b9c9f9b159b0800000000000000
+      internalID: -5093085221097133743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 493
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e45470cd948fc0800000000000000
+      internalID: -3493493961021658675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 493
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b6d993ad07f330800000000000000
+      internalID: 3744476611493671608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_28
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 493
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbf660e3e11eb580800000000000000
+      internalID: -8809584150670017611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_29
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 493
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df09a25354f0c7e20800000000000000
+      internalID: 3349569012775948541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 269
+        width: 72
+        height: 99
+      alignment: 9
+      pivot: {x: 0.41, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32aba73ccd998e70800000000000000
+      internalID: 9117992421021164091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_31
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 270
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f99dca49146b2d30800000000000000
+      internalID: 4407726720104110580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_32
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 269
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4236f5c3f02cad0800000000000000
+      internalID: -2683565675986606912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_33
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 270
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e7e4a41fc0245c0800000000000000
+      internalID: -4232806469301535166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_34
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 187
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1bf24ab7dd8b2e0800000000000000
+      internalID: -2109692902317772342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_35
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 187
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72f03c3c2dccabf0800000000000000
+      internalID: -311648684323310982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_36
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 183
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b7a0cb776a56d0800000000000000
+      internalID: -3000972420478160188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_37
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 184
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2c503a5defa4740800000000000000
+      internalID: 5137198518486024936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_38
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 82
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9e3e34eaeaf5530800000000000000
+      internalID: 3845984670284245427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpos base-8_39
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 83
+        width: 60
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c945bacbfd78a1f0800000000000000
+      internalID: -1033437594090387003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
