@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 7404b6020adc32249ac43d518e2622c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8600492898581457719
+    second: ojojojo_0
+  - first:
+      213: 7074901943049582503
+    second: ojojojo_1
+  - first:
+      213: -4817545009037666959
+    second: ojojojo_2
+  - first:
+      213: -9084708573208507282
+    second: ojojojo_3
+  - first:
+      213: -3603479690955686856
+    second: ojojojo_4
+  - first:
+      213: 3324484594580320484
+    second: ojojojo_5
+  - first:
+      213: 7532122795566454456
+    second: ojojojo_6
+  - first:
+      213: 3666574536297457981
+    second: ojojojo_7
+  - first:
+      213: 1993976052247239277
+    second: ojojojo_8
+  - first:
+      213: -805949705122379361
+    second: ojojojo_9
+  - first:
+      213: 6361511505341897744
+    second: ojojojo_10
+  - first:
+      213: -8460065671929307328
+    second: ojojojo_11
+  - first:
+      213: 1385336828653777643
+    second: ojojojo_12
+  - first:
+      213: 8364179568384700393
+    second: ojojojo_13
+  - first:
+      213: -839671385097163204
+    second: ojojojo_14
+  - first:
+      213: 8624876640030017725
+    second: ojojojo_15
+  - first:
+      213: 3849053313313005768
+    second: ojojojo_16
+  - first:
+      213: 6147005867827603498
+    second: ojojojo_17
+  - first:
+      213: -7335758861230553390
+    second: ojojojo_18
+  - first:
+      213: -8597245619409097395
+    second: ojojojo_19
+  - first:
+      213: -3632578854504786121
+    second: ojojojo_20
+  - first:
+      213: 3791162425307295764
+    second: ojojojo_21
+  - first:
+      213: -275020961964535088
+    second: ojojojo_22
+  - first:
+      213: 7034229123357424024
+    second: ojojojo_23
+  - first:
+      213: -2722113215713610729
+    second: ojojojo_24
+  - first:
+      213: 6110240973392199846
+    second: ojojojo_25
+  - first:
+      213: 4700960323505119064
+    second: ojojojo_26
+  - first:
+      213: -1162311973279937417
+    second: ojojojo_27
+  - first:
+      213: 7604233130323698823
+    second: ojojojo_28
+  - first:
+      213: -8615650048594561523
+    second: ojojojo_29
+  - first:
+      213: -2385648646377066713
+    second: ojojojo_30
+  - first:
+      213: -7687907632632858021
+    second: ojojojo_31
+  - first:
+      213: 8227329178343160193
+    second: ojojojo_32
+  - first:
+      213: 3013095155129982336
+    second: ojojojo_33
+  - first:
+      213: 632966154840928489
+    second: ojojojo_34
+  - first:
+      213: 3262596716929001887
+    second: ojojojo_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ojojojo_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 238
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ba73159b61b5770800000000000000
+      internalID: 8600492898581457719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 238
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7f03035d91f2260800000000000000
+      internalID: 7074901943049582503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 237
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1759ad6b654a42db0800000000000000
+      internalID: -4817545009037666959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 237
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c06fd7fa1ace180800000000000000
+      internalID: -9084708573208507282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c7049205eddfdc0800000000000000
+      internalID: -3603479690955686856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0f739ff11f22e20800000000000000
+      internalID: 3324484594580320484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b65c5296c9778860800000000000000
+      internalID: 7532122795566454456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a08a4d1a42e230800000000000000
+      internalID: 3666574536297457981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_8
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a15dca7a60cab10800000000000000
+      internalID: 1993976052247239277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 243
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9989576301b0d4f0800000000000000
+      internalID: -805949705122379361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 187
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cd6766201a84850800000000000000
+      internalID: 6361511505341897744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 187
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5d20481fc79a80800000000000000
+      internalID: -8460065671929307328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 189
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2bc2e7184b93310800000000000000
+      internalID: 1385336828653777643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 189
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef662b8009831470800000000000000
+      internalID: 8364179568384700393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 171
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e2933f253e854f0800000000000000
+      internalID: -839671385097163204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_15
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 171
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8cd888b97b1b770800000000000000
+      internalID: 8624876640030017725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_16
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 171
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0ef8568959a6530800000000000000
+      internalID: 3849053313313005768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_17
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 171
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a282b10c44d8e4550800000000000000
+      internalID: 6147005867827603498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_18
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 171
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6cd66ae26223a90800000000000000
+      internalID: -7335758861230553390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 171
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d6658c8a270b880800000000000000
+      internalID: -8597245619409097395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_20
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 134
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73795ae27cc769dc0800000000000000
+      internalID: -3632578854504786121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 132
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410ff3ea32aec9430800000000000000
+      internalID: 3791162425307295764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 134
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2515864edee2cf0800000000000000
+      internalID: -275020961964535088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_23
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 134
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8993d666e1a9e9160800000000000000
+      internalID: 7034229123357424024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7147ef2e37c193ad0800000000000000
+      internalID: -2722113215713610729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 78
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a04417bacfebc450800000000000000
+      internalID: 6110240973392199846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 80
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f5ab9e18a2d3140800000000000000
+      internalID: 4700960323505119064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_27
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 80
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c47722b63aedfe0800000000000000
+      internalID: -1162311973279937417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_28
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 86
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784633a3eb9a78960800000000000000
+      internalID: 7604233130323698823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_29
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 87
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06b170bdef0f6880800000000000000
+      internalID: -8615650048594561523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_30
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 86
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fadc1223974eed0800000000000000
+      internalID: -2385648646377066713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_31
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 87
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a77ea8db01f4590800000000000000
+      internalID: -7687907632632858021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_32
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 86
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b9552c485d2270800000000000000
+      internalID: 8227329178343160193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_33
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 87
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d19fb541aa0d920800000000000000
+      internalID: 3013095155129982336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 44
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0732e3d5fb8c800800000000000000
+      internalID: 632966154840928489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojojojo_35
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 46
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99a8e59d62174d20800000000000000
+      internalID: 3262596716929001887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

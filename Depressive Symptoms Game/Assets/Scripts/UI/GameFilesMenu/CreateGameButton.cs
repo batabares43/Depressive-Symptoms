@@ -5,9 +5,11 @@ using UnityEngine;
 public class CreateGameButton : MonoBehaviour
 {
     [SerializeField] private GameObject CharacterCreationMenu;
+    
 
     public void createGame()
     {
         CharacterCreationMenu.SetActive(true);
+        
     }
 }
