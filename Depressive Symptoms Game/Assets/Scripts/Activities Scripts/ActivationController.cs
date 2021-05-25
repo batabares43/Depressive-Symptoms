@@ -7,10 +7,8 @@ public class ActivationController : MonoBehaviour
     [SerializeField] public ActivityController activity;
     [SerializeField] private bool isInRange=false;
     [SerializeField] private bool inActivity = false;
-    void Start()
-    {
-       
-    }
+
+
     private void FixedUpdate()
     {
         if (isInRange)

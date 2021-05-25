@@ -5,10 +5,12 @@ using UnityEngine;
 public class SleepActivity : ActivityController
 {
     [SerializeField] private GameObject menu;
+
     public override void activate()
     {
         Debug.Log("spleeping");
         menu.SetActive(true);
+       
 
     }
 
