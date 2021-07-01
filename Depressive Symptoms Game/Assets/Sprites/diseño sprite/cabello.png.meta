@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 433cac600fd31fc4f92323278d2ba685
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6519544856188323197
+    second: cabello_0
+  - first:
+      213: -4421454911239134440
+    second: cabello_1
+  - first:
+      213: 779703000533946037
+    second: cabello_2
+  - first:
+      213: 5740981800901764081
+    second: cabello_3
+  - first:
+      213: -4711625236492059977
+    second: cabello_4
+  - first:
+      213: -8107476962584534075
+    second: cabello_5
+  - first:
+      213: -3282630743843085107
+    second: cabello_6
+  - first:
+      213: 5087553990978007030
+    second: cabello_7
+  - first:
+      213: -6305361169383622026
+    second: cabello_8
+  - first:
+      213: -2120750911927463044
+    second: cabello_9
+  - first:
+      213: 2777787555733204601
+    second: cabello_10
+  - first:
+      213: -7217096341121575132
+    second: cabello_11
+  - first:
+      213: 6402207763579549156
+    second: cabello_12
+  - first:
+      213: 5090355197678464990
+    second: cabello_13
+  - first:
+      213: -3146525287768074164
+    second: cabello_14
+  - first:
+      213: -7117883471384224457
+    second: cabello_15
+  - first:
+      213: -6037913411572080261
+    second: cabello_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cabello_0
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1338
+        width: 245
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a7badce7ce585a0800000000000000
+      internalID: -6519544856188323197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1377
+        width: 200
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136f212f26d3a2c0800000000000000
+      internalID: -4421454911239134440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_2
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1370
+        width: 217
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4536774, y: 0.425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bec1297fbf02da00800000000000000
+      internalID: 779703000533946037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_3
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1348
+        width: 224
+        height: 274
+      alignment: 9
+      pivot: {x: 0.58, y: 0.57}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f36bb8e7801caf40800000000000000
+      internalID: 5740981800901764081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 943
+        width: 215
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baff188fc1fc9eb0800000000000000
+      internalID: -4711625236492059977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 985
+        width: 303
+        height: 231
+      alignment: 9
+      pivot: {x: 0.36, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c36c7468a47c7f80800000000000000
+      internalID: -8107476962584534075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_6
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 890
+        width: 231
+        height: 355
+      alignment: 9
+      pivot: {x: 0.34, y: 0.49}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4e4780bb0c172d0800000000000000
+      internalID: -3282630743843085107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_7
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 869
+        width: 240
+        height: 323
+      alignment: 9
+      pivot: {x: 0.42, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff6dd7566f9a9640800000000000000
+      internalID: 5087553990978007030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 579
+        width: 245
+        height: 180
+      alignment: 9
+      pivot: {x: 0.49, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af8567c6bde78a0800000000000000
+      internalID: -6305361169383622026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_9
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 577
+        width: 241
+        height: 192
+      alignment: 9
+      pivot: {x: 0.44532466, y: 0.5423253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735a7528449192e0800000000000000
+      internalID: -2120750911927463044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_10
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 524
+        width: 208
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5418625, y: 0.73482877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e6af8801fac8620800000000000000
+      internalID: 2777787555733204601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_11
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 612
+        width: 232
+        height: 164
+      alignment: 9
+      pivot: {x: 0.47233844, y: 0.40216845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4275da59d19b7db90800000000000000
+      internalID: -7217096341121575132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 154
+        width: 203
+        height: 203
+      alignment: 9
+      pivot: {x: 0.4, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e538666a0639d850800000000000000
+      internalID: 6402207763579549156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 154
+        width: 262
+        height: 242
+      alignment: 9
+      pivot: {x: 0.3214526, y: 0.40262464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf203a151394a640800000000000000
+      internalID: 5090355197678464990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_14
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 158
+        width: 218
+        height: 234
+      alignment: 9
+      pivot: {x: 0.38584745, y: 0.4126425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48dcc9fbeb4554d0800000000000000
+      internalID: -3146525287768074164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabello_15
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 167
+        width: 224
+        height: 249
+      alignment: 9
+      pivot: {x: 0.32809883, y: 0.36790717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dd487e1b2383d90800000000000000
+      internalID: -7117883471384224457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
