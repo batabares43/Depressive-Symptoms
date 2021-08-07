@@ -3093,7 +3093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1093519324
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3211,10 +3211,10 @@ MonoBehaviour:
   rfoot: {fileID: 384178365}
   lfoot: {fileID: 1555591206}
   rEyeLid: {fileID: 1230555248}
-  rEyeLid2: {fileID: 1439938841}
+  rEyeLid2: {fileID: 0}
   rEyeBag: {fileID: 1901471799}
   lEyeLid: {fileID: 691878092}
-  lEyeLid2: {fileID: 1690531566}
+  lEyeLid2: {fileID: 0}
   lEyeBag: {fileID: 1436942640}
 --- !u!114 &1093519328
 MonoBehaviour:
@@ -4460,11 +4460,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 5729249788405835317, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
   m_PrefabInstance: {fileID: 5729249787368427623}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &1439938841 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5729249787793897671, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-  m_PrefabInstance: {fileID: 5729249787368427623}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1448235936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5319,11 +5314,6 @@ RectTransform:
   m_AnchoredPosition: {x: -100, y: 309}
   m_SizeDelta: {x: -400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!212 &1690531566 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5729249787724313735, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-  m_PrefabInstance: {fileID: 5729249787368427623}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1709071272
 GameObject:
   m_ObjectHideFlags: 0
