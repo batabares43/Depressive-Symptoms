@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,8 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     [SerializeField] private float axis;
-    [SerializeField] public bool ableToMove =true; 
+    [SerializeField] private Vector2 target;
+    [SerializeField] private bool moving = false;
     
     
    
@@ -16,35 +18,61 @@ public class PlayerMovementController : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
+        target = transform.position;
     }
-    private void FixedUpdate()
+    private void Update()
     {
-        playerMovement();
+            playerMovement();
     }
+    
+    public void playerMovement(Vector2 target)
+    {
+        if (GameStateManager.Instance.AbleToMove)
+        {
+            this.target = target;
+            this.target.y = transform.position.y;
+            moving = true;
+        }
+        playerMove();
+    }
+
     private void playerMovement()
     {
-        axis = Input.GetAxis("Horizontal");
-        if (axis!=0 && ableToMove)
+        
+        if (GameStateManager.Instance.AbleToMove)
         {
-            Vector2 inputM = new Vector2(axis, 0);
-            Vector2 positionOffset = (Physics2D.gravity * rb.gravityScale) + inputM * speed;
-            rb.MovePosition(rb.position + positionOffset * Time.deltaTime);
-            if (axis < 0)
+            if (Input.GetMouseButtonDown(1))
             {
-                transform.localScale = new Vector3(-1, 1, 1);
-            }else if(axis > 0)
+                target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                target.y = transform.position.y;
+                moving = true; 
+            }
+            playerMove();
+        }
+    }
+    private void playerMove()
+    {
+        if(moving && transform.position.x != target.x)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            if (transform.position.x < target.x)
             {
                 transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (transform.position.x > target.x)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
             }
             anim.SetBool("isWalking", true);
         }
         else
         {
+            moving = false;
             anim.SetBool("isWalking", false);
         }
-       
-        
     }
+
     
- 
+
+
 }

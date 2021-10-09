@@ -5,61 +5,47 @@ using UnityEngine;
 public class ActivityManager : MonoBehaviour
 {
 
-    [SerializeField] public Activity[] activities;
-    [SerializeField] private bool isInRange=false;
-    [SerializeField] private bool inActivity = false;
+    [SerializeField] public List<ActivityFunctions> activities;
 
-    [SerializeField] private Vector2 menuPosition;
-    [SerializeField] private GameObject menuPrefab;
-    [SerializeField] private GameObject menu;
-    [SerializeField] private VarManager variables;
+    private Vector3 originalScale;
 
     private void Start()
     {
-        variables = VarManager.Instace;
+        originalScale = transform.localScale;
     }
 
-    private void Update()
+    public void showActivities()
     {
-        activation();
-        
+        GameStateManager.Instance.showSelectionMenu(gameObject, activities);
     }
 
-    private void activation()
+    
+
+
+    public void drawPlayer()
     {
-        if (isInRange)
-        {
-            if (Input.GetKey("space") && !inActivity)
-            {
-                inActivity = true;
-                //menu=Instantiate(menuPrefab, menuPosition, Quaternion.identity);
-                menu.SetActive(true);
-            }
+        GameStateManager.Instance.Player.GetComponent<PlayerMovementController>().playerMovement(transform.position);
+    }
+    
+    public void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(0)){
+            drawPlayer();
+            showActivities();
         }
+    }
+    private void OnMouseEnter()
+    {
+        transform.localScale = new Vector3(transform.localScale.x * 1.1f, transform.localScale.y*1.1f ,transform.localScale.z);
+    }
+    private void OnMouseExit()
+    {
+        transform.localScale = originalScale;
     }
 
-    public void activitySelected()
-    {
-        menu.SetActive(false);
-        //Destroy(menu);
-        Debug.Log("Sleep");
-        variables.SleepHours = activities[0].sleepHours;
-        variables.Rest = activities[0].rest;
-        inActivity = false;
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            isInRange = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            isInRange = false;
-        }
-    }
+
+
+
+
 
 }

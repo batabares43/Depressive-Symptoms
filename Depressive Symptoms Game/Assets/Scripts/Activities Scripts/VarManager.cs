@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VarManager : MonoBehaviour
+public class VarManager : MonoBehaviour, Subject
 {
 
-    private static VarManager instace;
+    private static VarManager instance;
+    private static List<Observer> activities;
 
     [Header("Variables de sintomas")]
 
@@ -19,15 +20,7 @@ public class VarManager : MonoBehaviour
     [SerializeField] private float concentration;
     [SerializeField] private float will;
 
-    [Header("Variables areas de ajuste")]
-
-    [SerializeField] private float hygiene;
-    [SerializeField] private float environment;
-    [SerializeField] private float jobPerformance;
-    [SerializeField] private float academicPerformance;
-    [SerializeField] private float sociability;
-    [SerializeField] private float satiety;
-    [SerializeField] private float rest;
+    
 
     #region properties
     public float Mood { get => mood; set { mood = mood + value; notify(); } }
@@ -40,31 +33,39 @@ public class VarManager : MonoBehaviour
     public float Concentration { get => concentration; set { concentration = concentration + value; notify(); } }
     public float Will { get => will; set { will = will + value; notify(); } }
 
-    public float Hygiene { get => hygiene; set { hygiene = hygiene + value; notify(); } }
-    public float Environment { get => environment; set { environment = environment + value; notify(); } }
-    public float JobPerformance { get => jobPerformance; set { jobPerformance = jobPerformance + value; notify(); } }
-    public float AcademicPerformance { get => academicPerformance; set { academicPerformance = academicPerformance + value; notify(); } }
-    public float Sociability { get => sociability; set { sociability = sociability + value; notify(); } }
-    public float Satiety { get => satiety; set { satiety = satiety + value; notify(); } }
-    public float Rest { get => rest; set { rest = rest + value; notify(); } }
+    
 
-    public static VarManager Instace { get => instace;}
+    public static VarManager Instace { get => instance;}
 
     #endregion
 
     private void Awake()
     {
-        if (instace != null)
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
         }
         else
         {
-            instace = this;
+            instance = this;
         }
     }
-    private void notify()
+    public void notify()
     {
-        Debug.Log("Notificando a observadores");
+        foreach (Observer a in activities)
+        {
+            a.updateState();
+        }
     }
+
+    public void suscribe()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void deSuscribe()
+    {
+        throw new System.NotImplementedException();
+    }
+
 }
