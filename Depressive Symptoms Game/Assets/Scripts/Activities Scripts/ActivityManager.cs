@@ -36,7 +36,8 @@ public class ActivityManager : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        transform.localScale = new Vector3(transform.localScale.x * 1.1f, transform.localScale.y*1.1f ,transform.localScale.z);
+        float hoverEffect = 1.01f;
+        transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y*hoverEffect ,transform.localScale.z);
     }
     private void OnMouseExit()
     {

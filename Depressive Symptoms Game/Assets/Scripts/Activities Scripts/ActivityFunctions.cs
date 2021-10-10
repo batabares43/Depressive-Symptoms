@@ -20,6 +20,7 @@ public class ActivityFunctions : MonoBehaviour
         GameStateManager.Instance.IsIdle = false;
         GameStateManager.Instance.IsInActivity = true;
         GameStateManager.Instance.ActualActivity = this;
+        GameStateManager.Instance.Player.transform.localScale = new Vector3(1, 1, 1);
         playAnim();
 
     }
