@@ -44,6 +44,9 @@ TagManager:
   - name: BackPlayer
     uniqueID: 3762562099
     locked: 0
+  - name: Points
+    uniqueID: 4190889337
+    locked: 0
   - name: Player
     uniqueID: 2018077341
     locked: 0
