@@ -16,6 +16,7 @@ public class ActivityManager : MonoBehaviour
 
     public void showActivities()
     {
+        GameStateManager.Instance.AbleToMove = false;
         GameStateManager.Instance.showSelectionMenu(gameObject, activities);
     }
 
@@ -29,15 +30,22 @@ public class ActivityManager : MonoBehaviour
     
     public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0)){
-            drawPlayer();
-            showActivities();
-        }
+        if (!GameStateManager.Instance.InSelection)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                drawPlayer();
+                showActivities();
+            }
+        }    
     }
     private void OnMouseEnter()
     {
-        float hoverEffect = 1.01f;
-        transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y*hoverEffect ,transform.localScale.z);
+        if(!GameStateManager.Instance.InSelection)
+        {
+            float hoverEffect = 1.01f;
+            transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y * hoverEffect, transform.localScale.z);
+        }
     }
     private void OnMouseExit()
     {

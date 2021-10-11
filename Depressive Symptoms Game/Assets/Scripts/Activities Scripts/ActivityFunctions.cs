@@ -19,7 +19,10 @@ public class ActivityFunctions : MonoBehaviour
     {
         GameStateManager.Instance.IsIdle = false;
         GameStateManager.Instance.IsInActivity = true;
+        GameStateManager.Instance.InSelection = true;
+        GameStateManager.Instance.AbleToMove = false;
         GameStateManager.Instance.ActualActivity = this;
+        GameStateManager.Instance.Player.transform.position = new Vector2(transform.position.x, GameStateManager.Instance.Player.transform.position.y);
         GameStateManager.Instance.Player.transform.localScale = new Vector3(1, 1, 1);
         playAnim();
 
@@ -28,6 +31,8 @@ public class ActivityFunctions : MonoBehaviour
     {
         fillVars();
         GameStateManager.Instance.IsIdle = true;
+        GameStateManager.Instance.AbleToMove = true;
+        GameStateManager.Instance.InSelection = false;
     }
 
     private void fillVars()

@@ -13,6 +13,7 @@ public class GenerateMenu : MonoBehaviour
 
     public void buildMenu(GameObject target,List<ActivityFunctions> activities)
     {
+        GameStateManager.Instance.InSelection = true;
         master = target;
         label.SetText(master.name);
         foreach (ActivityFunctions a in activities)
@@ -20,5 +21,12 @@ public class GenerateMenu : MonoBehaviour
             GameObject currentButton = Instantiate(button, content.transform);
             currentButton.GetComponent<SelectedActivity>().buildButton(a, gameObject);
         }
+    }
+
+    public void exitMenu()
+    {
+        GameStateManager.Instance.InSelection = false;
+        GameStateManager.Instance.AbleToMove = true;
+        Destroy(gameObject);
     }
 }

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Record 
 {
-    
+    public string nameActivity;
 }

@@ -9,6 +9,7 @@ public class GameStateManager : MonoBehaviour
     [Header("Variables de estado del juego")]
     [SerializeField] private bool isIdle;
     [SerializeField] private bool isInActivity;
+    [SerializeField] private bool inSelection;
     [SerializeField] private bool isPaused;
     [SerializeField] private bool ableToMove;
     [SerializeField] private ActivityFunctions actualActivity;
@@ -16,11 +17,13 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private GameObject menuSelection;
     [SerializeField]private Animator anim;
     [SerializeField] private GameObject player;
+    
 
     #region properties
     public bool IsIdle { get => isIdle; set  { isIdle = value; changeAnimState(); } }
     public bool IsInActivity { get=> isInActivity; set { isInActivity = value;changeAnimState(); } }
-    public bool IsPaused { get=> isPaused; set => isPaused=value; }
+    public bool InSelection { get => inSelection; set => inSelection=value; }
+    public bool IsPaused { get=> isPaused; set { isPaused = value; InSelection = value; } }
     public bool AbleToMove { get => ableToMove; set => ableToMove = value; }
     public GameObject Player { get => player; set => player = value; }
 

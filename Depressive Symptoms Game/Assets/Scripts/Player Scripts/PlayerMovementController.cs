@@ -29,8 +29,9 @@ public class PlayerMovementController : MonoBehaviour
             this.target = target;
             this.target.y = transform.position.y;
             moving = true;
+            playerMove();
         }
-        playerMove();
+        
     }
 
     private void playerMovement()
@@ -45,6 +46,10 @@ public class PlayerMovementController : MonoBehaviour
                 moving = true; 
             }
             playerMove();
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
         }
     }
     private void playerMove()
