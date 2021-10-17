@@ -7,10 +7,25 @@ public class RecordManager : MonoBehaviour,Subject
     private static RecordManager instance;
     private static List<Observer> activities;
     private List<Record> records;
+    private int combo=0;
+    private int lastCombo=0;
 
     public static RecordManager Instace { get => instance; }
     public void addRecord(Record r)
     {
+        if (records.Count > 0)
+        {
+            if (records[records.Count - 1].nameActivity.Equals(r.nameActivity))
+            {
+                combo++;
+            }
+            else
+            {
+                lastCombo = combo;
+                combo = 1;
+                notify();
+            }
+        }
         records.Add(r);
     }
 

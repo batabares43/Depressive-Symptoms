@@ -6,9 +6,7 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
-    [SerializeField] private float axis;
     [SerializeField] private Vector2 target;
     [SerializeField] private bool moving = false;
     
@@ -16,7 +14,6 @@ public class PlayerMovementController : MonoBehaviour
    
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         target = transform.position;
     }
@@ -32,8 +29,9 @@ public class PlayerMovementController : MonoBehaviour
             this.target = target;
             this.target.y = transform.position.y;
             moving = true;
+            playerMove();
         }
-        playerMove();
+        
     }
 
     private void playerMovement()
@@ -48,6 +46,10 @@ public class PlayerMovementController : MonoBehaviour
                 moving = true; 
             }
             playerMove();
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
         }
     }
     private void playerMove()

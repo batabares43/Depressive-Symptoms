@@ -12,10 +12,12 @@ public class TimeManager : MonoBehaviour, Subject
     [SerializeField]private int hour;
     [SerializeField]private int minute;
 
+    
+
     #region properties
-    public int Day { get => day; set { day = day + value; notify(); } }
-    public int Hour { get => hour; set { hour = hour + value; notify(); } }
-    public int Minute { get => minute; set { minute = minute + value; notify(); } }
+    public int Day { get => day;}
+    public int Hour { get => hour;}
+    public int Minute { get => minute;}
 
     public static TimeManager Instance { get => instance; }
     #endregion
@@ -31,6 +33,23 @@ public class TimeManager : MonoBehaviour, Subject
             instance = this;
         }
     }
+    private void timeShift(int time)
+    {
+        minute += time;
+        while (minute >= 60)
+        {
+            minute -= 60;
+            hour++;
+        }
+        while (hour >= 24)
+        {
+            hour -= 24;
+            day++;
+        }
+        notify();
+    }
+    
+
     public void notify()
     {
         foreach(Observer a in activities)
@@ -46,5 +65,12 @@ public class TimeManager : MonoBehaviour, Subject
     public void suscribe()
     {
         throw new System.NotImplementedException();
+    }
+
+    [ContextMenu("TestTime")]
+    public void testTime()
+    {
+        int testMinutes = 10;
+        timeShift(testMinutes);
     }
 }
