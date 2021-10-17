@@ -29,7 +29,7 @@ public class RecordManager : MonoBehaviour,Subject
         records.Add(r);
     }
 
-    public void deSuscribe()
+    public void deSuscribe(Observer o)
     {
         throw new System.NotImplementedException();
     }
@@ -42,7 +42,7 @@ public class RecordManager : MonoBehaviour,Subject
         }
     }
 
-    public void suscribe()
+    public void suscribe(Observer o)
     {
         throw new System.NotImplementedException();
     }

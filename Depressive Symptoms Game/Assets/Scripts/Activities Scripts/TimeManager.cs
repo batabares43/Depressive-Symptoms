@@ -5,19 +5,21 @@ using UnityEngine;
 public class TimeManager : MonoBehaviour, Subject
 {
     private static TimeManager instance;
-    private static List<Observer> activities;
+    private static List<Observer> activities= new List<Observer>();
 
     [Header("Variables de tiempo")]
-    [SerializeField]private int day;
-    [SerializeField]private int hour;
-    [SerializeField]private int minute;
+    [SerializeField] private int day;
+    [SerializeField] private int hour;
+    [SerializeField] private int minute;
+    [SerializeField] private int lastMinuteChange;
 
-    
+
 
     #region properties
-    public int Day { get => day;}
-    public int Hour { get => hour;}
-    public int Minute { get => minute;}
+    public int Day { get => day; }
+    public int Hour { get => hour; }
+    public int Minute { get => minute; }
+    public int LastMinuteChange{get=>lastMinuteChange; }
 
     public static TimeManager Instance { get => instance; }
     #endregion
@@ -33,8 +35,9 @@ public class TimeManager : MonoBehaviour, Subject
             instance = this;
         }
     }
-    private void timeShift(int time)
+    public void timeShift(int time)
     {
+        lastMinuteChange = time;
         minute += time;
         while (minute >= 60)
         {
@@ -57,20 +60,20 @@ public class TimeManager : MonoBehaviour, Subject
             a.updateState();
         }
     }
-    public void deSuscribe()
+    public void deSuscribe(Observer o)
     {
         throw new System.NotImplementedException();
     }
 
-    public void suscribe()
+    public void suscribe(Observer o)
     {
-        throw new System.NotImplementedException();
+        activities.Add(o);
     }
 
     [ContextMenu("TestTime")]
     public void testTime()
     {
-        int testMinutes = 10;
+        int testMinutes = 120;
         timeShift(testMinutes);
     }
 }

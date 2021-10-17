@@ -58,12 +58,12 @@ public class VarManager : MonoBehaviour, Subject
         }
     }
 
-    public void suscribe()
+    public void suscribe(Observer o)
     {
         throw new System.NotImplementedException();
     }
 
-    public void deSuscribe()
+    public void deSuscribe(Observer o)
     {
         throw new System.NotImplementedException();
     }
