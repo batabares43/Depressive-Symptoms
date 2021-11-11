@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControlManager : MonoBehaviour, Subject
 {
     private static ControlManager instance;
-    private static List<Observer> activities;
+    private static List<Observer> activities = new List<Observer>();
 
     [Header("Variables areas de ajuste")]
 
@@ -16,6 +16,28 @@ public class ControlManager : MonoBehaviour, Subject
     [SerializeField] private float sociability;
     [SerializeField] private float satiety;
     [SerializeField] private float rest;
+    [SerializeField] private float bladder;
+    [SerializeField] private float entertainment;
+    [SerializeField] private float useOfSPA;
+
+    public Record modificated(Record r,float hygiene, float environment, float jobPerformance, float academicPerformance, float sociability, float satiety, float rest, float bladder, float entertainment, float useOfSPA)
+    {
+        this.hygiene += hygiene;
+        this.environment += environment;
+        this.jobPerformance += jobPerformance;
+        this.academicPerformance += academicPerformance;
+        this.sociability += sociability;
+        this.satiety += satiety;
+        this.rest += rest;
+        this.bladder += bladder;
+        this.entertainment += entertainment;
+        this.useOfSPA += useOfSPA;
+        Debug.Log("Control set");
+        notify();
+        return r;
+    }
+
+
 
     #region properties
     public float Hygiene { get => hygiene; set { hygiene = hygiene + value; notify(); } }
@@ -25,9 +47,12 @@ public class ControlManager : MonoBehaviour, Subject
     public float Sociability { get => sociability; set { sociability = sociability + value; notify(); } }
     public float Satiety { get => satiety; set { satiety = satiety + value; notify(); } }
     public float Rest { get => rest; set { rest = rest + value; notify(); } }
+    public float Bladder { get => bladder; set { bladder = bladder + value; notify(); } }
+    public float Entertainment { get => entertainment; set { entertainment = entertainment + value; notify(); } }
+    public float UseOfSPA { get => useOfSPA; set { useOfSPA = useOfSPA + value; notify(); } }
 
 
-    public static ControlManager Instace { get => instance; }
+    public static ControlManager Instance { get => instance; }
     #endregion
 
     private void Awake()
@@ -51,11 +76,11 @@ public class ControlManager : MonoBehaviour, Subject
 
     public void suscribe(Observer o)
     {
-        throw new System.NotImplementedException();
+        activities.Add(o);
     }
 
     public void deSuscribe(Observer o)
     {
-        throw new System.NotImplementedException();
+        activities.Remove(o);
     }
 }

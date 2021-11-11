@@ -37,7 +37,13 @@ public class ActivityFunctions : MonoBehaviour
 
     private void fillVars()
     {
-        Debug.Log("Aqui se llenan las variables, ya vere como lo hare");
+        Record r =new Record();
+        r = TimeManager.Instance.timeShift(r, activityParams.time);
+        r = VarManager.Instance.modificated(r, activityParams.mood, 0, activityParams.sleepHours, 0, activityParams.energy, 0, 0, 0, 0, 0);
+        r = ControlManager.Instance.modificated(r, activityParams.hygiene, 0, 0, 0, 0, activityParams.satiety, activityParams.rest, activityParams.bladder, activityParams.entertainment, 0);
+        r = new Record();
+        r.nameActivity = activityParams.nameActivity;
+        RecordManager.Instace.addRecord(r);
     }
     public void playAnim()
     {

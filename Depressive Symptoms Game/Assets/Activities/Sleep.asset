@@ -12,18 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5f7b26bf58c014aa30230cb98741b0, type: 3}
   m_Name: Sleep
   m_EditorClassIdentifier: 
-  nameActivity: Cepillar dientes
-  hours: 1
-  active: 0
+  nameActivity: Dormir
+  time: 60
+  active: 1
   mood: 0
-  motivation: 0
   calories: 0
   sleepHours: 1
   fitness: 0
   energy: 0
-  selfEsteem: 0
+  selfEfficacy: 0
   concentration: 0
-  Will: 0
+  deadDesire: 0
+  sexualDesire: 0
+  riskBehaviors: 0
   hygiene: 0
   environment: 0
   jobPerformance: 0
@@ -31,3 +32,6 @@ MonoBehaviour:
   sociability: 0
   satiety: 0
   rest: 2
+  bladder: 0
+  entertainment: 0
+  useOfSPA: 0
