@@ -23,37 +23,42 @@ public class VarManager : MonoBehaviour, Subject
 
 
     #region properties
-    public float Mood { get => mood; set { mood = mood + value; notify(); } }
-    public float Calories { get => calories; set { calories = calories + value; notify(); } }
-    public float SleepHours { get => sleepHours; set { sleepHours = sleepHours + value; notify(); } }
-    public float Fitness { get => fitness; set { fitness = fitness + value; notify(); } }
-    public float Energy { get => energy; set { energy = energy + value; notify(); } }
-    public float SelfEfficacy { get => selfEfficacy; set { selfEfficacy = selfEfficacy + value; notify(); } }
-    public float Concentration { get => concentration; set { concentration = concentration + value; notify(); } }
-    public float DeadDesire { get => deadDesire; set { deadDesire = deadDesire + value; notify(); } }
+    public float Mood { get => mood; set { mood = mood + value; validateValues(); } }
+    public float Calories { get => calories; set { calories = calories + value; validateValues(); } }
+    public float SleepHours { get => sleepHours; set { sleepHours = sleepHours + value; validateValues(); } }
+    public float Fitness { get => fitness; set { fitness = fitness + value; validateValues(); } }
+    public float Energy { get => energy; set { energy = energy + value; validateValues(); } }
+    public float SelfEfficacy { get => selfEfficacy; set { selfEfficacy = selfEfficacy + value; validateValues(); } }
+    public float Concentration { get => concentration; set { concentration = concentration + value; validateValues(); } }
+    public float DeadDesire { get => deadDesire; set { deadDesire = deadDesire + value; validateValues(); } }
+    public float SexualDesire { get => sexualDesire; set { sexualDesire = sexualDesire + value; validateValues(); } }
+    public float RiskBehaviors { get => riskBehaviors; set { riskBehaviors = riskBehaviors + value; validateValues(); } }
 
-    
+
 
     public static VarManager Instance { get => instance;}
 
     #endregion
 
 
-    public Record modificated(Record r, float mood, float calories, float sleepHours, float fitness, float energy, float selfEfficacy, float concentration, float deadDesire, float sexualDesire, float riskBehaviors)
+    public void modificated(Activity a)
     {
-        this.mood += mood;
-        this.calories += calories;
-        this.sleepHours += sleepHours;
-        this.fitness += fitness;
-        this.energy += energy;
-        this.selfEfficacy += selfEfficacy;
-        this.concentration += concentration;
-        this.deadDesire += deadDesire;
-        this.sexualDesire += sexualDesire;
-        this.riskBehaviors += riskBehaviors;
-        Debug.Log("Var set");
+        mood += a.mood;
+        calories += a.calories;
+        sleepHours += a.sleepHours;
+        fitness += a.fitness;
+        energy += a.energy;
+        selfEfficacy += a.selfEfficacy;
+        concentration += a.concentration;
+        deadDesire += a.deadDesire;
+        sexualDesire += a.sexualDesire;
+        riskBehaviors += a.riskBehaviors;
+        validateValues();
+    }
+
+    private void validateValues()
+    {
         notify();
-        return r;
     }
 
     private void Awake()

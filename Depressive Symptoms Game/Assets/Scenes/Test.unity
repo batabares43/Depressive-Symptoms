@@ -783,7 +783,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2837,6 +2837,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2852,6 +2853,22 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760929962abd30f43a9fa4df69806ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1429972699}
+  Speed: 0
+  xmin: -5.51
+  xmax: 0.01
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3533,7 +3550,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activityParams: {fileID: 11400000, guid: 6c3c427526bd4bf48ade6628912b351b, type: 2}
-  isAA: 1
   animationName: DoSomething
   anim: {fileID: 0}
 --- !u!1 &713686677
@@ -5828,6 +5844,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activityParams: {fileID: 11400000, guid: 5c99f83a08e17fb42965cfc58a5f7e87, type: 2}
   timeNext: 0
+--- !u!4 &1429972699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5729249787395016470, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
+  m_PrefabInstance: {fileID: 1033678899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1442432980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,9 +6188,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1563575312}
   - component: {fileID: 1563575311}
-  - component: {fileID: 1563575314}
-  - component: {fileID: 1563575316}
   - component: {fileID: 1563575319}
+  - component: {fileID: 1563575313}
+  - component: {fileID: 1563575310}
   m_Layer: 0
   m_Name: Cama
   m_TagString: Untagged
@@ -6177,6 +6198,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1563575310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563575309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ac7709184c0e543a1ba0a0e0dc38e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: 181316d6699513b4d8de90d12d251209, type: 2}
+  animationName: Sleep
+  anim: {fileID: 0}
 --- !u!212 &1563575311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6242,7 +6278,7 @@ Transform:
   m_Father: {fileID: 1618807244}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1563575314
+--- !u!114 &1563575313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6255,23 +6291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activities:
-  - {fileID: 1563575316}
---- !u!114 &1563575316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563575309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4ac7709184c0e543a1ba0a0e0dc38e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: 181316d6699513b4d8de90d12d251209, type: 2}
-  isAA: 1
-  animationName: Sleep
-  anim: {fileID: 0}
+  - {fileID: 1563575310}
 --- !u!61 &1563575319
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7042,7 +7062,7 @@ MonoBehaviour:
   satiety: 8
   rest: 10
   bladder: 6
-  entertainment: 24
+  entertainment: 12
   useOfSPA: 0
 --- !u!114 &1762799471
 MonoBehaviour:
@@ -8016,7 +8036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2089176052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be1f15938fdb7c94c93a3339e269d215, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e101f2c35612694aaabf287b4a9336e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bar: {fileID: 116324374}

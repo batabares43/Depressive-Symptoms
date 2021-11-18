@@ -7,6 +7,7 @@ public class RecordManager : MonoBehaviour, Subject
     private static RecordManager instance;
     private static List<Observer> activities = new List<Observer>();
     private List<Record> records = new List<Record>();
+    private List<Record> Pasiverecords = new List<Record>();
     private int combo = 0;
     private int lastCombo = 0;
 
@@ -27,17 +28,24 @@ public class RecordManager : MonoBehaviour, Subject
     }
     public void addRecord(Record r)
     {
-        if (records.Count > 0)
+        if (r.IsActive)
         {
-            if (!records[records.Count - 1].nameActivity.Equals(r.nameActivity))
+            if (records.Count > 0)
             {
-                lastCombo = combo;
-                combo = 0;
-                notify();
+                if (!records[records.Count - 1].NameActivity.Equals(r.NameActivity))
+                {
+                    lastCombo = combo;
+                    combo = 0;
+                    notify();
+                }
             }
+            combo++;
+            records.Add(r);
         }
-        combo++;
-        records.Add(r);
+        else {
+            Pasiverecords.Add(r);
+        }
+        
     }
 
     public void deSuscribe(Observer o)

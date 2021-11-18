@@ -25,8 +25,9 @@ public class TimePA : MonoBehaviour, Observer
 
     private void performActivity()
     {
-        Record r = new Record();
-        r = VarManager.Instance.modificated(r, activityParams.mood, 0, activityParams.sleepHours, 0, activityParams.energy, 0, 0, 0, 0, 0);
-        r = ControlManager.Instance.modificated(r, activityParams.hygiene, 0, 0, 0, 0, activityParams.satiety, activityParams.rest, activityParams.bladder, activityParams.entertainment, 0);
+        Record r = new Record(activityParams);
+        VarManager.Instance.modificated(activityParams);
+        ControlManager.Instance.modificated(activityParams);
+        RecordManager.Instace.addRecord(r);
     }
 }

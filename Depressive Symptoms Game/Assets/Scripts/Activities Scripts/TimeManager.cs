@@ -32,8 +32,9 @@ public class TimeManager : MonoBehaviour, Subject
             instance = this;
         }
     }
-    public Record timeShift(Record r,int time)
+    public void timeShift(Activity a)
     {
+        int time = a.time;
         lastMinuteChange = time;
         minute += time;
         while (minute >= 60)
@@ -48,7 +49,6 @@ public class TimeManager : MonoBehaviour, Subject
         }
         Debug.Log("Time set");
         notify();
-        return r;
     }
     
     public void notify()
