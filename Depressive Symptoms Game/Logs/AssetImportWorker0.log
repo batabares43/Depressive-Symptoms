@@ -15,11 +15,11 @@ D:/Proyectos/Depressive-Symptoms/Depressive Symptoms Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51909
+51613
 Successfully changed project path to: D:/Proyectos/Depressive-Symptoms/Depressive Symptoms Game
 D:/Proyectos/Depressive-Symptoms/Depressive Symptoms Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,748 +35,236 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004555 seconds.
+Registered in 0.005207 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.674 seconds
+- Completed reload, in  1.702 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000938 seconds.
+Registered in 0.001291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.526 seconds
+- Completed reload, in  1.185 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1855 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 107.0 MB.
 System memory in use after: 107.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 4.268100 ms (FindLiveObjects: 0.816100 ms CreateObjectMapping: 0.128500 ms MarkObjects: 3.188800 ms  DeleteObjects: 0.132000 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 2.505800 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.087400 ms  DeleteObjects: 0.155500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9853f4bc8245c90d1d77ff5606daf0b') in 0.101742 seconds
-  Import took 0.116474 seconds .
+  path: Assets/Sprites/Diseño Sala/platos mascota.png
+  artifactKey: Guid(12e5a0c2ab68e5143b70f0c94685b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Diseño Sala/platos mascota.png using Guid(12e5a0c2ab68e5143b70f0c94685b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b360ea764bb41ddb214a9751c2ca38') in 0.165511 seconds
+  Import took 0.185009 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 588.743515 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4810891163b526f505c3bddd07887575') in 0.020955 seconds
-  Import took 0.031147 seconds .
+  Time since last request: 13.849190 seconds.
+  path: Assets/Sprites/Diseño Sala/platos mascota.png
+  artifactKey: Guid(12e5a0c2ab68e5143b70f0c94685b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Diseño Sala/platos mascota.png using Guid(12e5a0c2ab68e5143b70f0c94685b3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccee2f49581104fd9fd3473f07a8b77') in 0.095639 seconds
+  Import took 0.107745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027002 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4810891163b526f505c3bddd07887575') in 0.005613 seconds
-  Import took 0.019037 seconds .
+  Time since last request: 842.935011 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229c5b9a5cfda939c3bcac03c2e802d') in 0.028245 seconds
+  Import took 0.039122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.670876 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f03caccd032f6caa935bec60f2ad826') in 0.004263 seconds
-  Import took 0.026909 seconds .
+  Time since last request: 4.133368 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b5913e958af9a7aa2c9fea0af317ab') in 0.015659 seconds
+  Import took 0.027558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.031457 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f03caccd032f6caa935bec60f2ad826') in 0.007023 seconds
-  Import took 0.262552 seconds .
+  Time since last request: 6.292452 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17182ded74da2e5505b253c12bcbae95') in 0.021697 seconds
+  Import took 0.035201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.661444 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d6c2bb58be9944e1d0f37f3a7a96a0') in 0.004568 seconds
-  Import took 0.031658 seconds .
+  Time since last request: 4.491260 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9576545fd218273cd5c44ac47ff26e4') in 0.019459 seconds
+  Import took 0.030284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053269 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d6c2bb58be9944e1d0f37f3a7a96a0') in 0.009506 seconds
-  Import took 0.114720 seconds .
+  Time since last request: 6.868030 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d884974e41975bf200dfa884f9ed4c') in 0.021608 seconds
+  Import took 0.033446 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 279.518405 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581b97c952e063c7cc716301145a8ee0') in 0.004730 seconds
-  Import took 0.028735 seconds .
+  Time since last request: 4.024003 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7053ebb5525a86aa9035f6748372f896') in 0.021519 seconds
+  Import took 0.045076 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.054747 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581b97c952e063c7cc716301145a8ee0') in 0.032996 seconds
-  Import took 0.099862 seconds .
+  Time since last request: 6.025424 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a015500e0e69b7f5957c70920b61e160') in 0.014866 seconds
+  Import took 0.026578 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.931186 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d875dfd43209f477735c8be3145abf') in 0.004106 seconds
-  Import took 0.025474 seconds .
+  Time since last request: 5.204706 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed2ca6e970816364789d2128daf8107') in 0.017224 seconds
+  Import took 0.139361 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030905 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d875dfd43209f477735c8be3145abf') in 0.008414 seconds
-  Import took 0.022618 seconds .
+  Time since last request: 7.467929 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f577d16071697154c181b8119f40f8') in 0.024846 seconds
+  Import took 0.043999 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.577270 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07f2032b2eae8cceffae1b8b865763e') in 0.004757 seconds
-  Import took 0.016306 seconds .
+  Time since last request: 32.669714 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dfbbfafb55569d9a644944a71ebf80') in 0.015733 seconds
+  Import took 0.039262 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.560428 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67a1d223f0e2f3774a557821f919f58') in 0.004030 seconds
-  Import took 0.014249 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000988 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
-System memory in use after: 105.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 2.639400 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.169900 ms  DeleteObjects: 0.149700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001033 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 3.490600 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.153100 ms MarkObjects: 2.898600 ms  DeleteObjects: 0.157900 ms)
+  Time since last request: 6.372226 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f1bd9dd9314bde611385f61c2b48ba') in 0.017246 seconds
+  Import took 0.031351 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2182.664785 seconds.
-  path: Assets/Scripts/Activities Scripts/ActivityFunctions.cs
-  artifactKey: Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Activities Scripts/ActivityFunctions.cs using Guid(c4ac7709184c0e543a1ba0a0e0dc38e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231b0a6c3a8d1870f1bf354142ce608e') in 0.006141 seconds
-  Import took 0.016220 seconds .
+  Time since last request: 4.962269 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0591debabcce4a2db720e21ee0e61422') in 0.017200 seconds
+  Import took 0.038815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.529153 seconds.
-  path: Assets/Scripts/UI/Counters/EntertainmentBar.cs
-  artifactKey: Guid(0e101f2c35612694aaabf287b4a9336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/Counters/EntertainmentBar.cs using Guid(0e101f2c35612694aaabf287b4a9336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956249cd89bfe11da4514d9c96c5c57b') in 0.007855 seconds
-  Import took 0.332816 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000978 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 4.114900 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.133000 ms MarkObjects: 3.511400 ms  DeleteObjects: 0.165400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005124 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 2.556600 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.116400 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.129900 ms)
+  Time since last request: 5.217394 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc82805e03537486ce058d776d77585') in 0.018228 seconds
+  Import took 0.028643 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 164.447697 seconds.
-  path: Assets/Activities/ChangeCustome.asset
-  artifactKey: Guid(6c3c427526bd4bf48ade6628912b351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Activities/ChangeCustome.asset using Guid(6c3c427526bd4bf48ade6628912b351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393e0e624bdfbcd9fb79d70db06b01b8') in 0.030382 seconds
-  Import took 0.040665 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001428 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.080 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 2.310200 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.933100 ms  DeleteObjects: 0.116500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001002 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 2.387000 ms (FindLiveObjects: 0.212700 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.961400 ms  DeleteObjects: 0.139400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 3.049800 ms (FindLiveObjects: 0.474100 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.327000 ms  DeleteObjects: 0.159600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000976 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 3.389800 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.136600 ms MarkObjects: 2.786700 ms  DeleteObjects: 0.215600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001008 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.7 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 4.040100 ms (FindLiveObjects: 0.515200 ms CreateObjectMapping: 0.106800 ms MarkObjects: 3.278900 ms  DeleteObjects: 0.137100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.434300 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.803600 ms  DeleteObjects: 0.175400 ms)
+  Time since last request: 6.696636 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3aaa997bc67c16748517c0c4c178038') in 0.021774 seconds
+  Import took 0.036738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 818.114405 seconds.
-  path: Assets/Scripts/Player Scripts/CameraFollow.cs
-  artifactKey: Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Scripts/CameraFollow.cs using Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b9f64d327a1fb2c4ad0cf5ee065e6') in 0.009583 seconds
-  Import took 0.251720 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000945 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 3.681100 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.075300 ms MarkObjects: 3.094900 ms  DeleteObjects: 0.187400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001207 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 2.544200 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.127200 ms  DeleteObjects: 0.152200 ms)
+  Time since last request: 4.103268 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68aac93691e599d6a08d2ee2a528efe') in 0.018141 seconds
+  Import took 0.062900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 215.382847 seconds.
-  path: Assets/Scripts/Player Scripts/CameraFollow.cs
-  artifactKey: Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Scripts/CameraFollow.cs using Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8345fcabe3893efbca13b762bd0549') in 0.006383 seconds
-  Import took 0.017525 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001433 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 2.511800 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.002800 ms  DeleteObjects: 0.171000 ms)
+  Time since last request: 4.261012 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fe9b625aaf866bec7ab99115bdca3e') in 0.017448 seconds
+  Import took 0.417791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 303.988225 seconds.
-  path: Assets/Scripts/Player Scripts/CameraFollow.cs
-  artifactKey: Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player Scripts/CameraFollow.cs using Guid(760929962abd30f43a9fa4df69806ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2a6445349f07b325da7e0019c18d1f') in 0.128869 seconds
-  Import took 0.396993 seconds .
+  Time since last request: 7.494200 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b70214ebcae34aaed2f21ead49ff45') in 0.017291 seconds
+  Import took 0.055726 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 4.215300 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.132600 ms MarkObjects: 3.519500 ms  DeleteObjects: 0.199800 ms)
+Received Import Request.
+  Time since last request: 5.216070 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3916919b558f0d97b74e8a6cb8263a3d') in 0.022735 seconds
+  Import took 0.055184 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001157 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2380.
-Total: 2.592100 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.211100 ms  DeleteObjects: 0.128100 ms)
+Received Import Request.
+  Time since last request: 4.752134 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc76d2dad8be85f452d9b6468122e1a') in 0.015847 seconds
+  Import took 0.039721 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001103 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2384.
-Total: 2.513100 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.050300 ms  DeleteObjects: 0.180000 ms)
+Received Import Request.
+  Time since last request: 4.154397 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac131a63464602fd7410dd57cabd0b') in 0.023120 seconds
+  Import took 0.386863 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.168 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2388.
-Total: 3.046600 ms (FindLiveObjects: 0.287400 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.507300 ms  DeleteObjects: 0.121500 ms)
+Received Import Request.
+  Time since last request: 3.471572 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30163ee68f8ecfdee1bc2ec6c8401382') in 0.014615 seconds
+  Import took 0.026706 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001063 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.8 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2392.
-Total: 2.545600 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.066000 ms  DeleteObjects: 0.157100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001825 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2396.
-Total: 4.294200 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.114100 ms MarkObjects: 3.726800 ms  DeleteObjects: 0.126800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001591 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2400.
-Total: 2.575500 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.065800 ms MarkObjects: 2.075600 ms  DeleteObjects: 0.173000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2404.
-Total: 2.580000 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.059600 ms MarkObjects: 2.152400 ms  DeleteObjects: 0.170700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002492 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2408.
-Total: 2.450800 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.077800 ms MarkObjects: 1.956800 ms  DeleteObjects: 0.180400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000955 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.894 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.9 MB.
-System memory in use after: 105.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2412.
-Total: 2.542300 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.016300 ms  DeleteObjects: 0.170700 ms)
+Received Import Request.
+  Time since last request: 4.784079 seconds.
+  path: Assets/Sprites/diseño pasillo/puerta exterior abierta.png
+  artifactKey: Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/diseño pasillo/puerta exterior abierta.png using Guid(2aa4932202fa4584eb4cceca0a456a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506972de8d699ba8b7a0c289ed7173cf') in 0.016987 seconds
+  Import took 0.227159 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

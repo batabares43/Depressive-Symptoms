@@ -5,9 +5,9 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField]private Transform player;
-    public float Speed;
     public float xmin;
     public float xmax;
+    public float y;
     
 
     private void Update()
@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
     private void followPlayer(){
         if (player.position.x > xmin && player.position.x < xmax)
         {
-            Vector3 newPosition = new Vector3(player.position.x, transform.position.y, transform.position.z);
+            Vector3 newPosition = new Vector3(player.position.x, y, transform.position.z);
             transform.position = newPosition;
         }
 
