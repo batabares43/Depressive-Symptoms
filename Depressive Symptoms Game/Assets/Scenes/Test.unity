@@ -707,8 +707,10 @@ GameObject:
   m_Component:
   - component: {fileID: 77737086}
   - component: {fileID: 77737087}
+  - component: {fileID: 77737089}
+  - component: {fileID: 77737088}
   m_Layer: 0
-  m_Name: puerta cerrada para cuarto (1)
+  m_Name: Livingroom Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -780,6 +782,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &77737088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77737085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1695190878}
+  targetIndex: 3
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &77737089
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77737085}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.33}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.02, y: 6.62}
+    newSize: {x: 4.02, y: 6.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.02, y: 7.28}
+  m_EdgeRadius: 0
 --- !u!1 &90185119
 GameObject:
   m_ObjectHideFlags: 0
@@ -3811,9 +3856,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1429972699}
-  xmin: -5.51
-  xmax: 0.01
-  y: 0
+  xmin:
+  - -5.47
+  - 19.99
+  - 40.57
+  - 79.78
+  - 113.87
+  xmax:
+  - 0
+  - 19.99
+  - 55.2
+  - 87.59
+  - 133.09
+  y:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  targets:
+  - {fileID: 1618807244}
+  - {fileID: 1845679917}
+  - {fileID: 358483795}
+  - {fileID: 1014228698}
+  - {fileID: 507260277}
+  indexRoom: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3865,7 +3932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 123.5, y: 0, z: -10}
+  m_LocalPosition: {x: -5.47, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4829,7 +4896,7 @@ GameObject:
   - component: {fileID: 757269313}
   - component: {fileID: 757269314}
   m_Layer: 0
-  m_Name: marco sin tapete
+  m_Name: Bathroom Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5846,7 +5913,7 @@ GameObject:
   - component: {fileID: 957049936}
   - component: {fileID: 957049937}
   m_Layer: 0
-  m_Name: marco sin tapete
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6174,7 +6241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5729249787395016470, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.979
+      value: -2.48
       objectReference: {fileID: 0}
     - target: {fileID: 5729249787395016470, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6834,6 +6901,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1154405847}
   - component: {fileID: 1154405848}
+  - component: {fileID: 1154405849}
+  - component: {fileID: 1154405850}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -6906,6 +6975,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1154405849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154405846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1722517889}
+  targetIndex: 1
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1154405850
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154405846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1174259048
 GameObject:
   m_ObjectHideFlags: 0
@@ -6998,6 +7110,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1176787488}
   - component: {fileID: 1176787489}
+  - component: {fileID: 1176787490}
+  - component: {fileID: 1176787491}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -7070,6 +7184,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1176787490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176787487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 77737086}
+  targetIndex: 4
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1176787491
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176787487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1193019986
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,8 +7237,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1193019987}
   - component: {fileID: 1193019988}
+  - component: {fileID: 1193019990}
+  - component: {fileID: 1193019989}
   m_Layer: 0
-  m_Name: puerta cerrada para cuarto
+  m_Name: Bedroom Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7153,6 +7312,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1193019989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193019986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.33}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.02, y: 6.62}
+    newSize: {x: 4.02, y: 6.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.02, y: 7.28}
+  m_EdgeRadius: 0
+--- !u!114 &1193019990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193019986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1757668073}
+  targetIndex: 0
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
 --- !u!1 &1220463911
 GameObject:
   m_ObjectHideFlags: 0
@@ -7827,6 +8029,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1310845899}
   - component: {fileID: 1310845900}
+  - component: {fileID: 1310845901}
+  - component: {fileID: 1310845902}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -7899,6 +8103,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1310845901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310845898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1823461665}
+  targetIndex: 4
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1310845902
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310845898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1313581534
 GameObject:
   m_ObjectHideFlags: 0
@@ -8074,6 +8321,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1369408083}
   - component: {fileID: 1369408084}
+  - component: {fileID: 1369408086}
+  - component: {fileID: 1369408085}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -8146,6 +8395,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1369408085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369408082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1193019987}
+  targetIndex: 4
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1369408086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369408082}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1373143862
 GameObject:
   m_ObjectHideFlags: 0
@@ -8543,6 +8835,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1496446850}
   - component: {fileID: 1496446851}
+  - component: {fileID: 1496446853}
+  - component: {fileID: 1496446852}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -8615,6 +8909,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1496446852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496446849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 957049936}
+  targetIndex: 2
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1496446853
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496446849}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1512918559
 GameObject:
   m_ObjectHideFlags: 0
@@ -9294,6 +9631,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1608678614}
   - component: {fileID: 1608678615}
+  - component: {fileID: 1608678616}
+  - component: {fileID: 1608678617}
   m_Layer: 0
   m_Name: tapete de marco sin puerta
   m_TagString: Untagged
@@ -9366,6 +9705,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1608678616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608678613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 757269313}
+  targetIndex: 4
+  yOffset: -3.14
+  cameraTarget: {fileID: 0}
+--- !u!61 &1608678617
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608678613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.26, y: 0.66}
+    newSize: {x: 7.26, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.26, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1616038053
 GameObject:
   m_ObjectHideFlags: 0
@@ -9745,7 +10127,7 @@ GameObject:
   - component: {fileID: 1695190878}
   - component: {fileID: 1695190879}
   m_Layer: 0
-  m_Name: marco sin tapete (1)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9828,7 +10210,7 @@ GameObject:
   - component: {fileID: 1722517889}
   - component: {fileID: 1722517890}
   m_Layer: 0
-  m_Name: marco sin tapete
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9990,7 +10372,7 @@ GameObject:
   - component: {fileID: 1757668073}
   - component: {fileID: 1757668074}
   m_Layer: 0
-  m_Name: marco sin tapete
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10366,7 +10748,7 @@ GameObject:
   - component: {fileID: 1823461665}
   - component: {fileID: 1823461666}
   m_Layer: 0
-  m_Name: marco sin tapete (1)
+  m_Name: Kitchen Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10484,7 +10866,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -9.7, y: 0.1}
+  m_Offset: {x: -19.35, y: 0.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10510,7 +10892,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 9.7, y: 0.1}
+  m_Offset: {x: 19.35, y: 0.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10547,7 +10929,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20, y: 0.3}
+  m_Size: {x: 40, y: 0.3}
   m_EdgeRadius: 0
 --- !u!1 &1845679916
 GameObject:
