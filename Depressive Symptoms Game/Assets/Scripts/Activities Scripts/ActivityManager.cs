@@ -12,6 +12,8 @@ public class ActivityManager : MonoBehaviour
     private void Start()
     {
         originalScale = transform.localScale;
+        activities = new List<ActivityFunctions>(GetComponents<ActivityFunctions>());
+
     }
 
     public void showActivities()

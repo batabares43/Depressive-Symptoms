@@ -41,23 +41,98 @@ public class VarManager : MonoBehaviour, Subject
     #endregion
 
 
+    //variables que no pertenecen al sistema de medición
+    private int energyIndex;
+    private bool[] energyCategories = new bool[3];
+    private float deadDesireTemp;
+    private float sexualDesireTemp;
+    private int riskIndex;
+    private bool[] riskCategories = new bool[3];
+
     public void modificated(Activity a)
     {
         mood += a.mood;
         calories += a.calories;
         sleepHours += a.sleepHours;
         fitness += a.fitness;
-        energy += a.energy;
+        energyIndex = (int)a.energy;
         selfEfficacy += a.selfEfficacy;
         concentration += a.concentration;
-        deadDesire += a.deadDesire;
-        sexualDesire += a.sexualDesire;
-        riskBehaviors += a.riskBehaviors;
+        deadDesireTemp = a.deadDesire;
+        sexualDesireTemp = a.sexualDesire;
+        riskIndex = (int) a.riskBehaviors;
         validateValues();
     }
 
     private void validateValues()
     {
+        if (mood < -14)
+        {
+            mood = -14;
+        }else if (mood > 14)
+        {
+            mood = 14;
+        }
+        if (fitness < 0)
+        {
+            fitness = 0;
+        }
+        else if (fitness > 30)
+        {
+            fitness = 30;
+        }
+        if (energyIndex > 0)
+        {
+            if (!energyCategories[energyIndex])
+            {
+                energy++;
+            }
+        }
+        else if(energyIndex<0)
+        {
+            if (energyCategories[energyIndex])
+            {
+                energy--;
+            }
+        }
+        if (selfEfficacy < -10)
+        {
+            selfEfficacy = -10;
+        }
+        else if (selfEfficacy > 10)
+        {
+            selfEfficacy = 10;
+        }
+        if (concentration < -10)
+        {
+            concentration = -10;
+        }
+        else if (concentration > 10)
+        {
+            concentration = 10;
+        }
+        if (deadDesireTemp > deadDesire)
+        {
+            deadDesire = deadDesireTemp;
+        }
+        if (sexualDesireTemp > sexualDesire)
+        {
+            sexualDesire = sexualDesireTemp;
+        }
+        if (riskIndex > 0)
+        {
+            if (!riskCategories[energyIndex])
+            {
+                RiskBehaviors++;
+            }
+        }
+        else if (riskIndex < 0)
+        {
+            if (riskCategories[energyIndex])
+            {
+                RiskBehaviors--;
+            }
+        }
         notify();
     }
 

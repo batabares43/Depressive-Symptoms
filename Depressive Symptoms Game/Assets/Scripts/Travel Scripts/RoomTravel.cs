@@ -29,6 +29,7 @@ public class RoomTravel : MonoBehaviour
     private void playerTravel()
     {
         Vector3 newPosition = new Vector3(target.position.x, yOffset, player.position.z);
+        GameStateManager.Instance.Player.GetComponent<PlayerMovementController>().playerMovement(newPosition);
         player.position = newPosition;
         cameraTarget.IndexRoom = targetIndex;
     }

@@ -15,6 +15,7 @@ MonoBehaviour:
   nameActivity: Dormir
   time: 60
   active: 1
+  repetitive: 1
   mood: 0
   calories: 0
   sleepHours: 1

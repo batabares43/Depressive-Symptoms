@@ -11,6 +11,7 @@ public class Activity : ScriptableObject
     [SerializeField] public string nameActivity;
     [SerializeField] public int time;
     [SerializeField] public bool active;
+    [SerializeField] public bool repetitive;
 
     [Header("Variables de sintomas")]
 

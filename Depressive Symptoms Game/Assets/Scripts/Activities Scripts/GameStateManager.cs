@@ -67,7 +67,14 @@ public class GameStateManager : MonoBehaviour
         {
             IsInActivity = false;
             actualActivity.playAnim();
-            Instantiate(menuContinue, GameObject.Find("Canvas").transform);
+            if (actualActivity.ActivityParams.repetitive)
+            {
+                Instantiate(menuContinue, GameObject.Find("Canvas").transform);
+            }
+            else
+            {
+                ActualActivity.finishActivity();
+            }
         }
     }
     public void showSelectionMenu(GameObject target, List<ActivityFunctions> a)

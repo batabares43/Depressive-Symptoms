@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: ChangeCustome
   m_EditorClassIdentifier: 
   nameActivity: Cambiar ropa
-  time: 120
+  time: 20
   active: 1
+  repetitive: 0
   mood: 1
   calories: 0
   sleepHours: 0

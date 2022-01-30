@@ -37,6 +37,9 @@ public class ControlManager : MonoBehaviour, Subject
     public static ControlManager Instance { get => instance; }
     #endregion
 
+    // variables que no sos parte del sistema de medición
+    private float useOfSPATemp;
+
     public void modificated(Activity a)
     {
         hygiene += a.hygiene;
@@ -48,12 +51,89 @@ public class ControlManager : MonoBehaviour, Subject
         rest += a.rest;
         bladder += a.bladder;
         entertainment += a.entertainment;
-        useOfSPA += a.useOfSPA;
+        useOfSPATemp = a.useOfSPA;
         validateValues();
         
     }
 
     private void validateValues() {
+        if (hygiene < 0)
+        {
+            hygiene = 0;
+        }
+        else if (hygiene > 24)
+        {
+            hygiene = 24;
+        }
+        if (environment < 0)
+        {
+            environment = 0;
+        }
+        else if (environment > 12)
+        {
+            environment = 12;
+        }
+        if (academicPerformance < 0)
+        {
+            academicPerformance = 0;
+        }
+        else if (academicPerformance > 30)
+        {
+            academicPerformance = 30;
+        }
+        if (jobPerformance < 0)
+        {
+            jobPerformance = 0;
+        }
+        else if (jobPerformance > 40)
+        {
+            jobPerformance = 40;
+        }
+        if (sociability < 0)
+        {
+            sociability = 0;
+        }
+        else if (sociability > 20)
+        {
+            sociability = 20;
+        }
+        if (satiety < 0)
+        {
+            satiety = 0;
+        }
+        else if (satiety > 8)
+        {
+            satiety = 8;
+        }
+        if (rest < 0)
+        {
+            rest = 0;
+        }
+        else if (rest > 20)
+        {
+            rest = 20;
+        }
+        if (bladder < 0)
+        {
+            bladder = 0;
+        }
+        else if (bladder > 6)
+        {
+            bladder = 6;
+        }
+        if (entertainment < 0)
+        {
+            entertainment = 0;
+        }
+        else if (entertainment > 24)
+        {
+            entertainment = 24;
+        }
+
+        if (useOfSPATemp > useOfSPA)
+        {
+            useOfSPA = useOfSPATemp;
+        }
         notify();
     }
 
