@@ -6,38 +6,60 @@ public class VarManager : MonoBehaviour, Subject
 {
 
     private static VarManager instance;
-    private static List<Observer> activities;
+    private static List<Observer> activities = new List<Observer>();
 
     [Header("Variables de sintomas")]
 
     [SerializeField] private float mood;
-    [SerializeField] private float motivation;
     [SerializeField] private float calories;
     [SerializeField] private float sleepHours;
     [SerializeField] private float fitness;
     [SerializeField] private float energy;
-    [SerializeField] private float selfEsteem;
+    [SerializeField] private float selfEfficacy;
     [SerializeField] private float concentration;
-    [SerializeField] private float will;
+    [SerializeField] private float deadDesire;
+    [SerializeField] private float sexualDesire;
+    [SerializeField] private float riskBehaviors;
 
-    
 
     #region properties
-    public float Mood { get => mood; set { mood = mood + value; notify(); } }
-    public float Motivation { get => motivation; set { motivation = motivation + value; notify(); } }
-    public float Calories { get => calories; set { calories = calories + value; notify(); } }
-    public float SleepHours { get => sleepHours; set { sleepHours = sleepHours + value; notify(); } }
-    public float Fitness { get => fitness; set { fitness = fitness + value; notify(); } }
-    public float Energy { get => energy; set { energy = energy + value; notify(); } }
-    public float SelfEsteem { get => selfEsteem; set { selfEsteem = selfEsteem + value; notify(); } }
-    public float Concentration { get => concentration; set { concentration = concentration + value; notify(); } }
-    public float Will { get => will; set { will = will + value; notify(); } }
+    public float Mood { get => mood; set { mood = mood + value; validateValues(); } }
+    public float Calories { get => calories; set { calories = calories + value; validateValues(); } }
+    public float SleepHours { get => sleepHours; set { sleepHours = sleepHours + value; validateValues(); } }
+    public float Fitness { get => fitness; set { fitness = fitness + value; validateValues(); } }
+    public float Energy { get => energy; set { energy = energy + value; validateValues(); } }
+    public float SelfEfficacy { get => selfEfficacy; set { selfEfficacy = selfEfficacy + value; validateValues(); } }
+    public float Concentration { get => concentration; set { concentration = concentration + value; validateValues(); } }
+    public float DeadDesire { get => deadDesire; set { deadDesire = deadDesire + value; validateValues(); } }
+    public float SexualDesire { get => sexualDesire; set { sexualDesire = sexualDesire + value; validateValues(); } }
+    public float RiskBehaviors { get => riskBehaviors; set { riskBehaviors = riskBehaviors + value; validateValues(); } }
 
-    
 
-    public static VarManager Instace { get => instance;}
+
+    public static VarManager Instance { get => instance;}
 
     #endregion
+
+
+    public void modificated(Activity a)
+    {
+        mood += a.mood;
+        calories += a.calories;
+        sleepHours += a.sleepHours;
+        fitness += a.fitness;
+        energy += a.energy;
+        selfEfficacy += a.selfEfficacy;
+        concentration += a.concentration;
+        deadDesire += a.deadDesire;
+        sexualDesire += a.sexualDesire;
+        riskBehaviors += a.riskBehaviors;
+        validateValues();
+    }
+
+    private void validateValues()
+    {
+        notify();
+    }
 
     private void Awake()
     {
@@ -60,12 +82,12 @@ public class VarManager : MonoBehaviour, Subject
 
     public void suscribe(Observer o)
     {
-        throw new System.NotImplementedException();
+        activities.Add(o);
     }
 
     public void deSuscribe(Observer o)
     {
-        throw new System.NotImplementedException();
+        activities.Remove(o);
     }
 
 }

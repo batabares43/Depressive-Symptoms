@@ -5,7 +5,6 @@ using UnityEngine;
 public class ActivityFunctions : MonoBehaviour
 {
     [SerializeField] private Activity activityParams;
-    [SerializeField] private bool isAA;
     [SerializeField] private string animationName;
     [SerializeField] private Animator anim;
 
@@ -37,7 +36,11 @@ public class ActivityFunctions : MonoBehaviour
 
     private void fillVars()
     {
-        Debug.Log("Aqui se llenan las variables, ya vere como lo hare");
+        Record r =new Record(activityParams);
+        TimeManager.Instance.timeShift(activityParams);
+        VarManager.Instance.modificated(activityParams);
+        ControlManager.Instance.modificated(activityParams);
+        RecordManager.Instace.addRecord(r);
     }
     public void playAnim()
     {
