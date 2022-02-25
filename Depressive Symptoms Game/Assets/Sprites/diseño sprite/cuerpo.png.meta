@@ -286,12 +286,12 @@ TextureImporter:
       name: cuerpo_0
       rect:
         serializedVersion: 2
-        x: 196
+        x: 451
         y: 932
         width: 198
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: cuerpo_1
       rect:
         serializedVersion: 2
-        x: 569
+        x: 824
         y: 932
         width: 198
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: cuerpo_2
       rect:
         serializedVersion: 2
-        x: 949
+        x: 1204
         y: 932
         width: 198
         height: 112
       alignment: 9
-      pivot: {x: 0.5, y: 0.38}
+      pivot: {x: 0.5, y: 0.39}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: cuerpo_3
       rect:
         serializedVersion: 2
-        x: 1299
+        x: 1554
         y: 932
         width: 198
         height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,7 +370,7 @@ TextureImporter:
       name: cuerpo_4
       rect:
         serializedVersion: 2
-        x: 205
+        x: 460
         y: 815
         width: 33
         height: 47
@@ -391,7 +391,7 @@ TextureImporter:
       name: cuerpo_5
       rect:
         serializedVersion: 2
-        x: 274
+        x: 529
         y: 780
         width: 72
         height: 119
@@ -412,7 +412,7 @@ TextureImporter:
       name: cuerpo_6
       rect:
         serializedVersion: 2
-        x: 365
+        x: 620
         y: 816
         width: 33
         height: 47
@@ -433,7 +433,7 @@ TextureImporter:
       name: cuerpo_7
       rect:
         serializedVersion: 2
-        x: 578
+        x: 833
         y: 815
         width: 33
         height: 47
@@ -454,7 +454,7 @@ TextureImporter:
       name: cuerpo_8
       rect:
         serializedVersion: 2
-        x: 647
+        x: 902
         y: 780
         width: 72
         height: 119
@@ -475,7 +475,7 @@ TextureImporter:
       name: cuerpo_9
       rect:
         serializedVersion: 2
-        x: 738
+        x: 993
         y: 816
         width: 33
         height: 47
@@ -496,7 +496,7 @@ TextureImporter:
       name: cuerpo_10
       rect:
         serializedVersion: 2
-        x: 959
+        x: 1214
         y: 815
         width: 33
         height: 47
@@ -517,7 +517,7 @@ TextureImporter:
       name: cuerpo_11
       rect:
         serializedVersion: 2
-        x: 1027
+        x: 1282
         y: 780
         width: 73
         height: 119
@@ -538,7 +538,7 @@ TextureImporter:
       name: cuerpo_12
       rect:
         serializedVersion: 2
-        x: 1119
+        x: 1374
         y: 816
         width: 33
         height: 47
@@ -559,7 +559,7 @@ TextureImporter:
       name: cuerpo_13
       rect:
         serializedVersion: 2
-        x: 1309
+        x: 1564
         y: 815
         width: 33
         height: 47
@@ -580,7 +580,7 @@ TextureImporter:
       name: cuerpo_14
       rect:
         serializedVersion: 2
-        x: 1377
+        x: 1632
         y: 780
         width: 73
         height: 119
@@ -601,7 +601,7 @@ TextureImporter:
       name: cuerpo_15
       rect:
         serializedVersion: 2
-        x: 1469
+        x: 1724
         y: 816
         width: 33
         height: 47
@@ -622,7 +622,7 @@ TextureImporter:
       name: cuerpo_16
       rect:
         serializedVersion: 2
-        x: 179
+        x: 434
         y: 735
         width: 45
         height: 49
@@ -643,7 +643,7 @@ TextureImporter:
       name: cuerpo_17
       rect:
         serializedVersion: 2
-        x: 260
+        x: 515
         y: 704
         width: 42
         height: 50
@@ -664,7 +664,7 @@ TextureImporter:
       name: cuerpo_18
       rect:
         serializedVersion: 2
-        x: 318
+        x: 573
         y: 705
         width: 41
         height: 50
@@ -685,7 +685,7 @@ TextureImporter:
       name: cuerpo_19
       rect:
         serializedVersion: 2
-        x: 381
+        x: 636
         y: 730
         width: 45
         height: 49
@@ -706,7 +706,7 @@ TextureImporter:
       name: cuerpo_20
       rect:
         serializedVersion: 2
-        x: 552
+        x: 807
         y: 735
         width: 45
         height: 49
@@ -727,7 +727,7 @@ TextureImporter:
       name: cuerpo_21
       rect:
         serializedVersion: 2
-        x: 634
+        x: 889
         y: 704
         width: 41
         height: 50
@@ -748,7 +748,7 @@ TextureImporter:
       name: cuerpo_22
       rect:
         serializedVersion: 2
-        x: 691
+        x: 946
         y: 705
         width: 41
         height: 50
@@ -769,7 +769,7 @@ TextureImporter:
       name: cuerpo_23
       rect:
         serializedVersion: 2
-        x: 754
+        x: 1009
         y: 730
         width: 45
         height: 49
@@ -790,7 +790,7 @@ TextureImporter:
       name: cuerpo_24
       rect:
         serializedVersion: 2
-        x: 933
+        x: 1188
         y: 735
         width: 45
         height: 49
@@ -811,7 +811,7 @@ TextureImporter:
       name: cuerpo_25
       rect:
         serializedVersion: 2
-        x: 1014
+        x: 1269
         y: 704
         width: 42
         height: 50
@@ -832,7 +832,7 @@ TextureImporter:
       name: cuerpo_26
       rect:
         serializedVersion: 2
-        x: 1071
+        x: 1326
         y: 705
         width: 42
         height: 50
@@ -853,7 +853,7 @@ TextureImporter:
       name: cuerpo_27
       rect:
         serializedVersion: 2
-        x: 1135
+        x: 1390
         y: 730
         width: 45
         height: 49
@@ -874,7 +874,7 @@ TextureImporter:
       name: cuerpo_28
       rect:
         serializedVersion: 2
-        x: 1283
+        x: 1538
         y: 735
         width: 44
         height: 49
@@ -895,7 +895,7 @@ TextureImporter:
       name: cuerpo_29
       rect:
         serializedVersion: 2
-        x: 1364
+        x: 1619
         y: 704
         width: 42
         height: 50
@@ -916,7 +916,7 @@ TextureImporter:
       name: cuerpo_30
       rect:
         serializedVersion: 2
-        x: 1421
+        x: 1676
         y: 705
         width: 42
         height: 50
@@ -937,7 +937,7 @@ TextureImporter:
       name: cuerpo_31
       rect:
         serializedVersion: 2
-        x: 1485
+        x: 1740
         y: 730
         width: 44
         height: 49
@@ -958,7 +958,7 @@ TextureImporter:
       name: cuerpo_32
       rect:
         serializedVersion: 2
-        x: 258
+        x: 513
         y: 621
         width: 37
         height: 58
@@ -979,7 +979,7 @@ TextureImporter:
       name: cuerpo_33
       rect:
         serializedVersion: 2
-        x: 324
+        x: 579
         y: 621
         width: 36
         height: 58
@@ -1000,7 +1000,7 @@ TextureImporter:
       name: cuerpo_34
       rect:
         serializedVersion: 2
-        x: 631
+        x: 886
         y: 621
         width: 37
         height: 58
@@ -1021,7 +1021,7 @@ TextureImporter:
       name: cuerpo_35
       rect:
         serializedVersion: 2
-        x: 697
+        x: 952
         y: 621
         width: 36
         height: 58
@@ -1042,7 +1042,7 @@ TextureImporter:
       name: cuerpo_36
       rect:
         serializedVersion: 2
-        x: 1012
+        x: 1267
         y: 621
         width: 37
         height: 58
@@ -1063,7 +1063,7 @@ TextureImporter:
       name: cuerpo_37
       rect:
         serializedVersion: 2
-        x: 1078
+        x: 1333
         y: 621
         width: 36
         height: 58
@@ -1084,7 +1084,7 @@ TextureImporter:
       name: cuerpo_38
       rect:
         serializedVersion: 2
-        x: 1362
+        x: 1617
         y: 621
         width: 37
         height: 58
@@ -1105,7 +1105,7 @@ TextureImporter:
       name: cuerpo_39
       rect:
         serializedVersion: 2
-        x: 1427
+        x: 1682
         y: 621
         width: 37
         height: 58
@@ -1126,12 +1126,12 @@ TextureImporter:
       name: cuerpo_40
       rect:
         serializedVersion: 2
-        x: 375
+        x: 630
         y: 350
-        width: 87
+        width: 74
         height: 120
-      alignment: 9
-      pivot: {x: 0.42, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1147,7 +1147,7 @@ TextureImporter:
       name: cuerpo_41
       rect:
         serializedVersion: 2
-        x: 566
+        x: 821
         y: 351
         width: 73
         height: 119
@@ -1168,12 +1168,12 @@ TextureImporter:
       name: cuerpo_42
       rect:
         serializedVersion: 2
-        x: 767
+        x: 1022
         y: 350
-        width: 88
+        width: 76
         height: 120
-      alignment: 9
-      pivot: {x: 0.42, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1189,7 +1189,7 @@ TextureImporter:
       name: cuerpo_43
       rect:
         serializedVersion: 2
-        x: 958
+        x: 1213
         y: 351
         width: 73
         height: 119
@@ -1210,12 +1210,12 @@ TextureImporter:
       name: cuerpo_44
       rect:
         serializedVersion: 2
-        x: 1141
+        x: 1396
         y: 350
-        width: 88
+        width: 74
         height: 120
-      alignment: 9
-      pivot: {x: 0.42, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,7 +1231,7 @@ TextureImporter:
       name: cuerpo_45
       rect:
         serializedVersion: 2
-        x: 1332
+        x: 1587
         y: 351
         width: 73
         height: 119
@@ -1252,7 +1252,7 @@ TextureImporter:
       name: cuerpo_46
       rect:
         serializedVersion: 2
-        x: 359
+        x: 614
         y: 250
         width: 42
         height: 50
@@ -1273,7 +1273,7 @@ TextureImporter:
       name: cuerpo_47
       rect:
         serializedVersion: 2
-        x: 422
+        x: 677
         y: 250
         width: 41
         height: 50
@@ -1294,7 +1294,7 @@ TextureImporter:
       name: cuerpo_48
       rect:
         serializedVersion: 2
-        x: 553
+        x: 808
         y: 245
         width: 41
         height: 50
@@ -1315,7 +1315,7 @@ TextureImporter:
       name: cuerpo_49
       rect:
         serializedVersion: 2
-        x: 610
+        x: 865
         y: 246
         width: 41
         height: 50
@@ -1336,7 +1336,7 @@ TextureImporter:
       name: cuerpo_50
       rect:
         serializedVersion: 2
-        x: 751
+        x: 1006
         y: 250
         width: 42
         height: 50
@@ -1357,7 +1357,7 @@ TextureImporter:
       name: cuerpo_51
       rect:
         serializedVersion: 2
-        x: 814
+        x: 1069
         y: 250
         width: 41
         height: 50
@@ -1378,7 +1378,7 @@ TextureImporter:
       name: cuerpo_52
       rect:
         serializedVersion: 2
-        x: 945
+        x: 1200
         y: 245
         width: 42
         height: 50
@@ -1399,7 +1399,7 @@ TextureImporter:
       name: cuerpo_53
       rect:
         serializedVersion: 2
-        x: 1002
+        x: 1257
         y: 246
         width: 41
         height: 50
@@ -1420,12 +1420,12 @@ TextureImporter:
       name: cuerpo_54
       rect:
         serializedVersion: 2
-        x: 1141
+        x: 1396
         y: 123
-        width: 88
+        width: 76
         height: 120
-      alignment: 9
-      pivot: {x: 0.42, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1441,7 +1441,7 @@ TextureImporter:
       name: cuerpo_55
       rect:
         serializedVersion: 2
-        x: 1332
+        x: 1587
         y: 124
         width: 73
         height: 119
