@@ -1,7 +1,112 @@
 fileFormatVersion: 2
 guid: 6f8a6de35806eea4fb1fca17e488059c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2939470415897025307
+    second: cuerpo-tarjes_0
+  - first:
+      213: 3861689045421621601
+    second: cuerpo-tarjes_1
+  - first:
+      213: -4512739165553354435
+    second: cuerpo-tarjes_2
+  - first:
+      213: 4075231728341045232
+    second: cuerpo-tarjes_3
+  - first:
+      213: -6351303310667121075
+    second: cuerpo-tarjes_4
+  - first:
+      213: -5607225266819002537
+    second: cuerpo-tarjes_5
+  - first:
+      213: -7581945392272862855
+    second: cuerpo-tarjes_6
+  - first:
+      213: 3607424141965857453
+    second: cuerpo-tarjes_7
+  - first:
+      213: 7170056017276079497
+    second: cuerpo-tarjes_8
+  - first:
+      213: 2247762319475550182
+    second: cuerpo-tarjes_9
+  - first:
+      213: -3364657912965530540
+    second: cuerpo-tarjes_10
+  - first:
+      213: 9005145519377254785
+    second: cuerpo-tarjes_11
+  - first:
+      213: -4815783618346959344
+    second: cuerpo-tarjes_12
+  - first:
+      213: -5409896707488593092
+    second: cuerpo-tarjes_13
+  - first:
+      213: -4392679147481317754
+    second: cuerpo-tarjes_14
+  - first:
+      213: 7666250295358779937
+    second: cuerpo-tarjes_15
+  - first:
+      213: -460271676377441619
+    second: cuerpo-tarjes_16
+  - first:
+      213: 5590405455861635349
+    second: cuerpo-tarjes_17
+  - first:
+      213: 6003375208080362737
+    second: cuerpo-tarjes_18
+  - first:
+      213: -26350403951233517
+    second: cuerpo-tarjes_19
+  - first:
+      213: 7127925566462673762
+    second: cuerpo-tarjes_20
+  - first:
+      213: -5243427702068877284
+    second: cuerpo-tarjes_21
+  - first:
+      213: -3393109295249537081
+    second: cuerpo-tarjes_22
+  - first:
+      213: -1714615080984092315
+    second: cuerpo-tarjes_23
+  - first:
+      213: 8701727595807602949
+    second: cuerpo-tarjes_24
+  - first:
+      213: -6598084522995310176
+    second: cuerpo-tarjes_25
+  - first:
+      213: 7416155404950646703
+    second: cuerpo-tarjes_26
+  - first:
+      213: 3175570834827507844
+    second: cuerpo-tarjes_27
+  - first:
+      213: 7245750858417697668
+    second: cuerpo-tarjes_28
+  - first:
+      213: 4069443305233166257
+    second: cuerpo-tarjes_29
+  - first:
+      213: -9128081534529509098
+    second: cuerpo-tarjes_30
+  - first:
+      213: 2741813895700540647
+    second: cuerpo-tarjes_31
+  - first:
+      213: 3439483007245822633
+    second: cuerpo-tarjes_32
+  - first:
+      213: 4479094663422631806
+    second: cuerpo-tarjes_33
+  - first:
+      213: 1451478821808024971
+    second: cuerpo-tarjes_34
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +146,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +180,780 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cuerpo-tarjes_0
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 940
+        width: 179
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bdf4fe4c81bc820800000000000000
+      internalID: 2939470415897025307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_1
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 943
+        width: 179
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1618f590ab9779530800000000000000
+      internalID: 3861689045421621601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 816
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39133173a78f51c0800000000000000
+      internalID: -4512739165553354435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 780
+        width: 72
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff4b295aa12e8830800000000000000
+      internalID: 4075231728341045232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 816
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7ce22a43abd7a0800000000000000
+      internalID: -6351303310667121075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 816
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f88a304522f22b0800000000000000
+      internalID: -5607225266819002537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_6
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 780
+        width: 72
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719a2b26d487c690800000000000000
+      internalID: -7581945392272862855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 816
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21b08e425201230800000000000000
+      internalID: 3607424141965857453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 833
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d846985f7218360800000000000000
+      internalID: 7170056017276079497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_9
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 780
+        width: 74
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e729df9be7a13f10800000000000000
+      internalID: 2247762319475550182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_10
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 834
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c7bf274755e41d0800000000000000
+      internalID: -3364657912965530540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_11
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 833
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1898e297324b8fc70800000000000000
+      internalID: 9005145519377254785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_12
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 779
+        width: 73
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eb8417056ea2db0800000000000000
+      internalID: -4815783618346959344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 835
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b469e7b9f2ce4b0800000000000000
+      internalID: -5409896707488593092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 780
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e3c1ab6911a03c0800000000000000
+      internalID: -4392679147481317754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 747
+        width: 37
+        height: 37
+      alignment: 9
+      pivot: {x: 0.40848458, y: 0.35490954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122f71ea60ef36a60800000000000000
+      internalID: 7666250295358779937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 704
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa59555959cc99f0800000000000000
+      internalID: -460271676377441619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 704
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d903942c159d40800000000000000
+      internalID: 5590405455861635349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 735
+        width: 38
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6912408, y: 0.36486122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc440bc1f5405350800000000000000
+      internalID: 6003375208080362737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 749
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3167ccc727262aff0800000000000000
+      internalID: -26350403951233517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 704
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ce6e898a7be260800000000000000
+      internalID: 7127925566462673762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_21
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 704
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18edbc294a9b37b0800000000000000
+      internalID: -5243427702068877284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 739
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7439cc21149e0d0800000000000000
+      internalID: -3393109295249537081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_23
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 704
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5616a631ba67438e0800000000000000
+      internalID: -1714615080984092315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_24
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 705
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5097358052fb2c870800000000000000
+      internalID: 8701727595807602949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_25
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 704
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1acd0a515ee64a0800000000000000
+      internalID: -6598084522995310176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_26
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 704
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf2d2f5c0a7be660800000000000000
+      internalID: 7416155404950646703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_27
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 704
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488fbf079d4e11c20800000000000000
+      internalID: 3175570834827507844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_28
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 705
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f7fe14041e8460800000000000000
+      internalID: 7245750858417697668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 621
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa3021021997830800000000000000
+      internalID: 4069443305233166257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 621
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e09df43a825180800000000000000
+      internalID: -9128081534529509098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_31
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 621
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ece57d1631ec0620800000000000000
+      internalID: 2741813895700540647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_32
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 621
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa21e9629f7bbf20800000000000000
+      internalID: 3439483007245822633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_33
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 621
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f57a87dd0f82e30800000000000000
+      internalID: 4479094663422631806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cuerpo-tarjes_34
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 621
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8daed45c40b42410800000000000000
+      internalID: 1451478821808024971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
