@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameStateManager : MonoBehaviour
 {
     private static GameStateManager instance;
 
     [Header("Variables de estado del juego")]
+    [SerializeField] private int location=0;
+    [SerializeField] private string id;
+    [SerializeField] private string namePlayer;
     [SerializeField] private bool isIdle;
     [SerializeField] private bool isInActivity;
     [SerializeField] private bool inSelection;
@@ -29,6 +33,10 @@ public class GameStateManager : MonoBehaviour
 
     public ActivityFunctions ActualActivity { get => actualActivity; set => actualActivity = value; }
 
+    public int Location { get=>location;  set => location=value; }
+
+    public string Id { get=>id; set=>id=value; }
+    public string Name { get => namePlayer; set => namePlayer = value; }
     public static GameStateManager Instance { get => instance; }
     #endregion
 
@@ -41,6 +49,8 @@ public class GameStateManager : MonoBehaviour
         else
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += instance.OnSceneLoaded;
         }
     }
     private void Start()
@@ -81,5 +91,28 @@ public class GameStateManager : MonoBehaviour
     {
         GameObject menu = Instantiate(menuSelection, GameObject.Find("Canvas").transform);
         menu.GetComponent<GenerateMenu>().buildMenu(target, a);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        
+        if (scene.name == "Main Menu")
+        {
+            
+            try
+            {
+                SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+                Destroy(instance.gameObject);
+                instance = null;
+                
+            }
+            catch
+            {
+            }
+        }
+    }
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= instance.OnSceneLoaded;
     }
 }

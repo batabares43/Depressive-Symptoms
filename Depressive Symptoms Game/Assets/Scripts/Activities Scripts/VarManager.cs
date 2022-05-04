@@ -49,6 +49,15 @@ public class VarManager : MonoBehaviour, Subject
     private int riskIndex;
     private bool[] riskCategories = new bool[3];
 
+    public void setVarManager(VarContainer v)
+    {
+        
+    }
+    public VarContainer GetVar()
+    {
+        VarContainer v= new VarContainer();
+        return v;
+    }
     public void modificated(Activity a)
     {
         mood += a.mood;

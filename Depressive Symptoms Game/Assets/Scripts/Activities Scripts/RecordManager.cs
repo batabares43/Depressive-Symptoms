@@ -15,6 +15,12 @@ public class RecordManager : MonoBehaviour, Subject
 
     public static RecordManager Instace { get => instance; }
 
+    public void setRecordManager(RecordsContainer r) { }
+    public RecordsContainer GetRecords()
+    {
+        RecordsContainer r = new RecordsContainer();
+        return r;
+    }
     private void Awake()
     {
         if (instance != null && instance != this)

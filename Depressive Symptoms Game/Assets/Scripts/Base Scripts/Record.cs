@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class Record 
 {
     private string nameActivity;
@@ -33,6 +35,7 @@ public class Record
     private float useOfSPA;
 
     #region properties
+    
     public string NameActivity { get => nameActivity; }
     public bool IsActive { get => isActive; }
 
@@ -63,7 +66,6 @@ public class Record
     public float UseOfSPA { get => useOfSPA;}
 
     #endregion
-
     public Record(Activity a)
     {
         nameActivity = a.nameActivity;
@@ -91,5 +93,13 @@ public class Record
         bladder = a.bladder;
         entertainment = a.entertainment;
         useOfSPA = a.useOfSPA;
+    }
+    public Record(RecordModel a) { 
+    }
+
+    public RecordModel GetRecord()
+    {
+        RecordModel r = new RecordModel();
+        return r;
     }
 }

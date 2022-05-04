@@ -21,6 +21,16 @@ public class TimeManager : MonoBehaviour, Subject
 
     public static TimeManager Instance { get => instance; }
     #endregion
+
+    public void setTimeManager(TimeContainer t)
+    {
+
+    }
+    public TimeContainer GetTime()
+    {
+        TimeContainer t = new TimeContainer();
+        return t;
+    }
     private void Awake()
     {
         if (instance != null && instance!=this)

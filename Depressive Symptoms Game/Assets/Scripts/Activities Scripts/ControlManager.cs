@@ -40,6 +40,13 @@ public class ControlManager : MonoBehaviour, Subject
     // variables que no sos parte del sistema de medición
     private float useOfSPATemp;
 
+    public void setControlManager(ControlContainer c) { 
+    }
+    public ControlContainer GetControl()
+    {
+        ControlContainer c = new ControlContainer();
+        return c;
+    }
     public void modificated(Activity a)
     {
         hygiene += a.hygiene;
