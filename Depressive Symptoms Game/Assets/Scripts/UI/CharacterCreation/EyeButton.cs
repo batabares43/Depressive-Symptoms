@@ -4,41 +4,33 @@ using UnityEngine;
 
 public class EyeButton : MonoBehaviour
 {
-
-    [SerializeField] public int eyeIndex;
-
-    [Header("Sprites pools")]
-    [SerializeField] private Sprite[] eyes;
-    
-
-
-    [Header("Character parts")]
     [SerializeField] private SpriteRenderer rEye;
     [SerializeField] private SpriteRenderer lEye;
 
 
-    public void sumEyeIndex()
+    public void changeEye(int i)
     {
-        eyeIndex++;
-        if (eyeIndex >= eyes.Length)
-        {
-            eyeIndex = 0;
-        }
+        PlayerData.Instance.EyeIndex = i;
         chageSprites();
     }
-    public void subEyeIndex()
+
+    public void changeEyeColor(int i)
     {
-        eyeIndex--;
-        if (eyeIndex < 0)
-        {
-            eyeIndex = eyes.Length - 1;
-        }
+        PlayerData.Instance.EyeColor = i;
         chageSprites();
     }
+
+
+
     public void chageSprites()
     {
-        rEye.sprite = eyes[eyeIndex];
-        lEye.sprite = eyes[eyeIndex];
+        
+        rEye.sprite = PlayerData.Instance.eyes[PlayerData.Instance.EyeIndex];
+        lEye.sprite = PlayerData.Instance.eyes[PlayerData.Instance.EyeIndex];
+        rEye.color = PlayerData.Instance.eyesColors[PlayerData.Instance.EyeColor];
+        lEye.color = PlayerData.Instance.eyesColors[PlayerData.Instance.EyeColor];
+
+
 
     }
 

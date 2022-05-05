@@ -4,40 +4,29 @@ using UnityEngine;
 
 public class HairButton : MonoBehaviour
 {
-    [SerializeField] public int hairIndex;
-
-    [Header("Sprites pools")]
-    [SerializeField] private Sprite[] fHairs;
-    [SerializeField] private Sprite[] bHairs;
-
-
-
-    [Header("Character parts")]
     [SerializeField] private SpriteRenderer fHair;
     [SerializeField] private SpriteRenderer bHair;
 
-    public void sumHairIndex()
+    public void changeHair(int i)
     {
-        hairIndex++;
-        if (hairIndex >= fHairs.Length)
-        {
-            hairIndex = 0;
-        }
+        PlayerData.Instance.HairIndex = i;
         chageSprites();
     }
-    public void subHairIndex()
+
+    public void changeHairColor(int i)
     {
-        hairIndex--;
-        if (hairIndex < 0)
-        {
-            hairIndex = fHairs.Length - 1;
-        }
+        PlayerData.Instance.HairColor = i;
         chageSprites();
     }
+
+
     public void chageSprites()
     {
-        fHair.sprite = fHairs[hairIndex];
-        bHair.sprite = bHairs[hairIndex];
-
+        
+         fHair.sprite = PlayerData.Instance.fHairs[PlayerData.Instance.HairIndex];
+         bHair.sprite = PlayerData.Instance.bHairs[PlayerData.Instance.HairIndex];
+         fHair.color = PlayerData.Instance.hairColors[PlayerData.Instance.HairColor];
+         bHair.color = PlayerData.Instance.hairColors[PlayerData.Instance.HairColor];
+         
     }
 }

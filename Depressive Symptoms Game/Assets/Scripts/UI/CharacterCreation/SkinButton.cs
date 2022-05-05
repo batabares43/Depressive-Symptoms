@@ -4,25 +4,7 @@ using UnityEngine;
 
 public class SkinButton : MonoBehaviour
 {
-    [SerializeField] public int bodyType;
-    [SerializeField] public int skinIndex;
 
-    [Header("Sprites pools")]
-    [SerializeField] private Sprite[] heads;
-    [SerializeField] private Sprite[] fBodies;
-    [SerializeField] private Sprite[] mBodies;
-    [SerializeField] private Sprite[] rArms;
-    [SerializeField] private Sprite[] lArms;
-    [SerializeField] private Sprite[] rhands;
-    [SerializeField] private Sprite[] lhands;
-    [SerializeField] private Sprite[] rfeet;
-    [SerializeField] private Sprite[] lfeet;
-    [SerializeField] private Sprite[] eyeLids;
-    [SerializeField] private Sprite[] eyeLids2;
-    [SerializeField] private Sprite[] eyeBags;
-
-
-    [Header("Character parts")]
     [SerializeField] private SpriteRenderer head;
     [SerializeField] private SpriteRenderer body;
     [SerializeField] private SpriteRenderer rArm;
@@ -32,74 +14,43 @@ public class SkinButton : MonoBehaviour
     [SerializeField] private SpriteRenderer rfoot;
     [SerializeField] private SpriteRenderer lfoot;
     [SerializeField] private SpriteRenderer rEyeLid;
-    [SerializeField] private SpriteRenderer rEyeLid2;
     [SerializeField] private SpriteRenderer rEyeBag;
     [SerializeField] private SpriteRenderer lEyeLid;
-    [SerializeField] private SpriteRenderer lEyeLid2;
     [SerializeField] private SpriteRenderer lEyeBag;
-
-
-    public void sumBodyIndex()
+    public void changeSex(int i)
     {
-        bodyType++;
-        if (bodyType > 1)
-        {
-            bodyType = 0;
-        }
+        PlayerData.Instance.BodyType = i;
         chageSprites();
     }
-    public void subBodyIndex()
+    public void changeSkin(int i)
     {
-        bodyType--;
-        if (bodyType < 0)
-        {
-            bodyType = 1;
-        }
-        chageSprites();
-    }
-
-    public void sumSkinIndex()
-    {
-        skinIndex++;
-        if (skinIndex >= heads.Length)
-        {
-            skinIndex = 0;
-        }
-        chageSprites();
-    }
-    public void subSkinIndex()
-    {
-        skinIndex--;
-        if (skinIndex < 0)
-        {
-            skinIndex = heads.Length-1;
-        }
+        PlayerData.Instance.SkinIndex = i;
         chageSprites();
     }
 
     public void chageSprites()
     {
-        if (bodyType == 0)
+        
+        if (PlayerData.Instance.BodyType == 0)
         {
-            body.sprite = fBodies[skinIndex];
+            body.sprite = PlayerData.Instance.fBodies[PlayerData.Instance.SkinIndex];
         }
         else
         {
-            body.sprite = mBodies[skinIndex];
+            body.sprite = PlayerData.Instance.mBodies[PlayerData.Instance.SkinIndex];
         }
-        head.sprite = heads[skinIndex];
-        rArm.sprite = rArms[skinIndex];
-        lArm.sprite = lArms[skinIndex];
-        rHand.sprite = rhands[skinIndex];
-        lHand.sprite = lhands[skinIndex];
-        rfoot.sprite = rfeet[skinIndex];
-        lfoot.sprite = lfeet[skinIndex];
-        rEyeLid.sprite = eyeLids[skinIndex];
-        rEyeLid2.sprite = eyeLids2[skinIndex];
-        rEyeBag.sprite = eyeBags[skinIndex];
-        lEyeLid.sprite = eyeLids[skinIndex];
-        lEyeLid2.sprite = eyeLids2[skinIndex];
-        lEyeBag.sprite = eyeBags[skinIndex];
+        head.sprite = PlayerData.Instance.heads[PlayerData.Instance.SkinIndex];
+        rArm.sprite = PlayerData.Instance.rArms[PlayerData.Instance.SkinIndex];
+        lArm.sprite = PlayerData.Instance.lArms[PlayerData.Instance.SkinIndex];
+        rHand.sprite = PlayerData.Instance.rhands[PlayerData.Instance.SkinIndex];
+        lHand.sprite = PlayerData.Instance.lhands[PlayerData.Instance.SkinIndex];
+        rfoot.sprite = PlayerData.Instance.rfeet[PlayerData.Instance.SkinIndex];
+        lfoot.sprite = PlayerData.Instance.lfeet[PlayerData.Instance.SkinIndex];
+        rEyeLid.sprite = PlayerData.Instance.eyeLids[PlayerData.Instance.SkinIndex];
+        rEyeBag.sprite = PlayerData.Instance.eyeBags[PlayerData.Instance.SkinIndex];
+        lEyeLid.sprite = PlayerData.Instance.eyeLids[PlayerData.Instance.SkinIndex];
+        lEyeBag.sprite = PlayerData.Instance.eyeBags[PlayerData.Instance.SkinIndex];
+
 
     }
 }

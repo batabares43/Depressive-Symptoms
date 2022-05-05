@@ -1,0 +1,1332 @@
+fileFormatVersion: 2
+guid: 2c502e29c85aab5488f202c0b8c1fb71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1211724760780128770
+    second: ojos_0
+  - first:
+      213: -2317423685315434350
+    second: ojos_1
+  - first:
+      213: -3285745834838158138
+    second: ojos_2
+  - first:
+      213: -3013683657306115836
+    second: ojos_3
+  - first:
+      213: -1403031077035401361
+    second: ojos_4
+  - first:
+      213: 7097180119224485344
+    second: ojos_5
+  - first:
+      213: 6549753490318078591
+    second: ojos_6
+  - first:
+      213: 5847241507817718734
+    second: ojos_7
+  - first:
+      213: -5740000717287572504
+    second: ojos_8
+  - first:
+      213: 6430017056369498562
+    second: ojos_9
+  - first:
+      213: 3748613324835566824
+    second: ojos_10
+  - first:
+      213: 4347355597254092914
+    second: ojos_11
+  - first:
+      213: 1854761813210938857
+    second: ojos_12
+  - first:
+      213: 6831502937699888336
+    second: ojos_13
+  - first:
+      213: 4398655600223776946
+    second: ojos_14
+  - first:
+      213: 4409234687877669382
+    second: ojos_15
+  - first:
+      213: -776146339472616938
+    second: ojos_16
+  - first:
+      213: 5230927212554964629
+    second: ojos_17
+  - first:
+      213: -4437740525895458673
+    second: ojos_18
+  - first:
+      213: -7350732306623766965
+    second: ojos_19
+  - first:
+      213: -5040203996864929200
+    second: ojos_20
+  - first:
+      213: -2883420496287703758
+    second: ojos_21
+  - first:
+      213: 3241280478708028132
+    second: ojos_22
+  - first:
+      213: -4820056090822078700
+    second: ojos_23
+  - first:
+      213: -8740451906120535914
+    second: ojos_24
+  - first:
+      213: -3188535111370412124
+    second: ojos_25
+  - first:
+      213: -23606128088163833
+    second: ojos_26
+  - first:
+      213: 2462628956677179343
+    second: ojos_27
+  - first:
+      213: 2128884996424040193
+    second: ojos_28
+  - first:
+      213: -8804487861549154251
+    second: ojos_29
+  - first:
+      213: 3013861516268690513
+    second: ojos_30
+  - first:
+      213: -4805515894890724809
+    second: ojos_31
+  - first:
+      213: -410722507162386691
+    second: ojos_32
+  - first:
+      213: 7479793294544672647
+    second: ojos_33
+  - first:
+      213: 7987665654190204741
+    second: ojos_34
+  - first:
+      213: -7551587987167242421
+    second: ojos_35
+  - first:
+      213: -2854862531177346254
+    second: ojos_36
+  - first:
+      213: -5890952660403421690
+    second: ojos_37
+  - first:
+      213: -952444776181555552
+    second: ojos_38
+  - first:
+      213: -5983624987593906597
+    second: ojos_39
+  - first:
+      213: 3968679530371803194
+    second: ojos_40
+  - first:
+      213: 3923993997316288438
+    second: ojos_41
+  - first:
+      213: -2693579202430079380
+    second: ojos_42
+  - first:
+      213: 976309286022299229
+    second: ojos_43
+  - first:
+      213: -2191053394923602404
+    second: ojos_44
+  - first:
+      213: 3986017925019837428
+    second: ojos_45
+  - first:
+      213: -1531519127411488494
+    second: ojos_46
+  - first:
+      213: 8923088746910745787
+    second: ojos_47
+  - first:
+      213: -5551255894199258259
+    second: ojos_48
+  - first:
+      213: 2996170573005027700
+    second: ojos_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ojos_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 340
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20248dbff39e0d010800000000000000
+      internalID: 1211724760780128770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 340
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29862babf6bd6dfd0800000000000000
+      internalID: -2317423685315434350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 339
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c49044629fa662d0800000000000000
+      internalID: -3285745834838158138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 339
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017edc4eae3d26d0800000000000000
+      internalID: -3013683657306115836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f98744bae678ce0800000000000000
+      internalID: -1403031077035401361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5075947bf3e7260800000000000000
+      internalID: 7097180119224485344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_6
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72b8cce81665ea50800000000000000
+      internalID: 6549753490318078591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_7
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3056ddb23952150800000000000000
+      internalID: 5847241507817718734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_8
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb369b62cb6750b0800000000000000
+      internalID: -5740000717287572504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_9
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95b90f1720c3950800000000000000
+      internalID: 6430017056369498562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_10
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4be1b35ffb50430800000000000000
+      internalID: 3748613324835566824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_11
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 346
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e2a6e1e8e45c30800000000000000
+      internalID: 4347355597254092914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 278
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb56bca007db910800000000000000
+      internalID: 1854761813210938857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 278
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca3ab1abf5ece50800000000000000
+      internalID: 6831502937699888336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 281
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0fe9c96f92b0d30800000000000000
+      internalID: 4398655600223776946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_15
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 281
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6026746669fb03d30800000000000000
+      internalID: 4409234687877669382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612d30634039a35f0800000000000000
+      internalID: -776146339472616938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e434ec59cf79840800000000000000
+      internalID: 5230927212554964629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_18
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8065acf08af962c0800000000000000
+      internalID: -4437740525895458673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_19
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed3b8b9e3fcf990800000000000000
+      internalID: -7350732306623766965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_20
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052ac534b299d0ab0800000000000000
+      internalID: -5040203996864929200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_21
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd0bce5580cf7d0800000000000000
+      internalID: -2883420496287703758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 259
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2dcce1c675bfc20800000000000000
+      internalID: 3241280478708028132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_23
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 259
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f871de588bb1db0800000000000000
+      internalID: -4820056090822078700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 215
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690bc4fdc4da3b680800000000000000
+      internalID: -8740451906120535914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 212
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afe7e4b53c00c3d0800000000000000
+      internalID: -3188535111370412124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 215
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a58c00a522caff0800000000000000
+      internalID: -23606128088163833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_27
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 215
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc785501df30d2220800000000000000
+      internalID: 2462628956677179343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_28
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 146
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f738bff915b8d10800000000000000
+      internalID: 2128884996424040193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 146
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530cf1720fc20d580800000000000000
+      internalID: -8804487861549154251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 149
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c5a67b41363d920800000000000000
+      internalID: 3013861516268690513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_31
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 149
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7328b8a11c06f4db0800000000000000
+      internalID: -4805515894890724809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_32
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 156
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef35b4e02dc4af0800000000000000
+      internalID: -410722507162386691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_33
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 158
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7871faa2f509dc760800000000000000
+      internalID: 7479793294544672647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_34
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 156
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547689e8793e9de60800000000000000
+      internalID: 7987665654190204741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_35
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 158
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b471ac65cbe533790800000000000000
+      internalID: -7551587987167242421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_36
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 156
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b0a9257ad7168d0800000000000000
+      internalID: -2854862531177346254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_37
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 158
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ef20854c12f3ea0800000000000000
+      internalID: -5890952660403421690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_38
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 156
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9587b58c38c2f0800000000000000
+      internalID: -952444776181555552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_39
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 158
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566051c6c4e5fca0800000000000000
+      internalID: -5983624987593906597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 105
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ec238105931730800000000000000
+      internalID: 3968679530371803194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_41
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 108
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf6dc610c3d47630800000000000000
+      internalID: 3923993997316288438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_42
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e66c09cfb7e9ad0800000000000000
+      internalID: -2693579202430079380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 78
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e36487f1c8c8d00800000000000000
+      internalID: 976309286022299229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_44
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e3aa7cb80d791e0800000000000000
+      internalID: -2191053394923602404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_45
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3a5291f2e215730800000000000000
+      internalID: 3986017925019837428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_46
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2190cebc773febae0800000000000000
+      internalID: -1531519127411488494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_47
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb486e250fd25db70800000000000000
+      internalID: 8923088746910745787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_48
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 78
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b5f01d2af5f2b0800000000000000
+      internalID: -5551255894199258259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ojos_49
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 78
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47971720349849920800000000000000
+      internalID: 2996170573005027700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

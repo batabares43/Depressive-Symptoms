@@ -4,38 +4,18 @@ using UnityEngine;
 
 public class MouthButton : MonoBehaviour
 {
-    [SerializeField] public int mouthIndex;
-
-    [Header("Sprites pools")]
-    [SerializeField] private Sprite[] mouths;
-
-
-
-    [Header("Character parts")]
     [SerializeField] private SpriteRenderer mouth;
-  
 
-
-    public void sumMouthIndex()
+    public void changeMouth(int i)
     {
-        mouthIndex++;
-        if (mouthIndex >= mouths.Length)
-        {
-            mouthIndex = 0;
-        }
+        PlayerData.Instance.MouthIndex = i;
         chageSprites();
     }
-    public void subMouthIndex()
-    {
-        mouthIndex--;
-        if (mouthIndex < 0)
-        {
-            mouthIndex = mouths.Length - 1;
-        }
-        chageSprites();
-    }
+
+
     public void chageSprites()
     {
-        mouth.sprite = mouths[mouthIndex];
+
+        mouth.sprite = PlayerData.Instance.mouths[PlayerData.Instance.MouthIndex];
     }
 }
