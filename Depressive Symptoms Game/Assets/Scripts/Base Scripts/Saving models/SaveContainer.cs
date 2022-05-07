@@ -7,7 +7,6 @@ using UnityEngine;
 public class SaveContainer 
 {
     public string id;
-    public int location;
     public PlayerContainer player;
     public TimeContainer time;
     public VarContainer variables;

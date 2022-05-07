@@ -1,18 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerContainer : MonoBehaviour
+[Serializable]
+public class PlayerContainer
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int bodyType;
+    public int skinIndex;
+    public int eyeIndex;
+    public int eyeColor;
+    public int hairIndex;
+    public int hairColor;
+    public int mouthIndex;
+    public int noseIndex;
+    public int outfitIndex;
+    public int accesoryIndex;
 }

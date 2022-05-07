@@ -86,5 +86,20 @@ public class PlayerData : MonoBehaviour
         instance = this;
     }
 
+    public PlayerContainer getPlayerData()
+    {
+        PlayerContainer p = new PlayerContainer();
+        p.bodyType = bodyType;
+        p.skinIndex = skinIndex;
+        p.eyeIndex = eyeIndex;
+        p.eyeColor = eyeColor;
+        p.hairIndex = hairIndex;
+        p.hairColor = hairColor;
+        p.noseIndex = noseIndex;
+        p.noseIndex = mouthIndex;
+        p.outfitIndex = outfitIndex;
+        p.accesoryIndex = accesoryIndex;
+        return p;
+    }
 
 }

@@ -7,18 +7,14 @@ using UnityEngine.SceneManagement;
 public class SaveAndLoad:MonoBehaviour
 {
     private string path;
-    private void Start()
-    {
-        path = Application.persistentDataPath + "\\saves\\" + GameStateManager.Instance.Id + ".json";
-        Debug.Log(SceneManager.GetActiveScene().name);
-    }
+
+ 
 
     [ContextMenu("Save")]
     public void save() {
-        Debug.Log(Application.persistentDataPath);
+        path = Application.persistentDataPath + "\\saves\\" + GameStateManager.Instance.Id + ".json";
         SaveContainer saveFile = new SaveContainer();
         saveFile.id = GameStateManager.Instance.Id;
-        saveFile.location = GameStateManager.Instance.Location;
         saveFile.player=PlayerLooks.Instance.GetPlayer();
         saveFile.time = TimeManager.Instance.GetTime();
         saveFile.variables = VarManager.Instance.GetVar();
@@ -26,15 +22,16 @@ public class SaveAndLoad:MonoBehaviour
         saveFile.record = RecordManager.Instace.GetRecords();
         string json = JsonUtility.ToJson(saveFile);
         Debug.Log(json);
+        Debug.Log(path);
         File.WriteAllText(path, json);
 
     }
     [ContextMenu("Load")]
     public void load() {
+        path = Application.persistentDataPath + "\\saves\\" + GameStateManager.Instance.Id + ".json";
         SaveContainer loadSave = new SaveContainer();
         loadSave = JsonUtility.FromJson<SaveContainer>(File.ReadAllText(path));
         GameStateManager.Instance.Id = loadSave.id;
-        GameStateManager.Instance.Location = loadSave.location;
         PlayerLooks.Instance.setPlayerLooks(loadSave.player);
         TimeManager.Instance.setTimeManager(loadSave.time);
         VarManager.Instance.setVarManager(loadSave.variables);

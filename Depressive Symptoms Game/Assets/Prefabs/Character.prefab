@@ -1066,36 +1066,38 @@ MonoBehaviour:
   hairIndex: 0
   hairColor: 0
   mouthIndex: 0
+  noseIndex: 0
   outfitIndex: 0
   accesoryIndex: 0
-  head: {fileID: 0}
-  body: {fileID: 0}
-  rArm: {fileID: 0}
-  lArm: {fileID: 0}
-  rHand: {fileID: 0}
-  lHand: {fileID: 0}
-  rfoot: {fileID: 0}
-  lfoot: {fileID: 0}
-  rEyeLid: {fileID: 0}
-  rEyeBag: {fileID: 0}
-  lEyeLid: {fileID: 0}
-  lEyeBag: {fileID: 0}
-  rEye: {fileID: 0}
-  lEye: {fileID: 0}
-  fHair: {fileID: 0}
-  bHair: {fileID: 0}
-  mouth: {fileID: 0}
-  bodyO: {fileID: 0}
-  rArmO: {fileID: 0}
-  lArmO: {fileID: 0}
-  rHandO: {fileID: 0}
-  lHandO: {fileID: 0}
-  rthighO: {fileID: 0}
-  lthighO: {fileID: 0}
-  rfootO: {fileID: 0}
-  lfootO: {fileID: 0}
-  skirt: {fileID: 0}
-  Accesory: {fileID: 0}
+  head: {fileID: 5729249787702613128}
+  body: {fileID: 9222796492933326336}
+  rArm: {fileID: 5729249787103829048}
+  lArm: {fileID: 5729249787608999580}
+  rHand: {fileID: 5729249788873628640}
+  lHand: {fileID: 5729249788862747759}
+  rfoot: {fileID: 5729249788682640907}
+  lfoot: {fileID: 5729249788713199649}
+  rEyeLid: {fileID: 5729249788761423432}
+  rEyeBag: {fileID: 5729249787133863858}
+  lEyeLid: {fileID: 5729249787664242226}
+  lEyeBag: {fileID: 5729249788405835317}
+  rEye: {fileID: 5729249788789163998}
+  lEye: {fileID: 5729249788643206154}
+  fHair: {fileID: 5729249788377671510}
+  bHair: {fileID: 5729249787433885755}
+  mouth: {fileID: 5729249787374936910}
+  nose: {fileID: 5729249787736452564}
+  bodyO: {fileID: 6933480344746522771}
+  rArmO: {fileID: 4900384388808902660}
+  lArmO: {fileID: 136221563227493700}
+  rHandO: {fileID: 6898667744490378817}
+  lHandO: {fileID: 5888828364123960986}
+  rthighO: {fileID: 845904461117092853}
+  lthighO: {fileID: 267942291583120491}
+  rfootO: {fileID: 5701263836571769413}
+  lfootO: {fileID: 3350154050545034475}
+  skirt: {fileID: 1227123476674416011}
+  Accesory: {fileID: 1064316103757490117}
 --- !u!50 &1033678902
 Rigidbody2D:
   serializedVersion: 4

@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class DeleteGameButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void deleteSave() {
+        MetaSaveLoad.Instance.deleteData(GetComponent<DataSaveContainer>().playerData);
+        Destroy(gameObject);
     }
 }

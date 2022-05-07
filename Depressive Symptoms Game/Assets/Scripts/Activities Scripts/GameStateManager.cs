@@ -8,9 +8,9 @@ public class GameStateManager : MonoBehaviour
     private static GameStateManager instance;
 
     [Header("Variables de estado del juego")]
-    [SerializeField] private int location=0;
     [SerializeField] private string id;
     [SerializeField] private string namePlayer;
+    [SerializeField] private int location = 0;
     [SerializeField] private bool isIdle;
     [SerializeField] private bool isInActivity;
     [SerializeField] private bool inSelection;
@@ -40,6 +40,19 @@ public class GameStateManager : MonoBehaviour
     public static GameStateManager Instance { get => instance; }
     #endregion
 
+    public void setMetaData(MetaData d)
+    {
+
+    }
+
+    public MetaData getMetaData()
+    {
+        MetaData d = new MetaData();
+        d.id = id;
+        d.name = namePlayer;
+        d.location = location;
+        return d;
+    }
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -115,4 +128,6 @@ public class GameStateManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= instance.OnSceneLoaded;
     }
+
+
 }

@@ -55,12 +55,80 @@ public class PlayerLooks : MonoBehaviour
 
     public void setPlayerLooks(PlayerContainer p)
     {
+        bodyType = p.bodyType;
+        skinIndex = p.skinIndex;
+        eyeIndex = p.eyeIndex;
+        eyeColor = p.eyeColor;
+        hairIndex = p.hairIndex;
+        hairColor = p.hairColor;
+        noseIndex = p.noseIndex;
+        noseIndex = p.mouthIndex;
+        outfitIndex = p.outfitIndex;
+        accesoryIndex = p.accesoryIndex;
+        changeSprites();
 
     }
     public PlayerContainer GetPlayer()
     {
         PlayerContainer p = new PlayerContainer();
+        p.bodyType = bodyType;
+        p.skinIndex = skinIndex;
+        p.eyeIndex = eyeIndex;
+        p.eyeColor = eyeColor;
+        p.hairIndex = hairIndex;
+        p.hairColor = hairColor;
+        p.noseIndex = noseIndex;
+        p.noseIndex = mouthIndex;
+        p.outfitIndex = outfitIndex;
+        p.accesoryIndex = accesoryIndex;
         return p;
+    }
+
+    public void changeSprites()
+    {
+
+        if (PlayerData.Instance.BodyType == 0)
+        {
+            body.sprite = PlayerData.Instance.fBodies[skinIndex];
+        }
+        else
+        {
+            body.sprite = PlayerData.Instance.mBodies[skinIndex];
+        }
+        head.sprite = PlayerData.Instance.heads[skinIndex];
+        rArm.sprite = PlayerData.Instance.rArms[skinIndex];
+        lArm.sprite = PlayerData.Instance.lArms[skinIndex];
+        rHand.sprite = PlayerData.Instance.rhands[skinIndex];
+        lHand.sprite = PlayerData.Instance.lhands[skinIndex];
+        rfoot.sprite = PlayerData.Instance.rfeet[skinIndex];
+        lfoot.sprite = PlayerData.Instance.lfeet[skinIndex];
+        rEyeLid.sprite = PlayerData.Instance.eyeLids[skinIndex];
+        rEyeBag.sprite = PlayerData.Instance.eyeBags[skinIndex];
+        lEyeLid.sprite = PlayerData.Instance.eyeLids[skinIndex];
+        lEyeBag.sprite = PlayerData.Instance.eyeBags[skinIndex];
+        fHair.sprite = PlayerData.Instance.fHairs[hairIndex];
+        bHair.sprite = PlayerData.Instance.bHairs[hairIndex];
+        fHair.color = PlayerData.Instance.hairColors[hairColor];
+        bHair.color = PlayerData.Instance.hairColors[hairColor];
+        rEye.sprite = PlayerData.Instance.eyes[eyeIndex];
+        lEye.sprite = PlayerData.Instance.eyes[eyeIndex];
+        rEye.color = PlayerData.Instance.eyesColors[eyeColor];
+        lEye.color = PlayerData.Instance.eyesColors[eyeColor];
+        nose.sprite = PlayerData.Instance.noses[noseIndex];
+        mouth.sprite = PlayerData.Instance.mouths[mouthIndex];
+        bodyO.sprite = PlayerData.Instance.tops[outfitIndex];
+        rArmO.sprite = PlayerData.Instance.rArmsO[outfitIndex];
+        lArmO.sprite = PlayerData.Instance.lArmsO[outfitIndex];
+        rHandO.sprite = PlayerData.Instance.rhandsO[outfitIndex];
+        lHandO.sprite = PlayerData.Instance.lhandsO[outfitIndex];
+        rthighO.sprite = PlayerData.Instance.rthighsO[outfitIndex];
+        lthighO.sprite = PlayerData.Instance.lthighsO[outfitIndex];
+        rfootO.sprite = PlayerData.Instance.rfeetO[outfitIndex];
+        lfootO.sprite = PlayerData.Instance.lfeetO[outfitIndex];
+        skirt.sprite = PlayerData.Instance.skirts[outfitIndex];
+        Accesory.sprite = PlayerData.Instance.Accesories[accesoryIndex];
+
+
     }
     private void Awake()
     {
@@ -100,6 +168,14 @@ public class PlayerLooks : MonoBehaviour
     }
     void OnDisable()
     {
-        SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+        try
+        {
+            SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+        }
+        catch
+        {
+
+        }
+        
     }
 }

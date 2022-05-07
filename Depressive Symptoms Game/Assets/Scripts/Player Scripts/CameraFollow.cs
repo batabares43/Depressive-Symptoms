@@ -15,7 +15,7 @@ public class CameraFollow : MonoBehaviour
     public int IndexRoom { get=>indexRoom; set { indexRoom = value; changeCameraPosition(); } }
     private void Start()
     {
-        player= GameStateManager.Instance.Player.gameObject.transform;
+        player= GameObject.FindGameObjectWithTag("Player").transform;
         changeCameraPosition();
     }
     private void Update()
