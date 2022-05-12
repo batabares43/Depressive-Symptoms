@@ -39,10 +39,10 @@ public class ActivityManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                comprovateDisponability();
-                drawPlayer();
+                comprovateDisponability(); 
                 if (!instant && diponible)
                 {
+                    drawPlayer();
                     showActivities();
                     diponible = false;
                 }
