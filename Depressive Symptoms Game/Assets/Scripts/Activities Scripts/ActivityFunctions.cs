@@ -7,7 +7,11 @@ public class ActivityFunctions : MonoBehaviour
     [SerializeField] private Activity activityParams;
     [SerializeField] private string animationName;
     [SerializeField] private Animator anim;
-    [SerializeField] private List<ActivityBehavior> activityBehaviors;
+    [SerializeField] private List<ActivityBehavior> activateBehaviors;
+    [SerializeField] private List<ActivityBehavior> finishBehaviors;
+    [SerializeField] private bool isActive=true;
+    public bool IsActive { get=>isActive; set=>isActive=value; }
+
 
     public Activity ActivityParams { get => activityParams; }
     private void Start()
@@ -25,12 +29,12 @@ public class ActivityFunctions : MonoBehaviour
         GameStateManager.Instance.Player.transform.position = new Vector2(transform.position.x, GameStateManager.Instance.Player.transform.position.y);
         GameStateManager.Instance.Player.transform.localScale = new Vector3(1, 1, 1);
         playAnim();
-        activateBehaviors();
+        onActivation();
     }
     public void finishActivity()
     {
         fillVars();
-        finishBehaviors();
+        onFinish();
         GameStateManager.Instance.IsIdle = true;
         GameStateManager.Instance.AbleToMove = true;
         GameStateManager.Instance.InSelection = false;
@@ -49,22 +53,22 @@ public class ActivityFunctions : MonoBehaviour
         anim.Play(animationName);
     }
 
-    private void activateBehaviors() {
-        if (activityBehaviors.Count > 0)
+    private void onActivation() {
+        if (activateBehaviors.Count > 0)
         {
-            foreach (ActivityBehavior b in activityBehaviors)
+            foreach (ActivityBehavior b in activateBehaviors)
             {
-                b.activateActivity();
+                b.activate();
             }
 
         }
     }
-    private void finishBehaviors() {
-        if (activityBehaviors.Count > 0)
+    private void onFinish() {
+        if (finishBehaviors.Count > 0)
         {
-            foreach (ActivityBehavior b in activityBehaviors)
+            foreach (ActivityBehavior b in finishBehaviors)
             {
-                b.finishActivity();
+                b.activate();
             }
         }
     }

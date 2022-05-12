@@ -18,8 +18,11 @@ public class GenerateMenu : MonoBehaviour
         label.SetText(master.name);
         foreach (ActivityFunctions a in activities)
         {
-            GameObject currentButton = Instantiate(button, content.transform);
-            currentButton.GetComponent<SelectedActivity>().buildButton(a, gameObject);
+            if (a.IsActive)
+            {
+                GameObject currentButton = Instantiate(button, content.transform);
+                currentButton.GetComponent<SelectedActivity>().buildButton(a, gameObject);
+            }  
         }
     }
 

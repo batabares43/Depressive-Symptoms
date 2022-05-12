@@ -4891,7 +4891,9 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 0e19b821823889b4ca55c2cb594affe5, type: 2}
   animationName: DoSomething
   anim: {fileID: 0}
-  activityBehaviors: []
+  activateBehaviors: []
+  finishBehaviors: []
+  isActive: 1
 --- !u!114 &567843900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4905,6 +4907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activities: []
+  instant: 0
 --- !u!61 &567843901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5406,6 +5409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activities:
   - {fileID: 709745534}
+  instant: 0
 --- !u!61 &709745533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5447,7 +5451,9 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 6c3c427526bd4bf48ade6628912b351b, type: 2}
   animationName: DoSomething
   anim: {fileID: 0}
-  activityBehaviors: []
+  activateBehaviors: []
+  finishBehaviors: []
+  isActive: 1
 --- !u!1 &713388109
 GameObject:
   m_ObjectHideFlags: 0
@@ -9602,7 +9608,9 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 85e9db90e79ce394ebff4b122f6aa40e, type: 2}
   animationName: DoSomething
   anim: {fileID: 0}
-  activityBehaviors: []
+  activateBehaviors: []
+  finishBehaviors: []
+  isActive: 1
 --- !u!114 &1309894607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9616,6 +9624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activities: []
+  instant: 0
 --- !u!61 &1309894608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11048,7 +11057,9 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 181316d6699513b4d8de90d12d251209, type: 2}
   animationName: Sleep
   anim: {fileID: 0}
-  activityBehaviors: []
+  activateBehaviors: []
+  finishBehaviors: []
+  isActive: 1
 --- !u!212 &1563575311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11128,6 +11139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activities:
   - {fileID: 1563575310}
+  instant: 0
 --- !u!114 &1563575314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11143,7 +11155,9 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 7f53f5874e0db79439a343ce0d0d492e, type: 2}
   animationName: Sleep
   anim: {fileID: 0}
-  activityBehaviors: []
+  activateBehaviors: []
+  finishBehaviors: []
+  isActive: 1
 --- !u!61 &1563575319
 BoxCollider2D:
   m_ObjectHideFlags: 0

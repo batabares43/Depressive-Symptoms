@@ -4,6 +4,5 @@ using UnityEngine;
 
 public abstract class ActivityBehavior: MonoBehaviour
 {
-    public abstract void activateActivity();
-    public abstract void finishActivity();
+    public abstract void activate();
 }

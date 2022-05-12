@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ public class ActivityManager : MonoBehaviour
 {
 
     [SerializeField] public List<ActivityFunctions> activities;
+    [SerializeField] private bool instant;
+    private bool diponible;
 
     private Vector3 originalScale;
 
@@ -36,11 +39,35 @@ public class ActivityManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                comprovateDisponability();
                 drawPlayer();
-                showActivities();
+                if (!instant && diponible)
+                {
+                    showActivities();
+                    diponible = false;
+                }
+                else if(diponible)
+                {
+                    foreach(ActivityFunctions a in activities)
+                    {
+                        a.activateActivity();
+                    }
+                }
             }
         }    
     }
+
+    private void comprovateDisponability()
+    {
+        foreach(ActivityFunctions a in activities)
+        {
+            if (a.IsActive)
+            {
+                diponible = true;
+            }
+        }
+    }
+
     private void OnMouseEnter()
     {
         if(!GameStateManager.Instance.InSelection)
