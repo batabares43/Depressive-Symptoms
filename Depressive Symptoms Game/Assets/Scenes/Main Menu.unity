@@ -12799,7 +12799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a7cfc8c41ba84640aea2818022bf49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameFiles: 1
   gameFilesMenu: {fileID: 762998549}
   characterCreationMenu: {fileID: 1093519323}
 --- !u!114 &1568504087
@@ -14320,7 +14319,7 @@ MonoBehaviour:
   - {fileID: -975357852345494105, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   - {fileID: -8635726494956083512, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -7106310791713886108, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   lArmsO:
   - {fileID: -6351303310667121075, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
   - {fileID: 3607424141965857453, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
@@ -14331,7 +14330,7 @@ MonoBehaviour:
   - {fileID: 5418783238182428359, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   - {fileID: -4999292965645825456, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7316197284538817446, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
   rhandsO:
   - {fileID: 7666250295358779937, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
   - {fileID: -26350403951233517, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
@@ -14342,7 +14341,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -7106310791713886108, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
+  - {fileID: 0}
   lhandsO:
   - {fileID: 6003375208080362737, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
   - {fileID: -3393109295249537081, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
@@ -14353,7 +14352,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 7316197284538817446, guid: fae4594e66df8d64a88704af0f706a0b, type: 3}
+  - {fileID: 0}
   rthighsO:
   - {fileID: -460271676377441619, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
   - {fileID: 7127925566462673762, guid: 6f8a6de35806eea4fb1fca17e488059c, type: 3}
