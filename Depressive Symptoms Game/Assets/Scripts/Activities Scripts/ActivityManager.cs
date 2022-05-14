@@ -8,7 +8,7 @@ public class ActivityManager : MonoBehaviour
 
     [SerializeField] public List<ActivityFunctions> activities;
     [SerializeField] private bool instant;
-    private bool diponible;
+    [SerializeField] private bool diponible;
 
     private Vector3 originalScale;
 
@@ -70,15 +70,18 @@ public class ActivityManager : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if(!GameStateManager.Instance.InSelection)
+        comprovateDisponability();
+        if (!GameStateManager.Instance.InSelection && diponible)
         {
             float hoverEffect = 1.01f;
             transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y * hoverEffect, transform.localScale.z);
         }
+        diponible = false;
     }
     private void OnMouseExit()
     {
         transform.localScale = originalScale;
+        
     }
 
 

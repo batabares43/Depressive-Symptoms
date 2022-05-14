@@ -6,19 +6,23 @@ public class StartGameSate : MonoBehaviour
 {
     void Start()
     {
-        GameStateManager.Instance.Name = PathScript.Instance.NamePlayer;
-        if (PathScript.Instance.FirstTime)
+        try
         {
-            GameStateManager.Instance.Id = MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());
-            insertPlayerData();
+            GameStateManager.Instance.Name = PathScript.Instance.NamePlayer;
+            if (PathScript.Instance.FirstTime)
+            {
+                GameStateManager.Instance.Id = MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());
+                insertPlayerData();
+            }
+            else
+            {
+                GameStateManager.Instance.Id = PathScript.Instance.Id;
+                loadData();
+            }
+            Destroy(PathScript.Instance.gameObject);
         }
-        else
-        {
-            GameStateManager.Instance.Id = PathScript.Instance.Id;
-            loadData();
-        }
-        Destroy(PathScript.Instance.gameObject);
-
+        catch { }
+        
     }
     private void insertPlayerData()
     {
