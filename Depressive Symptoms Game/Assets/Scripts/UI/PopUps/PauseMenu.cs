@@ -12,8 +12,7 @@ public class PauseMenu : MonoBehaviour
         gameObject.SetActive(false);
     }
     public void saveGame() {
-        GameStateManager.Instance.Save();
-        MetaSaveLoad.Instance.updateData(GameStateManager.Instance.getMetaData());  
+        //GameStateManager.Instance.gameObject.GetComponent<SaveAndLoad>().save();
     }
     public void saveAndExit()
     {

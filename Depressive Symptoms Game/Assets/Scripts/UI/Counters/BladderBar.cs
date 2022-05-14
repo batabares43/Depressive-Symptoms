@@ -11,7 +11,6 @@ public class BladderBar : MonoBehaviour, Observer
     private void Start()
     {
         ControlManager.Instance.suscribe(this);
-        updateState();
     }
 
     public void updateState()

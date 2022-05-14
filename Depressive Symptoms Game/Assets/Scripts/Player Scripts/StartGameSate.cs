@@ -28,11 +28,11 @@ public class StartGameSate : MonoBehaviour
 
     private void saveData()
     {
-        GameStateManager.Instance.Save();
+        GetComponent<SaveAndLoad>().save();
     }
 
     private void loadData()
     {
-        GameStateManager.Instance.load();
+        GetComponent<SaveAndLoad>().load();
     }
 }

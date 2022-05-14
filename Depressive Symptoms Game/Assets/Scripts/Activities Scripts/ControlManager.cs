@@ -40,35 +40,11 @@ public class ControlManager : MonoBehaviour, Subject
     // variables que no sos parte del sistema de medición
     private float useOfSPATemp;
 
-    public void setControlManager(ControlContainer c) {
-        hygiene= c.hygiene;
-        environment = c.environment;
-        jobPerformance = c.jobPerformance;
-        academicPerformance = c.academicPerformance;
-        sociability = c.sociability;
-        satiety = c.satiety;
-        rest = c.rest;
-        bladder = c.bladder;
-        entertainment = c.entertainment;
-        useOfSPA = c.useOfSPA;
-
-        useOfSPATemp = c.useOfSPATemp;
+    public void setControlManager(ControlContainer c) { 
     }
     public ControlContainer GetControl()
     {
         ControlContainer c = new ControlContainer();
-        c.hygiene = hygiene;
-        c.environment = environment;
-        c.jobPerformance = jobPerformance;
-        c.academicPerformance = academicPerformance;
-        c.sociability = sociability;
-        c.satiety = satiety;
-        c.rest = rest;
-        c.bladder = bladder;
-        c.entertainment = entertainment;
-        c.useOfSPA = useOfSPA;
-
-        c.useOfSPATemp = useOfSPATemp;
         return c;
     }
     public void modificated(Activity a)

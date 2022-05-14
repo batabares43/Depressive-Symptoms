@@ -94,62 +94,12 @@ public class Record
         entertainment = a.entertainment;
         useOfSPA = a.useOfSPA;
     }
-    public Record(RecordModel a) {
-        nameActivity = a.nameActivity;
-        isActive = a.isActive;
-        day = a.day;
-        hour = a.hour;
-        minute = a.minute;
-        mood = a.mood;
-        calories = a.calories;
-        sleepHours = a.sleepHours;
-        fitness = a.fitness;
-        energy = a.energy;
-        selfEfficacy = a.selfEfficacy;
-        concentration = a.concentration;
-        deadDesire = a.deadDesire;
-        sexualDesire = a.sexualDesire;
-        riskBehaviors = a.riskBehaviors;
-        hygiene = a.hygiene;
-        environment = a.environment;
-        jobPerformance = a.jobPerformance;
-        academicPerformance = a.academicPerformance;
-        sociability = a.sociability;
-        satiety = a.satiety;
-        rest = a.rest;
-        bladder = a.bladder;
-        entertainment = a.entertainment;
-        useOfSPA = a.useOfSPA;
+    public Record(RecordModel a) { 
     }
 
     public RecordModel GetRecord()
     {
         RecordModel r = new RecordModel();
-        r.nameActivity =nameActivity;
-        r.isActive =isActive;
-        r.day =day;
-        r.hour =hour;
-        r.minute =minute;
-        r.mood =mood;
-        r.calories =calories;
-        r.sleepHours =sleepHours;
-        r.fitness =fitness;
-        r.energy =energy;
-        r.selfEfficacy =selfEfficacy;
-        r.concentration =concentration;
-        r.deadDesire =deadDesire;
-        r.sexualDesire =sexualDesire;
-        r.riskBehaviors =riskBehaviors;
-        r.hygiene =hygiene;
-        r.environment =environment;
-        r.jobPerformance =jobPerformance;
-        r.academicPerformance =academicPerformance;
-        r.sociability =sociability;
-        r.satiety =satiety;
-        r.rest =rest;
-        r.bladder =bladder;
-        r.entertainment =entertainment;
-        r.useOfSPA =useOfSPA;
         return r;
     }
 }

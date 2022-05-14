@@ -7,7 +7,7 @@ using UnityEngine;
 public class RecordsContainer{
 
     public List<RecordModel> records = new List<RecordModel>();
-    public List<RecordModel> pasiverecords = new List<RecordModel>();
+    //public List<RecordModel> Pasiverecords = new List<RecordModel>();
     public int combo;
     public int lastCombo;
 }

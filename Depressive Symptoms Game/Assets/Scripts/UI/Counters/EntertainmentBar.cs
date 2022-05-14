@@ -11,7 +11,6 @@ public class EntertainmentBar : MonoBehaviour, Observer
     private void Start()
     {
         ControlManager.Instance.suscribe(this);
-        updateState();
     }
 
     public void updateState()

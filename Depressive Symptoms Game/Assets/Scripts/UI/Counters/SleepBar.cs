@@ -11,7 +11,6 @@ public class SleepBar : MonoBehaviour, Observer
     private void Start()
     {
         ControlManager.Instance.suscribe(this);
-        updateState();
     }
 
     public void updateState()
