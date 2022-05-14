@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField]private Transform player;
-    [SerializeField]private List<float> xmin = new List<float>();
-    [SerializeField]private List<float> xmax = new List<float>();
-    [SerializeField]private List<float> y = new List<float>();
+    [SerializeField] private Transform player;
+    [SerializeField] private List<float> xmin = new List<float>();
+    [SerializeField] private List<float> xmax = new List<float>();
+    [SerializeField] private List<float> y = new List<float>();
     [SerializeField] private List<Transform> targets = new List<Transform>();
 
-    [SerializeField]private int indexRoom=0;
+    [SerializeField] private int indexRoom = 0;
 
-    public int IndexRoom { get=>indexRoom; set { indexRoom = value; changeCameraPosition(); } }
+    public int IndexRoom { get => indexRoom; set { indexRoom = value; changeCameraPosition(); } }
     private void Start()
     {
-        player= GameObject.FindGameObjectWithTag("Player").transform;
+        player = PlayerLooks.Instance.gameObject.transform;
         changeCameraPosition();
     }
     private void Update()
     {
         followPlayer();
     }
-    private void followPlayer(){
+    private void followPlayer()
+    {
         float xPosition = player.position.x;
         if (player.position.x < xmin[indexRoom])
         {
@@ -41,3 +42,4 @@ public class CameraFollow : MonoBehaviour
         transform.position = newPosition;
     }
 }
+

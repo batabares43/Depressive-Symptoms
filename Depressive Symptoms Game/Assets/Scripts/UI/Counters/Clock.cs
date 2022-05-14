@@ -5,21 +5,21 @@ using UnityEngine.UI;
 
 public class Clock : MonoBehaviour, Observer
 {
-    [SerializeField]private GameObject rotationPart;
+    [SerializeField] private GameObject rotationPart;
     [SerializeField] private Text time;
     [SerializeField] private Text day;
-    [SerializeField]private float angle=0.25f;
+    [SerializeField] private float angle = 0.25f;
     [SerializeField] private int minute;
 
 
     private void Start()
     {
         TimeManager.Instance.suscribe(this);
+        updateState();
     }
     public void updateState()
     {
         timeClock();
-        
     }
 
     private void timeClock()
@@ -28,7 +28,7 @@ public class Clock : MonoBehaviour, Observer
         time.text = timeToString(TimeManager.Instance.Hour) + ":" + timeToString(TimeManager.Instance.Minute);
         day.text = "" + TimeManager.Instance.Day + "d";
         //rotationPart.transform.rotation = Quaternion.AngleAxis(angle * minute, new Vector3(0, 0, 1));
-        rotationPart.transform.Rotate(new Vector3(0, 0,- angle * minute));
+        rotationPart.transform.Rotate(new Vector3(0, 0, -angle * minute));
     }
     private string timeToString(int time)
     {
@@ -40,5 +40,8 @@ public class Clock : MonoBehaviour, Observer
         s = s + time;
         return s;
     }
-    
+    private void OnDestroy()
+    {
+        TimeManager.Instance.deSuscribe(this);
+    }
 }

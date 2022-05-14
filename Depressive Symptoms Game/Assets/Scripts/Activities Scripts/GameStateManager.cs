@@ -19,31 +19,27 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private ActivityFunctions actualActivity;
     [SerializeField] private GameObject menuContinue;
     [SerializeField] private GameObject menuSelection;
-    [SerializeField]private Animator anim;
+    [SerializeField] private Animator anim;
     [SerializeField] private GameObject player;
-    
+
 
     #region properties
-    public bool IsIdle { get => isIdle; set  { isIdle = value; changeAnimState(); } }
-    public bool IsInActivity { get=> isInActivity; set { isInActivity = value;changeAnimState(); } }
-    public bool InSelection { get => inSelection; set => inSelection=value; }
-    public bool IsPaused { get=> isPaused; set { isPaused = value; InSelection = value; } }
+    public bool IsIdle { get => isIdle; set { isIdle = value; changeAnimState(); } }
+    public bool IsInActivity { get => isInActivity; set { isInActivity = value; changeAnimState(); } }
+    public bool InSelection { get => inSelection; set => inSelection = value; }
+    public bool IsPaused { get => isPaused; set { isPaused = value; InSelection = value; } }
     public bool AbleToMove { get => ableToMove; set => ableToMove = value; }
     public GameObject Player { get => player; set => player = value; }
 
     public ActivityFunctions ActualActivity { get => actualActivity; set => actualActivity = value; }
 
-    public int Location { get=>location;  set => location=value; }
+    public int Location { get => location; set => location = value; }
 
-    public string Id { get=>id; set=>id=value; }
+    public string Id { get => id; set => id = value; }
     public string Name { get => namePlayer; set => namePlayer = value; }
     public static GameStateManager Instance { get => instance; }
     #endregion
 
-    public void setMetaData(MetaData d)
-    {
-
-    }
 
     public MetaData getMetaData()
     {
@@ -105,19 +101,39 @@ public class GameStateManager : MonoBehaviour
         GameObject menu = Instantiate(menuSelection, GameObject.Find("Canvas").transform);
         menu.GetComponent<GenerateMenu>().buildMenu(target, a);
     }
-
+    public void Save()
+    {
+        SaveContainer saveFile = new SaveContainer();
+        saveFile.id = id;
+        saveFile.player = PlayerLooks.Instance.GetPlayer();
+        saveFile.time = TimeManager.Instance.GetTime();
+        saveFile.variables = VarManager.Instance.GetVar();
+        saveFile.control = ControlManager.Instance.GetControl();
+        saveFile.record = RecordManager.Instace.GetRecords();
+        GetComponent<SaveAndLoad>().save(saveFile, id);
+    }
+    public void load()
+    {
+        SaveContainer loadSave = GetComponent<SaveAndLoad>().load(id);
+        GameStateManager.Instance.Id = loadSave.id;
+        PlayerLooks.Instance.setPlayerLooks(loadSave.player);
+        TimeManager.Instance.setTimeManager(loadSave.time);
+        VarManager.Instance.setVarManager(loadSave.variables);
+        ControlManager.Instance.setControlManager(loadSave.control);
+        RecordManager.Instace.setRecordManager(loadSave.record);
+    }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        
+
         if (scene.name == "Main Menu")
         {
-            
+
             try
             {
                 SceneManager.sceneLoaded -= instance.OnSceneLoaded;
                 Destroy(instance.gameObject);
                 instance = null;
-                
+
             }
             catch
             {

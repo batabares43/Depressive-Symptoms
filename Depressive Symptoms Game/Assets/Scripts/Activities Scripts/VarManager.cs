@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -36,12 +36,12 @@ public class VarManager : MonoBehaviour, Subject
 
 
 
-    public static VarManager Instance { get => instance;}
+    public static VarManager Instance { get => instance; }
 
     #endregion
 
 
-    //variables que no pertenecen al sistema de medición
+    //variables que no pertenecen al sistema de mediciï¿½n
     private int energyIndex;
     private bool[] energyCategories = new bool[3];
     private float deadDesireTemp;
@@ -51,11 +51,45 @@ public class VarManager : MonoBehaviour, Subject
 
     public void setVarManager(VarContainer v)
     {
-        
+        mood = v.mood;
+        calories = v.calories;
+        sleepHours = v.sleepHours;
+        fitness = v.fitness;
+        energy = v.energy;
+        selfEfficacy = v.selfEfficacy;
+        concentration = v.concentration;
+        deadDesire = v.deadDesire;
+        sexualDesire = v.sexualDesire;
+        riskBehaviors = v.riskBehaviors;
+
+        energyIndex = v.energyIndex;
+        energyCategories = v.energyCategories;
+        deadDesireTemp = v.deadDesireTemp;
+        sexualDesireTemp = v.sexualDesireTemp;
+        riskIndex = v.riskIndex;
+        riskCategories = v.riskCategories;
+
     }
     public VarContainer GetVar()
     {
-        VarContainer v= new VarContainer();
+        VarContainer v = new VarContainer();
+        v.mood = mood;
+        v.calories = calories;
+        v.sleepHours = sleepHours;
+        v.fitness = fitness;
+        v.energy = energy;
+        v.selfEfficacy = selfEfficacy;
+        v.concentration = concentration;
+        v.deadDesire = deadDesire;
+        v.sexualDesire = sexualDesire;
+        v.riskBehaviors = riskBehaviors;
+
+        v.energyIndex = energyIndex;
+        v.energyCategories = energyCategories;
+        v.deadDesireTemp = deadDesireTemp;
+        v.sexualDesireTemp = sexualDesireTemp;
+        v.riskIndex = riskIndex;
+        v.riskCategories = riskCategories;
         return v;
     }
     public void modificated(Activity a)
@@ -69,7 +103,7 @@ public class VarManager : MonoBehaviour, Subject
         concentration += a.concentration;
         deadDesireTemp = a.deadDesire;
         sexualDesireTemp = a.sexualDesire;
-        riskIndex = (int) a.riskBehaviors;
+        riskIndex = (int)a.riskBehaviors;
         validateValues();
     }
 
@@ -78,7 +112,8 @@ public class VarManager : MonoBehaviour, Subject
         if (mood < -14)
         {
             mood = -14;
-        }else if (mood > 14)
+        }
+        else if (mood > 14)
         {
             mood = 14;
         }
@@ -97,7 +132,7 @@ public class VarManager : MonoBehaviour, Subject
                 energy++;
             }
         }
-        else if(energyIndex<0)
+        else if (energyIndex < 0)
         {
             if (energyCategories[energyIndex])
             {
@@ -132,14 +167,14 @@ public class VarManager : MonoBehaviour, Subject
         {
             if (!riskCategories[energyIndex])
             {
-                RiskBehaviors++;
+                riskBehaviors++;
             }
         }
         else if (riskIndex < 0)
         {
             if (riskCategories[energyIndex])
             {
-                RiskBehaviors--;
+                riskBehaviors--;
             }
         }
         notify();

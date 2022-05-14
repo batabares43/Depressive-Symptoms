@@ -5,14 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
- 
+
 
     public void pauseClose()
     {
         gameObject.SetActive(false);
     }
-    public void saveGame() {
-        //GameStateManager.Instance.gameObject.GetComponent<SaveAndLoad>().save();
+    public void saveGame()
+    {
+        GameStateManager.Instance.Save();
+        MetaSaveLoad.Instance.updateData(GameStateManager.Instance.getMetaData());
     }
     public void saveAndExit()
     {

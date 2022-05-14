@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,14 +37,39 @@ public class ControlManager : MonoBehaviour, Subject
     public static ControlManager Instance { get => instance; }
     #endregion
 
-    // variables que no sos parte del sistema de medición
+    // variables que no sos parte del sistema de mediciï¿½n
     private float useOfSPATemp;
 
-    public void setControlManager(ControlContainer c) { 
+    public void setControlManager(ControlContainer c)
+    {
+        hygiene = c.hygiene;
+        environment = c.environment;
+        jobPerformance = c.jobPerformance;
+        academicPerformance = c.academicPerformance;
+        sociability = c.sociability;
+        satiety = c.satiety;
+        rest = c.rest;
+        bladder = c.bladder;
+        entertainment = c.entertainment;
+        useOfSPA = c.useOfSPA;
+
+        useOfSPATemp = c.useOfSPATemp;
     }
     public ControlContainer GetControl()
     {
         ControlContainer c = new ControlContainer();
+        c.hygiene = hygiene;
+        c.environment = environment;
+        c.jobPerformance = jobPerformance;
+        c.academicPerformance = academicPerformance;
+        c.sociability = sociability;
+        c.satiety = satiety;
+        c.rest = rest;
+        c.bladder = bladder;
+        c.entertainment = entertainment;
+        c.useOfSPA = useOfSPA;
+
+        c.useOfSPATemp = useOfSPATemp;
         return c;
     }
     public void modificated(Activity a)
@@ -60,10 +85,11 @@ public class ControlManager : MonoBehaviour, Subject
         entertainment += a.entertainment;
         useOfSPATemp = a.useOfSPA;
         validateValues();
-        
+
     }
 
-    private void validateValues() {
+    private void validateValues()
+    {
         if (hygiene < 0)
         {
             hygiene = 0;
@@ -173,3 +199,4 @@ public class ControlManager : MonoBehaviour, Subject
         activities.Remove(o);
     }
 }
+

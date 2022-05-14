@@ -5,7 +5,7 @@ using UnityEngine;
 public class TimeManager : MonoBehaviour, Subject
 {
     private static TimeManager instance;
-    private static List<Observer> activities= new List<Observer>();
+    private static List<Observer> activities = new List<Observer>();
 
     [Header("Variables de tiempo")]
     [SerializeField] private int day;
@@ -17,23 +17,30 @@ public class TimeManager : MonoBehaviour, Subject
     public int Day { get => day; }
     public int Hour { get => hour; }
     public int Minute { get => minute; }
-    public int LastMinuteChange{get=>lastMinuteChange; }
+    public int LastMinuteChange { get => lastMinuteChange; }
 
     public static TimeManager Instance { get => instance; }
     #endregion
 
     public void setTimeManager(TimeContainer t)
     {
-
+        day = t.day;
+        hour = t.hour;
+        minute = t.minute;
+        lastMinuteChange = t.lastMinuteChange;
     }
     public TimeContainer GetTime()
     {
         TimeContainer t = new TimeContainer();
+        t.day = day;
+        t.hour = hour;
+        t.minute = minute;
+        t.lastMinuteChange = lastMinuteChange;
         return t;
     }
     private void Awake()
     {
-        if (instance != null && instance!=this)
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
         }
@@ -60,10 +67,10 @@ public class TimeManager : MonoBehaviour, Subject
         Debug.Log("Time set");
         notify();
     }
-    
+
     public void notify()
     {
-        foreach(Observer a in activities)
+        foreach (Observer a in activities)
         {
             a.updateState();
         }

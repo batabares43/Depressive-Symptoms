@@ -11,11 +11,12 @@ public class SleepBar : MonoBehaviour, Observer
     private void Start()
     {
         ControlManager.Instance.suscribe(this);
+        updateState();
     }
 
     public void updateState()
     {
-        float num=ControlManager.Instance.Rest;
+        float num = ControlManager.Instance.Rest;
         bar.value = num / maxCapacity;
     }
 }

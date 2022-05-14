@@ -9,7 +9,7 @@ public class StartGameSate : MonoBehaviour
         GameStateManager.Instance.Name = PathScript.Instance.NamePlayer;
         if (PathScript.Instance.FirstTime)
         {
-            GameStateManager.Instance.Id =MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());
+            GameStateManager.Instance.Id = MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());
             insertPlayerData();
         }
         else
@@ -28,11 +28,11 @@ public class StartGameSate : MonoBehaviour
 
     private void saveData()
     {
-        GetComponent<SaveAndLoad>().save();
+        GameStateManager.Instance.Save();
     }
 
     private void loadData()
     {
-        GetComponent<SaveAndLoad>().load();
+        GameStateManager.Instance.load();
     }
 }
