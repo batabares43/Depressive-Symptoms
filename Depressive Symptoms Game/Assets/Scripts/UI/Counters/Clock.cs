@@ -15,11 +15,11 @@ public class Clock : MonoBehaviour, Observer
     private void Start()
     {
         TimeManager.Instance.suscribe(this);
+        updateState();
     }
     public void updateState()
     {
-        timeClock();
-        
+        timeClock(); 
     }
 
     private void timeClock()
@@ -40,5 +40,8 @@ public class Clock : MonoBehaviour, Observer
         s = s + time;
         return s;
     }
-    
+    private void OnDestroy()
+    {
+        TimeManager.Instance.deSuscribe(this);
+    }
 }

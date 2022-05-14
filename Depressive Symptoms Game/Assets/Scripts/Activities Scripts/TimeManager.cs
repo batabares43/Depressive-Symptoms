@@ -24,11 +24,18 @@ public class TimeManager : MonoBehaviour, Subject
 
     public void setTimeManager(TimeContainer t)
     {
-
+        day = t.day;
+        hour = t.hour;
+        minute = t.minute;
+        lastMinuteChange = t.lastMinuteChange;
     }
     public TimeContainer GetTime()
     {
         TimeContainer t = new TimeContainer();
+        t.day = day;
+        t.hour = hour;
+        t.minute = minute;
+        t.lastMinuteChange = lastMinuteChange;
         return t;
     }
     private void Awake()
