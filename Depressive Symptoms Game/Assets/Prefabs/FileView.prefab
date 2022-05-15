@@ -252,13 +252,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2148814660671594639}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 432569031}
+        m_TargetAssemblyTypeName: ViewStatisticsButton, Assembly-CSharp
+        m_MethodName: startView
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -625,6 +625,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee8009f21a01454288ae32f5f741943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerData:
+    id: 
+    name: 
+    location: 0
   text: {fileID: 1712039984163099020}
 --- !u!114 &432569033
 MonoBehaviour:
@@ -662,3 +666,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d5cfbc9d7315cc4985d1d1fb57dc2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  view: {fileID: 9013498371406899750, guid: bd5d3e5593559dc4787f40f087dd753c, type: 3}

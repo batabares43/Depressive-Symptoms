@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class ViewStatisticsButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject view;
+    public void startView()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GameObject newView = Instantiate(view, GameObject.Find("Canvas").transform);
+        newView.GetComponent<LoadCharacter>().startWindow(gameObject);
     }
 }

@@ -1014,6 +1014,11 @@ GameObject:
   - component: {fileID: 1429972693}
   - component: {fileID: 1429972694}
   - component: {fileID: 5212848470371643593}
+  - component: {fileID: 1763697869265994556}
+  - component: {fileID: 2949414472539622865}
+  - component: {fileID: 6665013494795543973}
+  - component: {fileID: 3434679850431369025}
+  - component: {fileID: 1429972695}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1239,6 +1244,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activityParams: {fileID: 11400000, guid: a83e73736c99db4429e8b8008d23b083, type: 2}
   timeNext: 0
+--- !u!114 &1763697869265994556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729249787395016456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922e35024ce3ff74aa5a7804d1fb34ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: ac9c7a69bfdfc6e4b90cbdb591ad861d, type: 2}
+--- !u!114 &2949414472539622865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729249787395016456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388e3ee9e28c272469ed55dac200a16d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: e5bb4e29ad640e0409d2e26929f5008d, type: 2}
+  nameActivity: Dormir
+--- !u!114 &6665013494795543973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729249787395016456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108c4981c42279d46986011b1f813784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungry: {fileID: 11400000, guid: 5d89e6b22eb32794a9073636cba45d36, type: 2}
+  wellFed: {fileID: 11400000, guid: 4149dc8144048b446a6840cfcaadb398, type: 2}
+--- !u!114 &3434679850431369025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729249787395016456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f146f9d9c6bebb4ea14ccf716b5b6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: 55c5398262fea074688e078ebff952ac, type: 2}
+  nameActivity: "Ver televisi\xF3n"
+  limit: 5
+--- !u!114 &1429972695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729249787395016456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f146f9d9c6bebb4ea14ccf716b5b6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: 8b3ee619047bd604f8e139f27d8969fc, type: 2}
+  nameActivity: Jugar videojuegos
+  limit: 4
 --- !u!1 &5729249787433885757
 GameObject:
   m_ObjectHideFlags: 0
