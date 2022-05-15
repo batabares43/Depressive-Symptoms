@@ -11217,38 +11217,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1033678903, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: speed
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114633172272777795, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114633172272777795, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114633172272777795, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114633172272777795, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114633172272777795, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787012802846, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787103829050, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5729249787395016456, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
       propertyPath: m_Name
       value: Character
@@ -11296,30 +11264,6 @@ PrefabInstance:
     - target: {fileID: 5729249787395016470, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787608999582, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787702613129, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787702613129, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249787702613129, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729249788081957518, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222796492933326336, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
@@ -15227,11 +15171,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429972690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
+  m_Script: {fileID: 11500000, guid: 922e35024ce3ff74aa5a7804d1fb34ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: e98526e1be782be4d97c4962d8e5823e, type: 2}
-  timeNext: 0
+  activityParams: {fileID: 11400000, guid: ac9c7a69bfdfc6e4b90cbdb591ad861d, type: 2}
 --- !u!114 &1429972692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15241,11 +15184,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429972690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
+  m_Script: {fileID: 11500000, guid: 388e3ee9e28c272469ed55dac200a16d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: dc84b2486f2b4264a9839bbd542bd331, type: 2}
-  timeNext: 0
+  activityParams: {fileID: 11400000, guid: e5bb4e29ad640e0409d2e26929f5008d, type: 2}
+  nameActivity: Dormir
 --- !u!114 &1429972693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15255,11 +15198,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429972690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
+  m_Script: {fileID: 11500000, guid: 108c4981c42279d46986011b1f813784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: 36699bceb6fc78e43a0d15c8d72deb59, type: 2}
-  timeNext: 0
+  hungry: {fileID: 11400000, guid: 5d89e6b22eb32794a9073636cba45d36, type: 2}
+  wellFed: {fileID: 11400000, guid: 4149dc8144048b446a6840cfcaadb398, type: 2}
 --- !u!114 &1429972694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15269,11 +15212,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1429972690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f146f9d9c6bebb4ea14ccf716b5b6e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: 5c99f83a08e17fb42965cfc58a5f7e87, type: 2}
-  timeNext: 0
+  activityParams: {fileID: 11400000, guid: 55c5398262fea074688e078ebff952ac, type: 2}
+  nameActivity: "Ver televisi\xF3n"
+  limit: 5
+--- !u!114 &1429972695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429972690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f146f9d9c6bebb4ea14ccf716b5b6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activityParams: {fileID: 11400000, guid: 8b3ee619047bd604f8e139f27d8969fc, type: 2}
+  nameActivity: Jugar videojuegos
+  limit: 4
 --- !u!4 &1429972699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5729249787395016470, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
@@ -18235,6 +18194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a99fb3485d6bc4094ed3d3425278b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combo: 0
+  lastCombo: 0
+  nameLast: 
 --- !u!114 &1762799470
 MonoBehaviour:
   m_ObjectHideFlags: 0

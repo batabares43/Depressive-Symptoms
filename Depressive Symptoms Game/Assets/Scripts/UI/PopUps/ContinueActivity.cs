@@ -7,6 +7,7 @@ public class ContinueActivity : MonoBehaviour
     public void finishActivity()
     {
         GameStateManager.Instance.ActualActivity.finishActivity();
+        RecordManager.Instace.endRepetition(true);
         GameObject.Destroy(gameObject);
     }
     public void continueActivity(){

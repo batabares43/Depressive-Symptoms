@@ -8,10 +8,13 @@ public class RecordManager : MonoBehaviour, Subject
     private static List<Observer> activities = new List<Observer>();
     private List<Record> records = new List<Record>();
     private List<Record> pasiverecords = new List<Record>();
-    private int combo = 0;
-    private int lastCombo = 0;
+    [SerializeField]private int combo = 0;
+    [SerializeField] private int lastCombo = 0;
+    [SerializeField] private string nameLast;
 
-    public int LastCombo { get => lastCombo; }
+
+    public int LastCombo { get => lastCombo;}
+    public string NameLast { get => nameLast;}
 
     public static RecordManager Instace { get => instance; }
 
@@ -27,6 +30,7 @@ public class RecordManager : MonoBehaviour, Subject
         }
         combo = r.combo;
         lastCombo = r.lastCombo;
+        nameLast = r.nameLast;
 
     }
     public RecordsContainer GetRecords()
@@ -42,6 +46,7 @@ public class RecordManager : MonoBehaviour, Subject
         }
         r.combo = combo;
         r.lastCombo = lastCombo;
+        r.nameLast = nameLast;
         return r;
     }
     private void Awake()
@@ -63,9 +68,7 @@ public class RecordManager : MonoBehaviour, Subject
             {
                 if (!records[records.Count - 1].NameActivity.Equals(r.NameActivity))
                 {
-                    lastCombo = combo;
-                    combo = 0;
-                    notify();
+                    endRepetition(false);
                 }
             }
             combo++;
@@ -77,7 +80,17 @@ public class RecordManager : MonoBehaviour, Subject
         }
 
     }
-
+    public void endRepetition(bool notificate)
+    {
+        lastCombo = combo;
+        nameLast = records[records.Count - 1].NameActivity;
+        combo = 0;
+        if (notificate)
+        {   
+            notify();
+        }
+        
+    }
     public void deSuscribe(Observer o)
     {
         activities.Remove(o);

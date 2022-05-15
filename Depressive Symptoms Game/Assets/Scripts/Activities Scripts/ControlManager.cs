@@ -31,7 +31,7 @@ public class ControlManager : MonoBehaviour, Subject
     public float Rest { get => rest; set { rest = rest + value; validateValues(); } }
     public float Bladder { get => bladder; set { bladder = bladder + value; validateValues(); } }
     public float Entertainment { get => entertainment; set { entertainment = entertainment + value; validateValues(); } }
-    public float UseOfSPA { get => useOfSPA; set { useOfSPA = useOfSPA + value; validateValues(); } }
+    public float UseOfSPA { get => useOfSPA; set { useOfSPATemp = useOfSPA + value; validateValues(); } }
 
 
     public static ControlManager Instance { get => instance; }

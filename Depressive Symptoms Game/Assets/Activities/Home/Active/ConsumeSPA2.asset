@@ -16,6 +16,7 @@ MonoBehaviour:
   time: 30
   active: 1
   repetitive: 0
+  unrecorded: 0
   mood: 0
   calories: 0
   sleepHours: 0

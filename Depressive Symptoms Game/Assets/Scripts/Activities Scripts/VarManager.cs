@@ -127,16 +127,18 @@ public class VarManager : MonoBehaviour, Subject
         }
         if (energyIndex > 0)
         {
-            if (!energyCategories[energyIndex])
+            if (!energyCategories[energyIndex-1])
             {
                 energy++;
+                energyCategories[energyIndex-1]=true;
             }
         }
         else if (energyIndex < 0)
         {
-            if (energyCategories[energyIndex])
+            if (energyCategories[(-energyIndex)-1])
             {
                 energy--;
+                energyCategories[(-energyIndex) - 1]=false;
             }
         }
         if (selfEfficacy < -10)
@@ -165,16 +167,18 @@ public class VarManager : MonoBehaviour, Subject
         }
         if (riskIndex > 0)
         {
-            if (!riskCategories[energyIndex])
+            if (!riskCategories[riskIndex-1])
             {
                 riskBehaviors++;
+                riskCategories[riskIndex-1] = true;
             }
         }
         else if (riskIndex < 0)
         {
-            if (riskCategories[energyIndex])
+            if (riskCategories[(-riskIndex)-1])
             {
                 riskBehaviors--;
+                riskCategories[(-riskIndex)-1] =false;
             }
         }
         notify();

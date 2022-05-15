@@ -16,6 +16,7 @@ MonoBehaviour:
   time: 0
   active: 1
   repetitive: 0
+  unrecorded: 0
   mood: 0
   calories: 0
   sleepHours: 0
@@ -25,7 +26,7 @@ MonoBehaviour:
   concentration: 0
   deadDesire: 2
   sexualDesire: 0
-  riskBehaviors: 1
+  riskBehaviors: 2
   hygiene: 0
   environment: 0
   jobPerformance: 0

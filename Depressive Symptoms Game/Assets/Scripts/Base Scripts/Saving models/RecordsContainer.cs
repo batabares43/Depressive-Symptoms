@@ -11,4 +11,5 @@ public class RecordsContainer
     public List<RecordModel> pasiverecords = new List<RecordModel>();
     public int combo;
     public int lastCombo;
+    public string nameLast;
 }
