@@ -42,11 +42,15 @@ public class ActivityFunctions : MonoBehaviour
 
     private void fillVars()
     {
-        Record r =new Record(activityParams);
-        TimeManager.Instance.timeShift(activityParams);
-        VarManager.Instance.modificated(activityParams);
-        ControlManager.Instance.modificated(activityParams);
-        RecordManager.Instace.addRecord(r);
+        if (!activityParams.unrecorded)
+        {
+            Record r = new Record(activityParams);
+            TimeManager.Instance.timeShift(activityParams);
+            VarManager.Instance.modificated(activityParams);
+            ControlManager.Instance.modificated(activityParams);
+            RecordManager.Instace.addRecord(r);
+        }
+        
     }
     public void playAnim()
     {

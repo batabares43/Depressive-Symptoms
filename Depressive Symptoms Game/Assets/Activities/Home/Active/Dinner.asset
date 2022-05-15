@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5f7b26bf58c014aa30230cb98741b0, type: 3}
   m_Name: Dinner
   m_EditorClassIdentifier: 
-  nameActivity: Cena
+  nameActivity: Comer cena
   time: 10
   active: 1
   repetitive: 0
+  unrecorded: 0
   mood: 0
   calories: 380
   sleepHours: 0

@@ -8,6 +8,7 @@ public class ActivityManager : MonoBehaviour
 
     [SerializeField] public List<ActivityFunctions> activities;
     [SerializeField] private bool instant;
+    public bool Instant { get=>instant; set=>instant=value; }
     [SerializeField] private bool diponible;
 
     private Vector3 originalScale;
@@ -44,15 +45,19 @@ public class ActivityManager : MonoBehaviour
                 {
                     drawPlayer();
                     showActivities();
-                    diponible = false;
+                    
                 }
-                else if(diponible)
+                else
                 {
                     foreach(ActivityFunctions a in activities)
                     {
-                        a.activateActivity();
+                        if (a.IsActive)
+                        {
+                            a.activateActivity();
+                        }
                     }
                 }
+                diponible = false;
             }
         }    
     }
