@@ -73,6 +73,7 @@ public class MetaSaveLoad : MonoBehaviour
                     s.id = d.id;
                     s.name = d.name;
                     s.location = d.location;
+                    s.finishedWeek = d.finishedWeek;
                 }
             }
             saveData();

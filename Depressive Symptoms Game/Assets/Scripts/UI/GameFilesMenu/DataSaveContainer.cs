@@ -17,6 +17,7 @@ public class DataSaveContainer : MonoBehaviour
     public void loadData()
     {
         PathScript.Instance.FirstTime = false;
+        PathScript.Instance.FinishedWeek = playerData.finishedWeek;
         PathScript.Instance.Id=playerData.id;
         PathScript.Instance.NamePlayer = playerData.name;
         PathScript.Instance.Location = playerData.location;

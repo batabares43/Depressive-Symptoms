@@ -10,6 +10,10 @@ public class PauseMenu : MonoBehaviour
     public void pauseClose()
     {
         gameObject.SetActive(false);
+        GameStateManager.Instance.IsPaused = false;
+        GameStateManager.Instance.InSelection = false;
+        GameStateManager.Instance.AbleToMove = true;
+        GameStateManager.Instance.IsIdle = true;
     }
     public void saveGame()
     {

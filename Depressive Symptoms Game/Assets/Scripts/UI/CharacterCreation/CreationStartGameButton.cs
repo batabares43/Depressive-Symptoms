@@ -18,6 +18,7 @@ public class CreationStartGameButton : MonoBehaviour
             PathScript.Instance.Id = "";
             PathScript.Instance.NamePlayer = nameInput.text.Trim();
             PathScript.Instance.Location = 1;
+            PathScript.Instance.FinishedWeek = false;
             SceneManager.LoadScene(PathScript.Instance.Location);
         }
 

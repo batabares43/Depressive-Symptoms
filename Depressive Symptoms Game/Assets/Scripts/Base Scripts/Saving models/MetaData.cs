@@ -8,5 +8,6 @@ public class MetaData
 {
     public string id;
     public string name;
+    public bool finishedWeek;
     public int location;
 }

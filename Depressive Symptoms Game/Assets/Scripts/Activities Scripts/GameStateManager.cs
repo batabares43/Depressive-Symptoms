@@ -11,6 +11,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private string id;
     [SerializeField] private string namePlayer;
     [SerializeField] private int location = 0;
+    [SerializeField] private bool finishedWeek=false;
     [SerializeField] private bool isIdle;
     [SerializeField] private bool isInActivity;
     [SerializeField] private bool inSelection;
@@ -34,6 +35,7 @@ public class GameStateManager : MonoBehaviour
     public ActivityFunctions ActualActivity { get => actualActivity; set => actualActivity = value; }
 
     public int Location { get => location; set => location = value; }
+    public bool FinishedWeek { get => finishedWeek; set => finishedWeek = value; }
 
     public string Id { get => id; set => id = value; }
     public string Name { get => namePlayer; set => namePlayer = value; }
@@ -47,6 +49,7 @@ public class GameStateManager : MonoBehaviour
         d.id = id;
         d.name = namePlayer;
         d.location = location;
+        d.finishedWeek = finishedWeek;
         return d;
     }
     private void Awake()

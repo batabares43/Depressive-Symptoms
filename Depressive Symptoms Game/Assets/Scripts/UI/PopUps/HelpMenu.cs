@@ -16,6 +16,7 @@ public class HelpMenu : MonoBehaviour
         if (SceneManager.GetActiveScene().name != "Main Menu")
         {
             GameStateManager.Instance.InSelection = true;
+            GameStateManager.Instance.AbleToMove = false;
         }
     }
     public void close()
@@ -23,6 +24,7 @@ public class HelpMenu : MonoBehaviour
         if (SceneManager.GetActiveScene().name != "Main Menu")
         {
             GameStateManager.Instance.InSelection = false;
+            GameStateManager.Instance.AbleToMove = true;
         }
         Destroy(gameObject);
     }

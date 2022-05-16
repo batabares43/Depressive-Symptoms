@@ -9,10 +9,12 @@ public class PauseStart : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            pauseMenu.SetActive(true);
-            GameStateManager.Instance.IsPaused = true;
-            GameStateManager.Instance.AbleToMove = false;
-            GameStateManager.Instance.IsIdle = false;
+            bool temp = !GameStateManager.Instance.IsPaused;
+            GameStateManager.Instance.IsPaused = temp;
+            GameStateManager.Instance.InSelection = temp;
+            GameStateManager.Instance.AbleToMove = !temp;
+            GameStateManager.Instance.IsIdle = !temp;
+            pauseMenu.SetActive(temp);
         }
         
     }
