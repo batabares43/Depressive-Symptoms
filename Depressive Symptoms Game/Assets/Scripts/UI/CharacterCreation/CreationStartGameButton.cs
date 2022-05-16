@@ -8,6 +8,7 @@ public class CreationStartGameButton : MonoBehaviour
 {
     [SerializeField] private TMP_InputField nameInput;
     [SerializeField]private bool validated = false;
+    [SerializeField] private GameObject playerC;
 
     public void startGame()
     {
@@ -19,7 +20,8 @@ public class CreationStartGameButton : MonoBehaviour
             PathScript.Instance.NamePlayer = nameInput.text.Trim();
             PathScript.Instance.Location = 1;
             PathScript.Instance.FinishedWeek = false;
-            SceneManager.LoadScene(PathScript.Instance.Location);
+            playerC.SetActive(false);
+            LoadLevel.Instance.loadingLevel(PathScript.Instance.Location);
         }
 
     }

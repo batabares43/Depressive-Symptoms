@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
     public void saveAndExit()
     {
         saveGame();
-        SceneManager.LoadScene(0);
+        LoadLevel.Instance.loadingLevel(0);
     }
 
 

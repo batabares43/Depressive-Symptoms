@@ -8,6 +8,6 @@ public class StartGameButton : MonoBehaviour
     public void starGame()
     {
         GetComponent<DataSaveContainer>().loadData();
-        SceneManager.LoadScene(PathScript.Instance.Location);
+        LoadLevel.Instance.loadingLevel(PathScript.Instance.Location);
     }
 }

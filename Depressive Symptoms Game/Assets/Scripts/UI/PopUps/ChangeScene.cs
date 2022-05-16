@@ -7,7 +7,7 @@ public class ChangeScene : MonoBehaviour
 { 
    public void loadLevel(string level) {
         activePlayer();
-        SceneManager.LoadScene(level);
+        LoadLevel.Instance.loadingLevel(level);
     }
    public void closeWindow()
     {
