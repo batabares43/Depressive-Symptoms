@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 578, y: 471}
   m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 18197
+  controlID: 2225
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 18152
+  controlID: 2226
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 18132
+  controlID: 2227
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,10 +217,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 202}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 90b8ffffbeb9ffff20d6ffffe8dbfffff2dfffff1af4ffffcaf5ffff40fbffff7241000026450000
+      m_ExpandedIDs: 5ab5ffff9abeffff4cbfffff40c2ffff40fbffff764100002a4500005ab00000e8b0000016f4000040f4000092f4000056f60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.10983491, y: 0.24602391, z: 335.41}
+    m_Target: {x: 49.80014, y: -1.652552, z: 3.7002492}
     speed: 2
-    m_Value: {x: 0.10983491, y: 0.24602391, z: 335.41}
+    m_Value: {x: 49.80014, y: -1.652552, z: 3.7002492}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.9492726
+    m_Target: 4.0334616
     speed: 2
-    m_Value: 6.9492726
+    m_Value: 4.0334616
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -521,7 +521,7 @@ MonoBehaviour:
     height: 254
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: player
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_Folders:
     - Assets/Scenes
     m_Globs: []
-    m_OriginalText: player
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 66
   m_LastFolders:
@@ -546,9 +546,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 884c0000
-    m_LastClickedID: 19592
-    m_ExpandedIDs: 000000005e4c0000604c0000624c0000644c0000664c0000684c000000ca9a3b
+    m_SelectedIDs: 5a4f0000
+    m_LastClickedID: 20314
+    m_ExpandedIDs: 00000000304f0000324f0000344f0000364f0000384f00003a4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,7 +576,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e4c0000604c0000624c0000644c0000664c0000684c000000ca9a3b
+    m_ExpandedIDs: 00000000304f0000324f0000344f0000364f0000384f00003a4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,9 +601,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 240a0000
-    m_LastClickedInstanceID: 2596
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: b8f60000
+    m_LastClickedInstanceID: 63160
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fc3f00005e420000564200008249000068520000324c0000d8400000dc4000002c140000528d00002e8d0000b61400001a150000904300006e4300009e420000ee46010026470100ea460100344300000a59000000430000425000003a4e0000304c0000004e000000000000cc48000046520000d6490000965d0000ec4a00008a480000064d0000f6520000ae4900001a510000244d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_MipLevel: 0
   m_Zoom: 0.3688594
   m_ScrollPosition: {x: 4.637007, y: -1.9872952}
-  m_SelectedAssetPath: "Assets/Sprites/Dise\xF1o cocina/nevera abierta.png"
+  m_SelectedAssetPath: "Assets/Sprites/dise\xF1o pasillo/tapete entrada.png"
   m_SelectedObject: {fileID: 0}
   m_SelectedSpriteRectGUID: 5e97eb03825dee720800000000000000
   m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteFrameModule
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 17862
+  m_LastSelectedObjectID: 45336
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -776,7 +776,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 2596
+  m_LastInspectedObjectInstanceID: 63160
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
