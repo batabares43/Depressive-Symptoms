@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StartGameSate : MonoBehaviour
 {
+    [SerializeField] private GameObject view;
     void Start()
     {
         try
@@ -13,6 +14,7 @@ public class StartGameSate : MonoBehaviour
             {
                 GameStateManager.Instance.Id = MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());
                 insertPlayerData();
+                Instantiate(view, GameObject.Find("Canvas").transform);
             }
             else
             {
