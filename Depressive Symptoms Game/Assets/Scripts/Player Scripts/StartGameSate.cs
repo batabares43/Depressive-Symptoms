@@ -20,6 +20,8 @@ public class StartGameSate : MonoBehaviour
             else
             {
                 GameStateManager.Instance.Id = PathScript.Instance.Id;
+                GameStateManager.Instance.InSelection = false;
+                GameStateManager.Instance.AbleToMove = true;
                 loadData();
             }
             Destroy(PathScript.Instance.gameObject);

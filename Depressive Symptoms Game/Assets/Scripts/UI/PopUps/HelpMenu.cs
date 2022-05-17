@@ -11,10 +11,11 @@ public class HelpMenu : MonoBehaviour
     private int indexWelcome;
     private int indexTutorial;
 
-    private void OnEnable()
+    private void Start()
     {
         if (SceneManager.GetActiveScene().name != "Main Menu")
         {
+            
             GameStateManager.Instance.InSelection = true;
             GameStateManager.Instance.AbleToMove = false;
         }

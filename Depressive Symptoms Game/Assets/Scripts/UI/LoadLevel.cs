@@ -47,11 +47,6 @@ public class LoadLevel : MonoBehaviour
             bar.value = p;
             yield return null;
         }
-        if (SceneManager.GetActiveScene().name != "Main Menu" && levelLoad.isDone)
-        {
-            GameStateManager.Instance.InSelection = false;
-            GameStateManager.Instance.AbleToMove = true;
-        }
     }
     public void loadingLevel(string i)
     {
@@ -74,11 +69,6 @@ public class LoadLevel : MonoBehaviour
             float p = levelLoad.progress / .9f;
             bar.value = p;
             yield return null;
-        }
-        if (SceneManager.GetActiveScene().name != "Main Menu" && levelLoad.isDone)
-        {
-            GameStateManager.Instance.InSelection = false;
-            GameStateManager.Instance.AbleToMove = true;
         }
     }
 }
