@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,8 +94,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 2
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -583,6 +584,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bocas y narices_14: 6130084510611330239
+      bocas y narices_1: 2391480132660796399
+      bocas y narices_3: -5139506354378545996
+      bocas y narices_8: 4617469857609744701
+      bocas y narices_2: -8690134439725402447
+      bocas y narices_9: 9012755662103466836
+      bocas y narices_0: -4674632734041587672
+      bocas y narices_19: 8433875659898785503
+      bocas y narices_18: -6211892558750117006
+      bocas y narices_12: 2780834964992056241
+      bocas y narices_7: 225528451954546015
+      bocas y narices_6: 3539334385701471567
+      bocas y narices_5: 3822306543966712596
+      bocas y narices_15: -4656394320711189441
+      bocas y narices_13: 2817880692265731606
+      bocas y narices_17: 8373228278965012853
+      bocas y narices_4: 8731092267145367895
+      bocas y narices_16: -2884696216307261509
+      bocas y narices_11: -5310110641070093475
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

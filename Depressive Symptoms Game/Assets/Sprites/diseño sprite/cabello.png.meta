@@ -75,6 +75,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -83,9 +84,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -511,6 +512,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cabello_3: 5740981800901764081
+      cabello_15: -7117883471384224457
+      cabello_1: -4421454911239134440
+      cabello_2: 779703000533946037
+      cabello_5: -8107476962584534075
+      cabello_6: -3282630743843085107
+      cabello_8: -6305361169383622026
+      cabello_7: 5087553990978007030
+      cabello_14: -3146525287768074164
+      cabello_10: 2777787555733204601
+      cabello_9: -2120750911927463044
+      cabello_11: -7217096341121575132
+      cabello_0: -6519544856188323197
+      cabello_12: 6402207763579549156
+      cabello_13: 5090355197678464990
+      cabello_4: -4711625236492059977
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

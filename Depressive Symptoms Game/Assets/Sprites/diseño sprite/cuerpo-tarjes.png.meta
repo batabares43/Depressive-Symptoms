@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,9 +138,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -964,6 +965,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cuerpo-tarjes_3: 4075231728341045232
+      cuerpo-tarjes_5: -5607225266819002537
+      cuerpo-tarjes_1: 3861689045421621601
+      cuerpo-tarjes_6: -7581945392272862855
+      cuerpo-tarjes_18: 6003375208080362737
+      cuerpo-tarjes_0: 2939470415897025307
+      cuerpo-tarjes_21: -5243427702068877284
+      cuerpo-tarjes_30: -9128081534529509098
+      cuerpo-tarjes_20: 7127925566462673762
+      cuerpo-tarjes_33: 4479094663422631806
+      cuerpo-tarjes_8: 7170056017276079497
+      cuerpo-tarjes_15: 7666250295358779937
+      cuerpo-tarjes_26: 7416155404950646703
+      cuerpo-tarjes_12: -4815783618346959344
+      cuerpo-tarjes_10: -3364657912965530540
+      cuerpo-tarjes_11: 9005145519377254785
+      cuerpo-tarjes_25: -6598084522995310176
+      cuerpo-tarjes_32: 3439483007245822633
+      cuerpo-tarjes_22: -3393109295249537081
+      cuerpo-tarjes_23: -1714615080984092315
+      cuerpo-tarjes_14: -4392679147481317754
+      cuerpo-tarjes_4: -6351303310667121075
+      cuerpo-tarjes_2: -4512739165553354435
+      cuerpo-tarjes_19: -26350403951233517
+      cuerpo-tarjes_13: -5409896707488593092
+      cuerpo-tarjes_9: 2247762319475550182
+      cuerpo-tarjes_31: 2741813895700540647
+      cuerpo-tarjes_24: 8701727595807602949
+      cuerpo-tarjes_28: 7245750858417697668
+      cuerpo-tarjes_29: 4069443305233166257
+      cuerpo-tarjes_17: 5590405455861635349
+      cuerpo-tarjes_27: 3175570834827507844
+      cuerpo-tarjes_16: -460271676377441619
+      cuerpo-tarjes_7: 3607424141965857453
+      cuerpo-tarjes_34: 1451478821808024971
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -102,6 +102,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,9 +111,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -727,6 +728,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      vestuario femenino_23: 8447898964578052527
+      vestuario femenino_14: 394865553122803381
+      vestuario femenino_6: -8635726494956083512
+      vestuario femenino_17: -7716095499854642115
+      vestuario femenino_3: -975357852345494105
+      vestuario femenino_24: 6538397750603255929
+      vestuario femenino_10: -7106310791713886108
+      vestuario femenino_22: -8758996264718085045
+      vestuario femenino_20: -686814628626641803
+      vestuario femenino_5: 5418783238182428359
+      vestuario femenino_7: -2103398138245694906
+      vestuario femenino_2: 6178934025976952910
+      vestuario femenino_16: 8262891911140997989
+      vestuario femenino_8: -4999292965645825456
+      vestuario femenino_21: 5489183528789013300
+      vestuario femenino_15: -5699490882267758250
+      vestuario femenino_11: -8683172849253366867
+      vestuario femenino_25: -5668466828568583923
+      vestuario femenino_19: -4495709982541622905
+      vestuario femenino_1: 822181672046743302
+      vestuario femenino_18: -4269731237142494911
+      vestuario femenino_9: -96465068359390121
+      vestuario femenino_12: 7316197284538817446
+      vestuario femenino_0: 6028886773168429562
+      vestuario femenino_4: -96672976479720217
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

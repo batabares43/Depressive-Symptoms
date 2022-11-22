@@ -192,6 +192,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,9 +201,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1468,6 +1469,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cuerpo_50: -750157750113544145
+      cuerpo_42: 4964855282400069223
+      cuerpo_45: -3653036010916714495
+      cuerpo_13: 4429583394597756513
+      cuerpo_23: 3270131596594254981
+      cuerpo_52: 388356764427481384
+      cuerpo_53: 2565266680404686988
+      cuerpo_3: -1073991636456322044
+      cuerpo_15: 2795253484138335603
+      cuerpo_48: -5658684960853366304
+      cuerpo_14: -8445934525327318431
+      cuerpo_47: 4736137676782607364
+      cuerpo_21: -5750721662450782004
+      cuerpo_28: 7998379988546579945
+      cuerpo_20: 783471968748337288
+      cuerpo_25: 3809470075731463694
+      cuerpo_7: 5070370556691631834
+      cuerpo_44: 8310062119246668369
+      cuerpo_9: -6849895513769568720
+      cuerpo_30: 724023890664156663
+      cuerpo_0: -1452258329071434739
+      cuerpo_16: 1368664219008241146
+      cuerpo_40: -42646815981246603
+      cuerpo_12: 8000031950910833851
+      cuerpo_39: 5801268891438217179
+      cuerpo_55: -9133008490637179145
+      cuerpo_8: -1865238274458577664
+      cuerpo_22: -3259571735003558071
+      cuerpo_34: -8741209500140421742
+      cuerpo_35: -6260187264522198320
+      cuerpo_10: -7365706311178956283
+      cuerpo_17: -832615271057368862
+      cuerpo_37: -1402632877311080866
+      cuerpo_1: 805113291684620711
+      cuerpo_11: -3006828862871347517
+      cuerpo_41: 1115050499667207818
+      cuerpo_51: -3986756638058755488
+      cuerpo_33: 7023745752599898898
+      cuerpo_5: 7163213258895877057
+      cuerpo_6: -8055162382792909817
+      cuerpo_43: -143892219047930857
+      cuerpo_49: 3750288323799443390
+      cuerpo_26: -5873139016079510489
+      cuerpo_38: 7083679270003284829
+      cuerpo_2: -3123394502065641076
+      cuerpo_31: -4720613077814296024
+      cuerpo_4: 7762625595143389748
+      cuerpo_36: -7670661339471421358
+      cuerpo_18: 1898244505898986985
+      cuerpo_27: 982424284682297854
+      cuerpo_19: 131966746949887531
+      cuerpo_29: 1381378291056357827
+      cuerpo_54: -4438587111154948913
+      cuerpo_46: -3094961878307027879
+      cuerpo_32: -1658828663253082094
+      cuerpo_24: -4923853024226347741
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
