@@ -28,12 +28,13 @@ public class ActivityFunctions : MonoBehaviour
         GameStateManager.Instance.ActualActivity = this;
         GameStateManager.Instance.Player.transform.position = new Vector2(transform.position.x, GameStateManager.Instance.Player.transform.position.y);
         GameStateManager.Instance.Player.transform.localScale = new Vector3(1, 1, 1);
+        fillVars();
         playAnim();
         onActivation();
     }
     public void finishActivity()
     {
-        fillVars();
+        
         onFinish();
         GameStateManager.Instance.IsIdle = true;
         GameStateManager.Instance.AbleToMove = true;
@@ -44,13 +45,14 @@ public class ActivityFunctions : MonoBehaviour
     {
         if (!activityParams.unrecorded)
         {
-            Record r = new Record(activityParams);
+            
             TimeManager.Instance.timeShift(activityParams);
             VarManager.Instance.modificated(activityParams);
             ControlManager.Instance.modificated(activityParams);
+            Record r = new Record(activityParams);
             RecordManager.Instace.addRecord(r);
         }
-        
+        Debug.Log(activityParams.name);
     }
     public void playAnim()
     {

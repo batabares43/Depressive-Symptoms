@@ -381,6 +381,7 @@
 "Assets/Scripts/Activities Scripts/RecordManager.cs"
 "Assets/Scripts/Activities Scripts/TimeManager.cs"
 "Assets/Scripts/Activities Scripts/VarManager.cs"
+"Assets/Scripts/Base Scripts/AutoSave.cs"
 "Assets/Scripts/Base Scripts/MetaSaveLoad.cs"
 "Assets/Scripts/Base Scripts/Observer.cs"
 "Assets/Scripts/Base Scripts/Record.cs"
