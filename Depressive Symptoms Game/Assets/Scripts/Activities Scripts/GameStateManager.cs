@@ -17,7 +17,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private bool inSelection;
     [SerializeField] private bool isPaused;
     [SerializeField] private bool ableToMove;
-    [SerializeField] private ActivityFunctions actualActivity;
+    [SerializeField] private ActivityFunctions currentActivity;
     [SerializeField] private GameObject menuContinue;
     [SerializeField] private GameObject menuSelection;
     [SerializeField] private Animator anim;
@@ -32,7 +32,7 @@ public class GameStateManager : MonoBehaviour
     public bool AbleToMove { get => ableToMove; set => ableToMove = value; }
     public GameObject Player { get => player; set => player = value; }
 
-    public ActivityFunctions ActualActivity { get => actualActivity; set => actualActivity = value; }
+    public ActivityFunctions CurrentActivity { get => currentActivity; set => currentActivity = value; }
 
     public int Location { get => location; set => location = value; }
     public bool FinishedWeek { get => finishedWeek; set => finishedWeek = value; }
@@ -88,14 +88,15 @@ public class GameStateManager : MonoBehaviour
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("Finished"))
         {
             IsInActivity = false;
-            actualActivity.playAnim();
-            if (actualActivity.ActivityParams.repetitive)
+            currentActivity.playAnim();
+            currentActivity.fillVars();
+            if (currentActivity.ActivityParams.repetitive)
             {
                 Instantiate(menuContinue, GameObject.Find("Canvas").transform);
             }
             else
             {
-                ActualActivity.finishActivity();
+                currentActivity.finishActivity();
             }
         }
     }

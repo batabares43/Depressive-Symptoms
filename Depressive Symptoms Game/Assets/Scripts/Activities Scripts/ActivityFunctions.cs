@@ -25,32 +25,29 @@ public class ActivityFunctions : MonoBehaviour
         GameStateManager.Instance.IsInActivity = true;
         GameStateManager.Instance.InSelection = true;
         GameStateManager.Instance.AbleToMove = false;
-        GameStateManager.Instance.ActualActivity = this;
+        GameStateManager.Instance.CurrentActivity = this;
         GameStateManager.Instance.Player.transform.position = new Vector2(transform.position.x, GameStateManager.Instance.Player.transform.position.y);
         GameStateManager.Instance.Player.transform.localScale = new Vector3(1, 1, 1);
-        fillVars();
         playAnim();
         onActivation();
     }
     public void finishActivity()
     {
-        
         onFinish();
         GameStateManager.Instance.IsIdle = true;
         GameStateManager.Instance.AbleToMove = true;
         GameStateManager.Instance.InSelection = false;
     }
 
-    private void fillVars()
+    public void fillVars()
     {
         if (!activityParams.unrecorded)
         {
-            
-            TimeManager.Instance.timeShift(activityParams);
             VarManager.Instance.modificated(activityParams);
             ControlManager.Instance.modificated(activityParams);
             Record r = new Record(activityParams);
             RecordManager.Instace.addRecord(r);
+            TimeManager.Instance.timeShift(activityParams);
         }
         Debug.Log(activityParams.name);
     }
