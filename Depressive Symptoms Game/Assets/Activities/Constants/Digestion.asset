@@ -15,6 +15,9 @@ MonoBehaviour:
   nameActivity: Digestion
   time: 60
   active: 0
+  repetitive: 0
+  unrecorded: 0
+  folder: Constansts
   mood: 0
   calories: 0
   sleepHours: 0

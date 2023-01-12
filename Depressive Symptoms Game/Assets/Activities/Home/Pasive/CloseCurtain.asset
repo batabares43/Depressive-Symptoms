@@ -16,6 +16,8 @@ MonoBehaviour:
   time: 120
   active: 0
   repetitive: 0
+  unrecorded: 0
+  folder: Home
   mood: -1
   calories: 0
   sleepHours: 0
