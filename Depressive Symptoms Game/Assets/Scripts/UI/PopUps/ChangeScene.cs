@@ -4,8 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
-{ 
-   public void loadLevel(string level) {
+{
+    [SerializeField]
+    private List<GameObject> buttons;
+
+    private void OnEnable()
+    {
+        buttons[GameStateManager.Instance.Location-1].SetActive(false);
+    }
+    public void loadLevel(string level) {
         activePlayer();
         LoadLevel.Instance.loadingLevel(level);
     }

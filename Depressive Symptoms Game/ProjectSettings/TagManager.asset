@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - NPC
   - 
   - 
   - 
@@ -43,6 +44,9 @@ TagManager:
     locked: 0
   - name: BackPlayer
     uniqueID: 3762562099
+    locked: 0
+  - name: NPC
+    uniqueID: 1504260625
     locked: 0
   - name: Points
     uniqueID: 4190889337

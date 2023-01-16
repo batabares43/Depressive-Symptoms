@@ -306,6 +306,8 @@ GameObject:
   m_Component:
   - component: {fileID: 129145413}
   - component: {fileID: 129145414}
+  - component: {fileID: 129145416}
+  - component: {fileID: 129145415}
   m_Layer: 0
   m_Name: "Puerta ba\xF1o 1"
   m_TagString: Untagged
@@ -369,7 +371,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -532405197
   m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 5bb3a497ee94d35428e2a1d290f93aca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -381,6 +383,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &129145415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129145412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1800034291}
+  targetIndex: 1
+  yOffset: -3.345
+  cameraTarget: {fileID: 430501290}
+--- !u!61 &129145416
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129145412}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.88, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.1, y: 6.51}
+    newSize: {x: 3.1, y: 6.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.8, y: 6.51}
+  m_EdgeRadius: 0
 --- !u!1 &218928756
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,10 +963,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  xmin: []
-  xmax: []
-  y: []
-  targets: []
+  xmin:
+  - -54.09
+  - 20.13
+  xmax:
+  - -7.69
+  - 24.36
+  y:
+  - 0
+  - 0
+  targets:
+  - {fileID: 998800082}
+  - {fileID: 751269349}
   indexRoom: 0
 --- !u!81 &430501291
 AudioListener:
@@ -958,7 +1011,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.3566494
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -982,7 +1035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430501289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 24.36, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1277,7 +1330,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -532405197
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 9184f157d70dd334583ed9e4e3e6c2af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2288,7 +2341,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -532405197
   m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: bc806fcf27bf5e04f90261872a574603, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2676,6 +2729,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1361130915}
   - component: {fileID: 1361130916}
+  - component: {fileID: 1361130918}
+  - component: {fileID: 1361130917}
   m_Layer: 0
   m_Name: Puerta parque
   m_TagString: Untagged
@@ -2738,7 +2793,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -532405197
   m_SortingLayer: 1
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 6103733aec3c2f444bbd5d5c8e064fea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2750,6 +2805,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1361130917
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361130914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.36, y: 9.38}
+    newSize: {x: 4.36, y: 9.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.36, y: 9.38}
+  m_EdgeRadius: 0
+--- !u!114 &1361130918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361130914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815239e249ff1a046aa3d53947b01409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  window: {fileID: 1658580487}
 --- !u!1 &1580416748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,7 +2999,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 329956131
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ed68d00662be1b84497091b0914a623e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3037,10 +3131,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7808417500350934619, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7808417500606997749, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7808417500606997750, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 430501292}
     - target: {fileID: 7808417500606997753, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3133,6 +3235,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7808417501425826896, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7808417501743212648, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -3178,6 +3284,11 @@ GameObject:
 --- !u!1 &1658580486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7808417501425826896, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+  m_PrefabInstance: {fileID: 1658580483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1658580487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7808417500710142050, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
   m_PrefabInstance: {fileID: 1658580483}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1689006573
@@ -3338,7 +3449,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -532405197
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: db4df6c52c7de924ca2193b664c440d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3424,10 +3535,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  target: {fileID: 0}
-  targetIndex: 3
+  target: {fileID: 1730933329}
+  targetIndex: 0
   yOffset: -3.345
-  cameraTarget: {fileID: 0}
+  cameraTarget: {fileID: 430501290}
 --- !u!212 &1800034294
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3467,7 +3578,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 329956131
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbb442f0d5b5de84682bbe1617b8d47b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3955,7 +4066,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 329956131
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ed68d00662be1b84497091b0914a623e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

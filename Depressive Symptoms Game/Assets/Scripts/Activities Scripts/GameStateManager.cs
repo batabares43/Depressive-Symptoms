@@ -63,6 +63,10 @@ public class GameStateManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             SceneManager.sceneLoaded += instance.OnSceneLoaded;
+            GetComponent<PauseStart>().PauseMenu = GameObject.Find("Pause");
+            GameObject.Find("Pause").SetActive(false);
+            GetComponent<FinishWeek>().Target = GameObject.Find("FinishWeek");
+            GameObject.Find("FinishWeek").SetActive(false);
         }
     }
     private void Start()
@@ -142,7 +146,22 @@ public class GameStateManager : MonoBehaviour
             catch
             {
             }
+            return;
         }
+        if(scene.buildIndex != location)
+        {
+            Debug.Log("Level loaded: " + scene.buildIndex + " former level: " + location);
+            location = scene.buildIndex;
+            GetComponent<PauseStart>().PauseMenu = GameObject.Find("Pause");
+            GameObject.Find("Pause").SetActive(false);
+            GetComponent<FinishWeek>().Target = GameObject.Find("FinishWeek");
+            GameObject.Find("FinishWeek").SetActive(false);
+            GameStateManager.Instance.InSelection = false;
+            GameStateManager.Instance.AbleToMove = true;
+            player.GetComponent<PlayerMovementController>().playerStop();
+
+        }
+
     }
     void OnDisable()
     {

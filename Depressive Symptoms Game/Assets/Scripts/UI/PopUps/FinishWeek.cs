@@ -5,6 +5,7 @@ using UnityEngine;
 public class FinishWeek : MonoBehaviour
 {
     [SerializeField] private GameObject target;
+    public GameObject Target { set=> target=value ; }
     public void Update()
     {
         if (!GameStateManager.Instance.InSelection)

@@ -69,11 +69,14 @@ public class PlayerMovementController : MonoBehaviour
         }
         else
         {
-            moving = false;
-            anim.SetBool("isWalking", false);
+            playerStop();
         }
     }
-
+    public void playerStop()
+    {
+        moving = false;
+        anim.SetBool("isWalking", false);
+    }
     
 
 

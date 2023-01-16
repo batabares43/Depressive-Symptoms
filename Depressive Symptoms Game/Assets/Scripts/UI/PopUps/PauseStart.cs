@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseStart : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
+    public GameObject PauseMenu { set => pauseMenu=value; }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -18,4 +19,5 @@ public class PauseStart : MonoBehaviour
         }
         
     }
+
 }

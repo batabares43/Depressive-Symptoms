@@ -392,10 +392,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7808417500350934619, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7808417500606997749, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7808417500606997750, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1801914144}
     - target: {fileID: 7808417500606997753, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -488,6 +496,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7808417501425826896, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7808417501743212648, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -535,6 +547,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &268351341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7808417500710142050, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+  m_PrefabInstance: {fileID: 268351337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &340470158
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +562,8 @@ GameObject:
   m_Component:
   - component: {fileID: 340470159}
   - component: {fileID: 340470160}
+  - component: {fileID: 340470162}
+  - component: {fileID: 340470161}
   m_Layer: 0
   m_Name: Puerta
   m_TagString: Untagged
@@ -619,6 +638,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &340470161
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340470158}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2, y: -0.25}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.76, y: 8.91}
+    newSize: {x: 4.76, y: 8.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.2, y: 8.4}
+  m_EdgeRadius: 0
+--- !u!114 &340470162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340470158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815239e249ff1a046aa3d53947b01409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  window: {fileID: 268351341}
 --- !u!1 &466861536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,10 +2289,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  target: {fileID: 0}
-  targetIndex: 3
+  target: {fileID: 1276660945}
+  targetIndex: 0
   yOffset: -3.345
-  cameraTarget: {fileID: 0}
+  cameraTarget: {fileID: 1801914146}
 --- !u!212 &1238862691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2274,7 +2332,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 329956131
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbb442f0d5b5de84682bbe1617b8d47b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2554,6 +2612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1546069508}
   - component: {fileID: 1546069509}
+  - component: {fileID: 1546069511}
+  - component: {fileID: 1546069510}
   m_Layer: 0
   m_Name: "Ba\xF1o 1"
   m_TagString: Untagged
@@ -2629,6 +2689,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1546069510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546069507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1238862688}
+  targetIndex: 1
+  yOffset: -3.345
+  cameraTarget: {fileID: 1801914146}
+--- !u!61 &1546069511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546069507}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.9, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.1, y: 6.5}
+    newSize: {x: 3.1, y: 6.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.8, y: 6.5}
+  m_EdgeRadius: 0
 --- !u!1 &1577917031
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,7 +3511,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.3154345
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3432,7 +3535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801914142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 24.42, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3452,10 +3555,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  xmin: []
-  xmax: []
-  y: []
-  targets: []
+  xmin:
+  - -38.1
+  - 20.004
+  xmax:
+  - -8.5
+  - 24.42
+  y:
+  - 0
+  - 0
+  targets:
+  - {fileID: 18373092}
+  - {fileID: 1716732233}
   indexRoom: 0
 --- !u!1 &1814005273
 GameObject:

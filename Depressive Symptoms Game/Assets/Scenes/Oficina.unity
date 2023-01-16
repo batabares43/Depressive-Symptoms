@@ -497,6 +497,8 @@ GameObject:
   m_Component:
   - component: {fileID: 153832024}
   - component: {fileID: 153832025}
+  - component: {fileID: 153832026}
+  - component: {fileID: 153832027}
   m_Layer: 0
   m_Name: "puerta ba\xF1o hombre"
   m_TagString: Untagged
@@ -572,6 +574,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &153832026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153832023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbcb64dd3045aa478e20caf6760c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  target: {fileID: 1741669282}
+  targetIndex: 1
+  yOffset: -3.345
+  cameraTarget: {fileID: 1030834138}
+--- !u!61 &153832027
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153832023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.9, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.1, y: 6.52}
+    newSize: {x: 3.1, y: 6.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 6.52}
+  m_EdgeRadius: 0
 --- !u!1 &213344851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,10 +1297,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7808417500350934619, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7808417500606997749, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7808417500606997749, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808417500606997750, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1030834140}
     - target: {fileID: 7808417500606997753, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1347,6 +1404,10 @@ PrefabInstance:
     - target: {fileID: 7808417501366817751, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808417501425826896, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7808417501743212648, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1489,6 +1550,8 @@ GameObject:
   m_Component:
   - component: {fileID: 741378004}
   - component: {fileID: 741378005}
+  - component: {fileID: 741378006}
+  - component: {fileID: 741378007}
   m_Layer: 0
   m_Name: puerta salida
   m_TagString: Untagged
@@ -1563,6 +1626,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &741378006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741378003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815239e249ff1a046aa3d53947b01409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  window: {fileID: 1896906926}
+--- !u!61 &741378007
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741378003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.76, y: 9.38}
+    newSize: {x: 4.76, y: 9.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.76, y: 9.38}
+  m_EdgeRadius: 0
 --- !u!1 &806871175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,10 +1997,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  xmin: []
-  xmax: []
-  y: []
-  targets: []
+  xmin:
+  - -32.66
+  - 20.15
+  xmax:
+  - -3.39
+  - 24.3
+  y:
+  - 0
+  - 0
+  targets:
+  - {fileID: 1008739286}
+  - {fileID: 1791862113}
   indexRoom: 0
 --- !u!81 &1030834139
 AudioListener:
@@ -1935,7 +2045,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.394288
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1959,7 +2069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030834137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 24.3, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2639,6 +2749,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1347777502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5729249787395016456, guid: e9af282170bf4b046bc2228e8bdbfeb0, type: 3}
+  m_PrefabInstance: {fileID: 1666196187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1365532259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3165,8 +3280,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3692635855579485065, guid: c83c8689eb7a94f469f2e74c16f02b75, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1347777502}
+    - target: {fileID: 3692635855579485065, guid: c83c8689eb7a94f469f2e74c16f02b75, type: 3}
       propertyPath: location
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692635855579485065, guid: c83c8689eb7a94f469f2e74c16f02b75, type: 3}
+      propertyPath: ableToMove
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3692635855579485068, guid: c83c8689eb7a94f469f2e74c16f02b75, type: 3}
       propertyPath: m_Name
@@ -3446,10 +3569,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  target: {fileID: 0}
-  targetIndex: 3
+  target: {fileID: 2052037208}
+  targetIndex: 0
   yOffset: -3.345
-  cameraTarget: {fileID: 0}
+  cameraTarget: {fileID: 1030834138}
 --- !u!212 &1741669285
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3489,7 +3612,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 329956131
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbb442f0d5b5de84682bbe1617b8d47b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3713,6 +3836,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1896906926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7808417500710142050, guid: c64a9c36a275e244a9172eb1109bcab7, type: 3}
+  m_PrefabInstance: {fileID: 552333415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2052037207
 GameObject:
   m_ObjectHideFlags: 0

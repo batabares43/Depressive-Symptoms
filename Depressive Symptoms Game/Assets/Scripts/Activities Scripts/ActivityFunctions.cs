@@ -5,7 +5,7 @@ using UnityEngine;
 public class ActivityFunctions : MonoBehaviour
 {
     [SerializeField] private Activity activityParams;
-    [SerializeField] private string animationName;
+    [SerializeField] private string animationName= "DoSomething";
     [SerializeField] private Animator anim;
     [SerializeField] private List<ActivityBehavior> activateBehaviors;
     [SerializeField] private List<ActivityBehavior> finishBehaviors;
