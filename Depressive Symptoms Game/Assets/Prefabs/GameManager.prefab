@@ -222,7 +222,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
-  c: {r: 0, g: 0, b: 0, a: 0}
+  day: {r: 1, g: 1, b: 1, a: 0}
+  evening: {r: 1, g: 0.4431373, b: 0.16862746, a: 0.5882353}
+  night: {r: 0, g: 0.024810184, b: 0.3490566, a: 0.5882353}
 --- !u!114 &3692635855579485075
 MonoBehaviour:
   m_ObjectHideFlags: 0
