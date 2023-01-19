@@ -24,7 +24,6 @@ public class StartGameSate : MonoBehaviour
                 GameStateManager.Instance.AbleToMove = true;
                 loadData();
             }
-            Destroy(PathScript.Instance.gameObject);
         }
         catch { }
         

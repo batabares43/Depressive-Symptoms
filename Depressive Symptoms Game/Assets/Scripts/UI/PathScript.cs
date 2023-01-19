@@ -25,7 +25,16 @@ public class PathScript : MonoBehaviour
     #endregion
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
-        instance = this;
+        if (instance != this && instance!=null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+            
+        }
+        
     }
 }

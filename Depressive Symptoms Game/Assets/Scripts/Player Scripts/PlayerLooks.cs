@@ -62,7 +62,7 @@ public class PlayerLooks : MonoBehaviour
         hairIndex = p.hairIndex;
         hairColor = p.hairColor;
         noseIndex = p.noseIndex;
-        noseIndex = p.mouthIndex;
+        mouthIndex = p.mouthIndex;
         outfitIndex = p.outfitIndex;
         accesoryIndex = p.accesoryIndex;
         changeSprites();
@@ -78,7 +78,7 @@ public class PlayerLooks : MonoBehaviour
         p.hairIndex = hairIndex;
         p.hairColor = hairColor;
         p.noseIndex = noseIndex;
-        p.noseIndex = mouthIndex;
+        p.mouthIndex = mouthIndex;
         p.outfitIndex = outfitIndex;
         p.accesoryIndex = accesoryIndex;
         return p;

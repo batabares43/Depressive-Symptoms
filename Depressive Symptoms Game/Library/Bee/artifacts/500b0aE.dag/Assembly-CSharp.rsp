@@ -399,6 +399,7 @@
 "Assets/Scripts/Extra/ChangeColorLight.cs"
 "Assets/Scripts/Extra/DayNightCycle.cs"
 "Assets/Scripts/Extra/OpenCloseCurtain.cs"
+"Assets/Scripts/Extra/RandomNPCs.cs"
 "Assets/Scripts/Player Scripts/CameraFollow.cs"
 "Assets/Scripts/Player Scripts/LooksPack.cs"
 "Assets/Scripts/Player Scripts/PlayerData.cs"

@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 5761285823440528420}
   - component: {fileID: 7271738898826263078}
   - component: {fileID: 1556670307955574592}
+  - component: {fileID: 3217533154072045586}
   m_Layer: 7
   m_Name: NPC
   m_TagString: NPC
@@ -463,6 +464,57 @@ MonoBehaviour:
   activities: []
   instant: 0
   diponible: 0
+--- !u!114 &3217533154072045586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33302820218180377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffb81413366f614d9a6dc86309845e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyType: 0
+  skinIndex: 0
+  eyeIndex: 0
+  eyeColor: 0
+  hairIndex: 0
+  hairColor: 0
+  mouthIndex: 0
+  noseIndex: 0
+  outfitIndex: 0
+  accesoryIndex: 0
+  head: {fileID: 33302820187340953}
+  body: {fileID: 3461515925892919825}
+  rArm: {fileID: 33302820534372393}
+  lArm: {fileID: 33302820029248141}
+  rHand: {fileID: 33302821163847665}
+  lHand: {fileID: 33302821148508286}
+  rfoot: {fileID: 33302821103143450}
+  lfoot: {fileID: 33302821064244272}
+  rEyeLid: {fileID: 33302821250869849}
+  rEyeBag: {fileID: 33302820495995811}
+  lEyeLid: {fileID: 33302819947905571}
+  lEyeBag: {fileID: 33302821363216932}
+  rEye: {fileID: 33302821213606863}
+  lEye: {fileID: 33302821134233627}
+  fHair: {fileID: 33302821399802695}
+  bHair: {fileID: 33302820456018986}
+  mouth: {fileID: 33302820262328159}
+  nose: {fileID: 33302820160895429}
+  bodyO: {fileID: 3444296374713248898}
+  rArmO: {fileID: 861765662281112597}
+  lArmO: {fileID: 5627184119639851349}
+  rHandO: {fileID: 1173415499338170960}
+  lHandO: {fileID: 2183507895925891723}
+  rthighO: {fileID: 4920590849156016100}
+  lthighO: {fileID: 5495481120615800954}
+  rfootO: {fileID: 66084694748434004}
+  lfootO: {fileID: 7028449639089352954}
+  skirt: {fileID: 6842002072243444122}
+  Accesory: {fileID: 4697543813945062356}
 --- !u!1 &33302820262328145
 GameObject:
   m_ObjectHideFlags: 0

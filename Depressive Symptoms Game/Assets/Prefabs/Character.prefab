@@ -1043,10 +1043,6 @@ GameObject:
   - component: {fileID: 6665013494795543973}
   - component: {fileID: 3434679850431369025}
   - component: {fileID: 1429972695}
-  - component: {fileID: 1620975847}
-  - component: {fileID: 1620975848}
-  - component: {fileID: 1620975849}
-  - component: {fileID: 1620975850}
   m_Layer: 6
   m_Name: Character
   m_TagString: Player
@@ -1345,62 +1341,6 @@ MonoBehaviour:
   activityParams: {fileID: 11400000, guid: 8b3ee619047bd604f8e139f27d8969fc, type: 2}
   nameActivity: Jugar videojuegos
   limit: 4
---- !u!114 &1620975847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5729249787395016456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: 5c99f83a08e17fb42965cfc58a5f7e87, type: 2}
-  timeNext: 0
---- !u!114 &1620975848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5729249787395016456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: 36699bceb6fc78e43a0d15c8d72deb59, type: 2}
-  timeNext: 0
---- !u!114 &1620975849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5729249787395016456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: dc84b2486f2b4264a9839bbd542bd331, type: 2}
-  timeNext: 0
---- !u!114 &1620975850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5729249787395016456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fe69260b530454085f157e6b571908, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activityParams: {fileID: 11400000, guid: e98526e1be782be4d97c4962d8e5823e, type: 2}
-  timeNext: 0
 --- !u!1 &5729249787433885757
 GameObject:
   m_ObjectHideFlags: 0
