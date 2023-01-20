@@ -12,6 +12,7 @@ public class DayNightCycle : MonoBehaviour,Observer
 
     public void updateState()
     {
+        panel = GameObject.Find("DayNight").GetComponent<Image>();
         int hour = TimeManager.Instance.Hour;
         if ((hour >= 18 && hour<= 23) || (hour >= 0 && hour <= 6))
         {
