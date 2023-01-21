@@ -19,7 +19,7 @@ public class Tireness : MonoBehaviour,Observer
             isTired = true;
             performActivity();
         }
-        else
+        else if(rest !=0)
         {
             isTired = false;
         }

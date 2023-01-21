@@ -80,6 +80,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -2541,7 +2542,7 @@ ScriptsOnlyBuild:
     className: StartGameSate
   - hash:
       serializedVersion: 2
-      Hash: 8c91f74be94fa1523e1bf21fe5c2e853
+      Hash: 64204747fb5a11700695b6b01d46328a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DayNightCycle
@@ -3051,7 +3052,7 @@ ScriptsOnlyBuild:
     className: TrickActivation
   - hash:
       serializedVersion: 2
-      Hash: 97346af38ce81b2957149e8b9d6dde2a
+      Hash: 3fe8fc31a1111a0b68fad7d8d446efdf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangePosition
@@ -3105,7 +3106,7 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 1f1e26ab96be3c936fee83f95c4188d2
+      Hash: 03b79133ea0bb170c03e4102e37522b5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Tireness

@@ -25,6 +25,7 @@ public class TimePA : MonoBehaviour, Observer
 
     private void performActivity()
     {
+        Debug.Log(activityParams.name + gameObject.name);
         Record r = new Record(activityParams);
         VarManager.Instance.modificated(activityParams);
         ControlManager.Instance.modificated(activityParams);
@@ -34,5 +35,9 @@ public class TimePA : MonoBehaviour, Observer
     public void unSuscribe()
     {
         TimeManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
     }
 }
