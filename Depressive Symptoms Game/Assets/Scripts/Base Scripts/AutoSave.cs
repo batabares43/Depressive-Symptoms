@@ -26,4 +26,13 @@ public class AutoSave : MonoBehaviour, Observer
         }
        
     }
+
+    public void unSuscribe()
+    {
+        TimeManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

@@ -5,7 +5,12 @@ using UnityEngine;
 public class Tireness : MonoBehaviour,Observer
 {
     [SerializeField]private Activity activityParams;
-    private bool isTired;
+    [SerializeField]private bool isTired;
+
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
 
     public void updateState()
     {
@@ -31,5 +36,9 @@ public class Tireness : MonoBehaviour,Observer
     private void Start()
     {
         ControlManager.Instance.suscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
     }
 }

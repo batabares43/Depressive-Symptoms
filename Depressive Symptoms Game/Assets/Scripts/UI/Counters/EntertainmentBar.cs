@@ -19,4 +19,13 @@ public class EntertainmentBar : MonoBehaviour, Observer
         float num = ControlManager.Instance.Entertainment;
         bar.value = num / maxCapacity;
     }
+
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

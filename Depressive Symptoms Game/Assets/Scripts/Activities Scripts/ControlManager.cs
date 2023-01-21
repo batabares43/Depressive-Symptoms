@@ -54,6 +54,7 @@ public class ControlManager : MonoBehaviour, Subject
         useOfSPA = c.useOfSPA;
 
         useOfSPATemp = c.useOfSPATemp;
+        notify();
     }
     public ControlContainer GetControl()
     {

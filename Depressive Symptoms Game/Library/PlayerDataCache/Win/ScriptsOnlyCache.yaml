@@ -54,6 +54,7 @@ ScriptsOnlyBuild:
     - PlayerLooks
     - PlayerMovementController
     - RandomCharacter
+    - RandomNPCs
     - RecordManager
     - Repetitive
     - RestCheck
@@ -165,102 +166,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
     fullTypeName: DeleteGameButton
     methodName: deleteSave
   - assembly: Assembly-CSharp
@@ -269,6 +174,102 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StartGameButton
     methodName: starGame
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
   - assembly: Assembly-CSharp
     fullTypeName: LoadCharacter
     methodName: closeWindow
@@ -519,6 +520,102 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeScene
     methodName: closeWindow
   - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
     fullTypeName: SelectedActivity
     methodName: doActivity
   - assembly: Assembly-CSharp
@@ -530,102 +627,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GenerateMenu
     methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -669,6 +670,102 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeScene
     methodName: closeWindow
   - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
     fullTypeName: SelectedActivity
     methodName: doActivity
   - assembly: Assembly-CSharp
@@ -680,102 +777,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GenerateMenu
     methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -819,6 +820,102 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeScene
     methodName: closeWindow
   - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
     fullTypeName: SelectedActivity
     methodName: doActivity
   - assembly: Assembly-CSharp
@@ -830,102 +927,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GenerateMenu
     methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -969,6 +970,102 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeScene
     methodName: closeWindow
   - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
     fullTypeName: SelectedActivity
     methodName: doActivity
   - assembly: Assembly-CSharp
@@ -980,102 +1077,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GenerateMenu
     methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -1119,6 +1120,102 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeScene
     methodName: closeWindow
   - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
     fullTypeName: SelectedActivity
     methodName: doActivity
   - assembly: Assembly-CSharp
@@ -1130,102 +1227,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GenerateMenu
     methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
   sceneClasses:
     Assets/Scenes/Bar.unity:
     - Class: 1
@@ -1345,21 +1346,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6352}
+    - Class: 114
+      Script: {instanceID: 6484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1506,27 +1509,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 5908}
+      Script: {instanceID: 5910}
     - Class: 114
-      Script: {instanceID: 5976}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6352}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6484}
     - Class: 114
-      Script: {instanceID: 6564}
+      Script: {instanceID: 6566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1669,29 +1672,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5456}
+      Script: {instanceID: 5458}
     - Class: 114
-      Script: {instanceID: 5484}
+      Script: {instanceID: 5486}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 5924}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6202}
+      Script: {instanceID: 6204}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 6232}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6352}
     - Class: 114
-      Script: {instanceID: 6356}
+      Script: {instanceID: 6358}
     - Class: 114
-      Script: {instanceID: 6366}
+      Script: {instanceID: 6368}
     - Class: 114
-      Script: {instanceID: 6370}
+      Script: {instanceID: 6372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1828,21 +1831,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6352}
+    - Class: 114
+      Script: {instanceID: 6484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1979,21 +1984,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6352}
+    - Class: 114
+      Script: {instanceID: 6484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2130,21 +2137,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5496}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5714}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 5762}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 6352}
+    - Class: 114
+      Script: {instanceID: 6484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2950,6 +2959,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3f613e11704a72b8eb56e4b8b9a55ba4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomNPCs
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

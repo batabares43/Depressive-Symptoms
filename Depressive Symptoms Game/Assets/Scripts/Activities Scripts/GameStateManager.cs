@@ -138,7 +138,6 @@ public class GameStateManager : MonoBehaviour
 
             try
             {
-                SceneManager.sceneLoaded -= instance.OnSceneLoaded;
                 Destroy(instance.gameObject);
                 instance = null;
 
@@ -165,7 +164,10 @@ public class GameStateManager : MonoBehaviour
     }
     void OnDisable()
     {
-        SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+        if (this == instance)
+        {
+            SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+        }
     }
 
 

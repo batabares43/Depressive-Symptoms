@@ -28,6 +28,7 @@ public class TimeManager : MonoBehaviour, Subject
         hour = t.hour;
         minute = t.minute;
         lastMinuteChange = t.lastMinuteChange;
+        notify();
     }
     public TimeContainer GetTime()
     {

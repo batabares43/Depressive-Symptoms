@@ -19,4 +19,13 @@ public class SleepBar : MonoBehaviour, Observer
         float num = ControlManager.Instance.Rest;
         bar.value = num / maxCapacity;
     }
+
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

@@ -1234,7 +1234,7 @@ RectTransform:
   m_Children:
   - {fileID: 7808417502010866968}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1548,7 +1548,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7808417501893176652}
   - {fileID: 7808417500938562196}
   - {fileID: 7808417500710142053}
   - {fileID: 7808417501425826899}
@@ -2091,7 +2090,7 @@ RectTransform:
   m_Children:
   - {fileID: 7808417501669000987}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2241,7 +2240,7 @@ RectTransform:
   - {fileID: 7808417500864750062}
   - {fileID: 7808417501470236271}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3216,8 +3215,9 @@ RectTransform:
   - {fileID: 7808417501558529288}
   - {fileID: 7808417500491420397}
   - {fileID: 7808417501637400948}
+  - {fileID: 7808417501893176652}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4145,7 +4145,7 @@ RectTransform:
   - {fileID: 7808417500838611185}
   - {fileID: 7808417502225503859}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4389,7 +4389,7 @@ RectTransform:
   m_Children:
   - {fileID: 7808417502085700184}
   m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5875,6 +5875,7 @@ GameObject:
   - component: {fileID: 7808417501893176652}
   - component: {fileID: 7808417501893176654}
   - component: {fileID: 7808417501893176655}
+  - component: {fileID: 813147276219077704}
   m_Layer: 5
   m_Name: DayNight
   m_TagString: Untagged
@@ -5889,18 +5890,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7808417501893176653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6666663, y: 1.6666663, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7808417500606997753}
-  m_RootOrder: 0
+  m_Father: {fileID: 7808417500938562196}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -695.48804, y: -1155.6793}
+  m_SizeDelta: {x: 1717, y: 877.28357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7808417501893176654
 CanvasRenderer:
@@ -5940,6 +5941,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &813147276219077704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7808417501893176653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa530898e939c74198b262cff147922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 7808417501893176655}
+  noSun: 0
+  day: {r: 1, g: 1, b: 1, a: 0}
+  evening: {r: 1, g: 0.4431373, b: 0.16862746, a: 0.5882353}
+  night: {r: 0, g: 0.024810184, b: 0.3490566, a: 0.5882353}
 --- !u!1 &7808417501894921439
 GameObject:
   m_ObjectHideFlags: 0

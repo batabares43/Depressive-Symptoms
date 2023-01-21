@@ -19,5 +19,14 @@ public class BladderBar : MonoBehaviour, Observer
         float num = ControlManager.Instance.Bladder;
         bar.value = num / maxCapacity;
     }
+
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
 }
 

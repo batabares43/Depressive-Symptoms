@@ -5,4 +5,5 @@ using UnityEngine;
 public interface Observer 
 {
     public void updateState();
+    public void unSuscribe();
 }

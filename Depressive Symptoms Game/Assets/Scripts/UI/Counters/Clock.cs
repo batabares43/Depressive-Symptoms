@@ -42,6 +42,12 @@ public class Clock : MonoBehaviour, Observer
     }
     private void OnDestroy()
     {
+        unSuscribe();
+    }
+
+    public void unSuscribe()
+    {
         TimeManager.Instance.deSuscribe(this);
     }
+
 }

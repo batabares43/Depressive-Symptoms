@@ -151,31 +151,26 @@ public class PlayerLooks : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
 
-        if (scene.name == "Main Menu")
+        if (scene.name == "Main Menu" && this==instance)
         {
 
             try
             {
-                SceneManager.sceneLoaded -= instance.OnSceneLoaded;
+                Debug.Log("ABC2");
                 Destroy(instance.gameObject);
                 instance = null;
-
             }
             catch
             {
+                Debug.LogError("Something didn't delete the player");
             }
         }
     }
     void OnDisable()
     {
-        try
+        if (this == instance)
         {
             SceneManager.sceneLoaded -= instance.OnSceneLoaded;
-        }
-        catch
-        {
-
-        }
-        
+        }  
     }
 }

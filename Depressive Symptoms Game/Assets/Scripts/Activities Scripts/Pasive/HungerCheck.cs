@@ -8,6 +8,11 @@ public class HungerCheck : MonoBehaviour,Observer
     [SerializeField] private Activity wellFed;
     private bool isHungry;
 
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
+
     public void updateState()
     {
         float saiety = ControlManager.Instance.Satiety;
@@ -34,5 +39,8 @@ public class HungerCheck : MonoBehaviour,Observer
         ControlManager.Instance.suscribe(this);
     }
 
-    
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

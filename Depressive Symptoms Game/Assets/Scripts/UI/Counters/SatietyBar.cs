@@ -19,4 +19,9 @@ public class SatietyBar : MonoBehaviour, Observer
         float num = ControlManager.Instance.Satiety;
         bar.value = num / maxCapacity;
     }
+
+    public void unSuscribe()
+    {
+        ControlManager.Instance.deSuscribe(this);
+    }
 }

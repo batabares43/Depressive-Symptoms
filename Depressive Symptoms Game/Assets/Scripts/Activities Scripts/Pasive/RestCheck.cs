@@ -41,4 +41,13 @@ public class RestCheck : MonoBehaviour,Observer
             performActivity();
         }
     }
+
+    public void unSuscribe()
+    {
+        RecordManager.Instace.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

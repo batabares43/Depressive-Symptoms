@@ -37,4 +37,13 @@ public class Repetitive : MonoBehaviour,Observer
             isEnough = false;
         }
     }
+
+    public void unSuscribe()
+    {
+        RecordManager.Instace.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }

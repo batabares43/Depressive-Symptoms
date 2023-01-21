@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 3692635855579485076}
   - component: {fileID: 3692635855579485078}
   - component: {fileID: 3692635855579485073}
-  - component: {fileID: 3692635855579485072}
   - component: {fileID: 3692635855579485075}
   m_Layer: 0
   m_Name: GameManager
@@ -209,22 +208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
---- !u!114 &3692635855579485072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3692635855579485068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffa530898e939c74198b262cff147922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  day: {r: 1, g: 1, b: 1, a: 0}
-  evening: {r: 1, g: 0.4431373, b: 0.16862746, a: 0.5882353}
-  night: {r: 0, g: 0.024810184, b: 0.3490566, a: 0.5882353}
 --- !u!114 &3692635855579485075
 MonoBehaviour:
   m_ObjectHideFlags: 0

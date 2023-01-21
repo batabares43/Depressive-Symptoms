@@ -30,4 +30,9 @@ public class TimePA : MonoBehaviour, Observer
         ControlManager.Instance.modificated(activityParams);
         RecordManager.Instace.addRecord(r);
     }
+
+    public void unSuscribe()
+    {
+        TimeManager.Instance.deSuscribe(this);
+    }
 }

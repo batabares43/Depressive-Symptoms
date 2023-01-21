@@ -3,21 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DayNightCycle : MonoBehaviour,Observer
+public class DayNightCycle : MonoBehaviour, Observer
 {
     [SerializeField] private Image panel;
+    [SerializeField] private bool noSun=false;
     [SerializeField] private Color day;
     [SerializeField] private Color evening;
     [SerializeField] private Color night;
 
+    public void unSuscribe()
+    {
+        TimeManager.Instance.deSuscribe(this);
+    }
+
     public void updateState()
     {
-        panel = GameObject.Find("DayNight").GetComponent<Image>();
+        if (noSun)
+        {
+            panel.color = day;
+            return;
+        }
         int hour = TimeManager.Instance.Hour;
-        if ((hour >= 18 && hour<= 23) || (hour >= 0 && hour <= 6))
+        if ((hour >= 18 && hour <= 23) || (hour >= 0 && hour <= 6))
         {
             panel.color = night;
-        }else if(hour>=16 && hour <= 17)
+        }
+        else if (hour >= 16 && hour <= 17)
         {
             panel.color = evening;
         }
@@ -25,19 +36,19 @@ public class DayNightCycle : MonoBehaviour,Observer
         {
             panel.color = day;
         }
-
-       
-
-
-    }
+}
 
    
     void Start()
     {
-        panel = GameObject.Find("DayNight").GetComponent<Image>();
+        panel = gameObject.GetComponent<Image>();
         TimeManager.Instance.suscribe(this);
         updateState();
     }
 
-   
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
+
 }

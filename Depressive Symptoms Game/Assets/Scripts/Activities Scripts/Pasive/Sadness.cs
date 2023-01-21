@@ -26,4 +26,13 @@ public class Sadness : MonoBehaviour, Observer
         ControlManager.Instance.modificated(activityParams);
         RecordManager.Instace.addRecord(r);
     }
+
+    public void unSuscribe()
+    {
+        VarManager.Instance.deSuscribe(this);
+    }
+    private void OnDestroy()
+    {
+        unSuscribe();
+    }
 }
