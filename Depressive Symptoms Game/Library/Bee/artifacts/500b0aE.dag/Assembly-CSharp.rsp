@@ -437,6 +437,7 @@
 "Assets/Scripts/UI/MainMenu/HelpButton.cs"
 "Assets/Scripts/UI/MainMenu/PlayButton.cs"
 "Assets/Scripts/UI/PathScript.cs"
+"Assets/Scripts/UI/PopUps/AskMenu.cs"
 "Assets/Scripts/UI/PopUps/ChangeScene.cs"
 "Assets/Scripts/UI/PopUps/ContinueActivity.cs"
 "Assets/Scripts/UI/PopUps/FinishWeek.cs"
