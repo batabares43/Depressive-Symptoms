@@ -78,7 +78,7 @@ public class ActivityManager : MonoBehaviour
         comprovateDisponability();
         if (!GameStateManager.Instance.InSelection && diponible)
         {
-            float hoverEffect = 1.01f;
+            float hoverEffect = 1.1f;
             transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y * hoverEffect, transform.localScale.z);
         }
         diponible = false;

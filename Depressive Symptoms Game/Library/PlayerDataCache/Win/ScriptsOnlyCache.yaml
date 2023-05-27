@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - Activity
     - ActivityFunctions
     - ActivityManager
+    - AskMenu
     - AutoSave
     - BladderBar
     - CameraFollow
@@ -262,27 +263,6 @@ ScriptsOnlyBuild:
     fullTypeName: HelpMenu
     methodName: nextPanel
   - assembly: Assembly-CSharp
-    fullTypeName: DeleteGameButton
-    methodName: deleteSave
-  - assembly: Assembly-CSharp
-    fullTypeName: ViewStatisticsButton
-    methodName: startView
-  - assembly: Assembly-CSharp
-    fullTypeName: StartGameButton
-    methodName: starGame
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadCharacter
-    methodName: closeWindow
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadCharacter
-    methodName: startGame
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadCharacter
-    methodName: closeWindow
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadCharacter
-    methodName: deleteGame
-  - assembly: Assembly-CSharp
     fullTypeName: MouthButton
     methodName: changeMouth
   - assembly: Assembly-CSharp
@@ -478,155 +458,41 @@ ScriptsOnlyBuild:
     fullTypeName: EyeButton
     methodName: changeEyeColor
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveGame
+    fullTypeName: DeleteGameButton
+    methodName: deleteSave
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: pauseClose
+    fullTypeName: ViewStatisticsButton
+    methodName: startView
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveAndExit
+    fullTypeName: StartGameButton
+    methodName: starGame
   - assembly: Assembly-CSharp
-    fullTypeName: WarningPopUp
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: WarningPopUp
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveAndExit
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveGame
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: pauseClose
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
+    fullTypeName: LoadCharacter
     methodName: closeWindow
   - assembly: Assembly-CSharp
-    fullTypeName: SelectedActivity
-    methodName: doActivity
+    fullTypeName: LoadCharacter
+    methodName: startGame
   - assembly: Assembly-CSharp
-    fullTypeName: ContinueActivity
-    methodName: continueActivity
+    fullTypeName: LoadCharacter
+    methodName: closeWindow
   - assembly: Assembly-CSharp
-    fullTypeName: ContinueActivity
-    methodName: finishActivity
+    fullTypeName: LoadCharacter
+    methodName: deleteGame
   - assembly: Assembly-CSharp
-    fullTypeName: GenerateMenu
-    methodName: exitMenu
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -778,155 +644,20 @@ ScriptsOnlyBuild:
     fullTypeName: HelpMenu
     methodName: nextPanel
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveGame
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: pauseClose
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveAndExit
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: WarningPopUp
-    methodName: close
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
-    fullTypeName: WarningPopUp
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveAndExit
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: saveGame
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: pauseClose
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: loadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ChangeScene
-    methodName: closeWindow
-  - assembly: Assembly-CSharp
-    fullTypeName: SelectedActivity
-    methodName: doActivity
-  - assembly: Assembly-CSharp
-    fullTypeName: ContinueActivity
-    methodName: continueActivity
-  - assembly: Assembly-CSharp
-    fullTypeName: ContinueActivity
-    methodName: finishActivity
-  - assembly: Assembly-CSharp
-    fullTypeName: GenerateMenu
-    methodName: exitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: previousPanel
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: close
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: changePanels
-  - assembly: Assembly-CSharp
-    fullTypeName: HelpMenu
-    methodName: nextPanel
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -1077,6 +808,351 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: HelpMenu
     methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: pauseClose
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveAndExit
+  - assembly: Assembly-CSharp
+    fullTypeName: WarningPopUp
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: WarningPopUp
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveAndExit
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: pauseClose
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: closeWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: SelectedActivity
+    methodName: doActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: ContinueActivity
+    methodName: continueActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: ContinueActivity
+    methodName: finishActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: GenerateMenu
+    methodName: exitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: pauseClose
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveAndExit
+  - assembly: Assembly-CSharp
+    fullTypeName: WarningPopUp
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: WarningPopUp
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveAndExit
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: saveGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: pauseClose
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: loadLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeScene
+    methodName: closeWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: SelectedActivity
+    methodName: doActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: ContinueActivity
+    methodName: continueActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: ContinueActivity
+    methodName: finishActivity
+  - assembly: Assembly-CSharp
+    fullTypeName: GenerateMenu
+    methodName: exitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: previousPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: changePanels
+  - assembly: Assembly-CSharp
+    fullTypeName: HelpMenu
+    methodName: nextPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: AskMenu
+    methodName: moodAnswer
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: saveGame
@@ -1320,49 +1396,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4088}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5262}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6484}
+      Script: {instanceID: 6354}
+    - Class: 114
+      Script: {instanceID: 6486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1479,57 +1557,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4088}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4224}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4344}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5262}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 5910}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5912}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6484}
+      Script: {instanceID: 6354}
     - Class: 114
-      Script: {instanceID: 6566}
+      Script: {instanceID: 6486}
+    - Class: 114
+      Script: {instanceID: 6568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1632,69 +1712,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3700}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 3770}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 3912}
+      Script: {instanceID: 3914}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 4090}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 4152}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 4280}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 4334}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 4474}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 4486}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 4896}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5286}
+      Script: {instanceID: 5288}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5486}
+      Script: {instanceID: 5488}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5904}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 5924}
+      Script: {instanceID: 5926}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6234}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6354}
     - Class: 114
-      Script: {instanceID: 6358}
+      Script: {instanceID: 6360}
     - Class: 114
-      Script: {instanceID: 6368}
+      Script: {instanceID: 6370}
     - Class: 114
-      Script: {instanceID: 6372}
+      Script: {instanceID: 6374}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1805,49 +1885,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4088}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5262}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6484}
+      Script: {instanceID: 6354}
+    - Class: 114
+      Script: {instanceID: 6486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1958,49 +2040,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4088}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5262}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6484}
+      Script: {instanceID: 6354}
+    - Class: 114
+      Script: {instanceID: 6486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2111,49 +2195,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 4086}
+      Script: {instanceID: 4082}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4088}
     - Class: 114
-      Script: {instanceID: 4174}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4176}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5042}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5262}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5330}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 5498}
+      Script: {instanceID: 5374}
     - Class: 114
-      Script: {instanceID: 5716}
+      Script: {instanceID: 5500}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 6026}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 6484}
+      Script: {instanceID: 6354}
+    - Class: 114
+      Script: {instanceID: 6486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2617,6 +2703,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ViewStatisticsButton
+  - hash:
+      serializedVersion: 2
+      Hash: d5b2dd55046ccc265ff711f67c0fe061
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AskMenu
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816

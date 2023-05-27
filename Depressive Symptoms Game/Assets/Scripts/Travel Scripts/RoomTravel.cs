@@ -37,7 +37,7 @@ public class RoomTravel : MonoBehaviour
     {
         if (!GameStateManager.Instance.InSelection)
         {
-            float hoverEffect = 1.01f;
+            float hoverEffect = 1.1f;
             transform.localScale = new Vector3(transform.localScale.x * hoverEffect, transform.localScale.y * hoverEffect, transform.localScale.z);
         }
     }
