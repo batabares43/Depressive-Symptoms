@@ -9,6 +9,7 @@ public class SaveContainer
     public string id;
     public PlayerContainer player;
     public TimeContainer time;
+    public StatusContainer status;
     public VarContainer variables;
     public ControlContainer control;
     public RecordsContainer record;

@@ -156,7 +156,6 @@ public class PlayerLooks : MonoBehaviour
 
             try
             {
-                Debug.Log("ABC2");
                 Destroy(instance.gameObject);
                 instance = null;
             }

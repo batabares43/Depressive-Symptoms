@@ -22,7 +22,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private GameObject menuSelection;
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject player;
-
+    private Dictionary<string, int> status = new Dictionary<string, int>();
 
     #region properties
     public bool IsIdle { get => isIdle; set { isIdle = value; changeAnimState(); } }
@@ -40,6 +40,7 @@ public class GameStateManager : MonoBehaviour
     public string Id { get => id; set => id = value; }
     public string Name { get => namePlayer; set => namePlayer = value; }
     public static GameStateManager Instance { get => instance; }
+    public Dictionary<string, int> Status { get => status; }
     #endregion
 
 
@@ -113,6 +114,7 @@ public class GameStateManager : MonoBehaviour
     {
         SaveContainer saveFile = new SaveContainer();
         saveFile.id = id;
+        saveFile.status = getStatusFromDict();
         saveFile.player = PlayerLooks.Instance.GetPlayer();
         saveFile.time = TimeManager.Instance.GetTime();
         saveFile.variables = VarManager.Instance.GetVar();
@@ -124,6 +126,7 @@ public class GameStateManager : MonoBehaviour
     {
         SaveContainer loadSave = GetComponent<SaveAndLoad>().load(id);
         GameStateManager.Instance.Id = loadSave.id;
+        setDictFromStatus(loadSave.status);
         PlayerLooks.Instance.setPlayerLooks(loadSave.player);
         TimeManager.Instance.setTimeManager(loadSave.time);
         VarManager.Instance.setVarManager(loadSave.variables);
@@ -170,5 +173,29 @@ public class GameStateManager : MonoBehaviour
         }
     }
 
+    private StatusContainer getStatusFromDict()
+    {
+        StatusContainer statusContainer = new StatusContainer();
+        statusContainer.statusOwner.Clear();
+        statusContainer.state.Clear();
+        foreach (KeyValuePair<string, int> pair in status)
+        {
+            statusContainer.statusOwner.Add(pair.Key);
+            statusContainer.state.Add(pair.Value);
+        }
+        return statusContainer;
+    }
+
+    private void setDictFromStatus(StatusContainer savedStatus)
+    {
+        status.Clear();
+        if (savedStatus.statusOwner.Count>0)
+        {
+            for (int i = 0; i < savedStatus.statusOwner.Count; i++)
+            {
+                status.Add(savedStatus.statusOwner[i], savedStatus.state[i]);
+            }
+        }
+    }
 
 }
