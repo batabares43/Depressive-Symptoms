@@ -451,6 +451,7 @@
 "Assets/Scripts/UI/PopUps/TravelWindow.cs"
 "Assets/Scripts/UI/PopUps/WarningPopUp.cs"
 "Assets/Scripts/UI/TrickActivation.cs"
+"Assets/Scripts/UI/VersionUpdate.cs"
 -langversion:9.0
 
 /deterministic

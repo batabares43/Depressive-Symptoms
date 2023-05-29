@@ -6,7 +6,6 @@ public class AskMenu : MonoBehaviour,Observer
 {
     [SerializeField] private GameObject panel;
     [SerializeField] public bool showQuestion;
-    [SerializeField] public bool answered;
     [SerializeField] public int currentDay = -1;
     [SerializeField] private string statusKey;
     // Start is called before the first frame update
@@ -19,7 +18,7 @@ public class AskMenu : MonoBehaviour,Observer
     public void moodAnswer(int ans)
     {
         Debug.Log(ans);
-        answered = true;
+        VarManager.Instance.Mood = ans;
         GameStateManager.Instance.InSelection = false;
         GameStateManager.Instance.AbleToMove = true;
         panel.SetActive(false);

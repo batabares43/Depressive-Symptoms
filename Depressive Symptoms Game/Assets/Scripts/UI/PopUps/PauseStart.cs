@@ -8,7 +8,7 @@ public class PauseStart : MonoBehaviour
     public GameObject PauseMenu { set => pauseMenu=value; }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && GameStateManager.Instance.AbleToMove)
         {
             bool temp = !GameStateManager.Instance.IsPaused;
             GameStateManager.Instance.IsPaused = temp;
