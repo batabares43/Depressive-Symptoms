@@ -12,6 +12,10 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private string namePlayer;
     [SerializeField] private int location = 0;
     [SerializeField] private bool finishedWeek=false;
+    [SerializeField] private bool cat = false;
+    [SerializeField] private bool dog = false;
+    [SerializeField] private bool work = false;
+    [SerializeField] private bool study = false;
     [SerializeField] private bool isIdle;
     [SerializeField] private bool isInActivity;
     [SerializeField] private bool inSelection;
@@ -39,6 +43,10 @@ public class GameStateManager : MonoBehaviour
 
     public string Id { get => id; set => id = value; }
     public string Name { get => namePlayer; set => namePlayer = value; }
+    public bool Cat { get => cat; set => cat = value; }
+    public bool Dog { get => dog; set => dog = value; }
+    public bool Work { get => work; set => work = value; }
+    public bool Study { get => study; set => study = value; }
     public static GameStateManager Instance { get => instance; }
     public Dictionary<string, int> Status { get => status; }
     #endregion
@@ -51,6 +59,10 @@ public class GameStateManager : MonoBehaviour
         d.name = namePlayer;
         d.location = location;
         d.finishedWeek = finishedWeek;
+        d.cat = cat;
+        d.dog = dog;
+        d.work = work;
+        d.study = study;
         return d;
     }
     private void Awake()

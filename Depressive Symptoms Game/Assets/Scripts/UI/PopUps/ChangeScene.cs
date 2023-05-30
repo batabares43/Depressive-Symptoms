@@ -10,6 +10,8 @@ public class ChangeScene : MonoBehaviour
 
     private void OnEnable()
     {
+        buttons[1].SetActive(GameStateManager.Instance.Study);
+        buttons[2].SetActive(GameStateManager.Instance.Work);
         buttons[GameStateManager.Instance.Location-1].SetActive(false);
     }
     public void loadLevel(string level) {

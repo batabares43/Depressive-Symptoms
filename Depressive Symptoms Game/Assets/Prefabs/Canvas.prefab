@@ -145,7 +145,6 @@ GameObject:
   m_Component:
   - component: {fileID: 89049640}
   - component: {fileID: 89049641}
-  - component: {fileID: 7808417501685260643}
   m_Layer: 5
   m_Name: AskMenu
   m_TagString: Untagged
@@ -188,21 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 1858094262}
   showQuestion: 0
-  answered: 0
   currentDay: -1
   statusKey: AskMenu
---- !u!114 &7808417501685260643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89049639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2460b447edec91e4aa5fd365ede564e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &156938150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1858094263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1989,7 +1975,6 @@ GameObject:
   - component: {fileID: 102773132359917468}
   - component: {fileID: 7151263617897488741}
   - component: {fileID: 9118696237755303192}
-  - component: {fileID: 4797476650560233958}
   m_Layer: 5
   m_Name: Bar
   m_TagString: Untagged
@@ -2112,21 +2097,6 @@ MonoBehaviour:
           m_StringArgument: Bar
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4797476650560233958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3772268150671818457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 6375473327272192920}
 --- !u!1 &3902027165137598842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2109,6 @@ GameObject:
   - component: {fileID: 3518640870899199731}
   - component: {fileID: 7271818728226384658}
   - component: {fileID: 1404876379209978549}
-  - component: {fileID: 1259530436248897156}
   m_Layer: 5
   m_Name: Park
   m_TagString: Untagged
@@ -2262,21 +2231,6 @@ MonoBehaviour:
           m_StringArgument: Parque
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1259530436248897156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3902027165137598842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 2037487372249490142}
 --- !u!1 &4736177522021406367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,7 +2243,6 @@ GameObject:
   - component: {fileID: 2480224685783261065}
   - component: {fileID: 8225199117771280232}
   - component: {fileID: 4301336497968550505}
-  - component: {fileID: 4077838007847930405}
   m_Layer: 5
   m_Name: Office
   m_TagString: Untagged
@@ -2412,21 +2365,6 @@ MonoBehaviour:
           m_StringArgument: Oficina
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4077838007847930405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4736177522021406367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 6572447440653758633}
 --- !u!1 &5152372449613849934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,7 +4685,6 @@ GameObject:
   - component: {fileID: 7808417500932751141}
   - component: {fileID: 7808417500932751138}
   - component: {fileID: 7808417500932751139}
-  - component: {fileID: 7808417500932751136}
   m_Layer: 5
   m_Name: Continuar
   m_TagString: Untagged
@@ -4870,21 +4807,6 @@ MonoBehaviour:
           m_StringArgument: Universidad
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7808417500932751136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7808417500932751198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 7808417500321197485}
 --- !u!1 &7808417500938562197
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,7 +5111,6 @@ GameObject:
   - component: {fileID: 7808417501050881831}
   - component: {fileID: 7808417501050881828}
   - component: {fileID: 7808417501050881829}
-  - component: {fileID: 7808417501050881826}
   m_Layer: 5
   m_Name: University
   m_TagString: Untagged
@@ -5312,21 +5233,6 @@ MonoBehaviour:
           m_StringArgument: Universidad
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7808417501050881826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7808417501050881824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 7808417500854916014}
 --- !u!1 &7808417501094953975
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,7 +6779,6 @@ GameObject:
   - component: {fileID: 7808417501712055380}
   - component: {fileID: 7808417501712055381}
   - component: {fileID: 7808417501712055378}
-  - component: {fileID: 7808417501712055379}
   m_Layer: 5
   m_Name: Salir
   m_TagString: Untagged
@@ -6996,21 +6901,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7808417501712055379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7808417501712055377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 7808417500422504135}
 --- !u!1 &7808417501743212649
 GameObject:
   m_ObjectHideFlags: 0
@@ -9509,7 +9399,6 @@ GameObject:
   - component: {fileID: 7808417502377425738}
   - component: {fileID: 7808417502377425739}
   - component: {fileID: 7808417502377425736}
-  - component: {fileID: 7808417502377425737}
   m_Layer: 5
   m_Name: Guardar
   m_TagString: Untagged
@@ -9632,21 +9521,6 @@ MonoBehaviour:
           m_StringArgument: Universidad
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7808417502377425737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7808417502377425735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 7808417500613249772}
 --- !u!1 &9015960368967885770
 GameObject:
   m_ObjectHideFlags: 0
@@ -9659,7 +9533,6 @@ GameObject:
   - component: {fileID: 5014596027473579279}
   - component: {fileID: 3021521656114656685}
   - component: {fileID: 9173984581245664526}
-  - component: {fileID: 3563148189310313400}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -9782,18 +9655,3 @@ MonoBehaviour:
           m_StringArgument: Casa
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3563148189310313400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9015960368967885770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d2bda1a0385d740b6f449ce2116d8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activity: {fileID: 0}
-  master: {fileID: 0}
-  label: {fileID: 4278215758006270498}

@@ -8,7 +8,7 @@ public class FinishWeek : MonoBehaviour
     public GameObject Target { set=> target=value ; }
     public void Update()
     {
-        if (!GameStateManager.Instance.InSelection)
+        if (GameStateManager.Instance.AbleToMove)
         {
             if (TimeManager.Instance.Day >= 8 && !GameStateManager.Instance.FinishedWeek)
             {

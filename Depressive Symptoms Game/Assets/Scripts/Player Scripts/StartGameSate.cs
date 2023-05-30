@@ -11,6 +11,10 @@ public class StartGameSate : MonoBehaviour
         {
             GameStateManager.Instance.Name = PathScript.Instance.NamePlayer;
             GameStateManager.Instance.FinishedWeek= PathScript.Instance.FinishedWeek;
+            GameStateManager.Instance.Cat = PathScript.Instance.Cat;
+            GameStateManager.Instance.Dog = PathScript.Instance.Dog;
+            GameStateManager.Instance.Work = PathScript.Instance.Work;
+            GameStateManager.Instance.Study = PathScript.Instance.Study;
             if (PathScript.Instance.FirstTime)
             {
                 GameStateManager.Instance.Id = MetaSaveLoad.Instance.createData(GameStateManager.Instance.getMetaData());

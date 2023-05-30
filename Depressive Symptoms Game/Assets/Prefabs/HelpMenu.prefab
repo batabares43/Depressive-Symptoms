@@ -601,9 +601,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Puedes recorrer todos los espacios que tu quieras, cuando quieras ir a
-    alg\xFAn sitio solo tienes que presionar el clic izquierdo de tu mouse y tu avatar
-    lo seguir\xE1. "
+  m_text: "Puedes recorrer todos los espacios que veas, cuando quieras ir a alg\xFAn
+    sitio solo tienes que presionar el clic izquierdo de tu mouse y tu avatar lo
+    seguir\xE1. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fdf435f922d044c46911b11e5db1df9c, type: 2}
   m_sharedMaterial: {fileID: 9202038495922517612, guid: fdf435f922d044c46911b11e5db1df9c, type: 2}
@@ -2870,7 +2870,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.85
+  m_fontSize: 71.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9885,7 +9885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3906016017433622934
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10209,7 +10209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3906016017493936394
 RectTransform:
   m_ObjectHideFlags: 0
