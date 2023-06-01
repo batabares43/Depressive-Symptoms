@@ -25,9 +25,9 @@ MonoBehaviour:
   energy: 0
   selfEfficacy: 0
   concentration: 0
-  deadDesire: 2
+  deadDesire: 3
   sexualDesire: 0
-  riskBehaviors: 2
+  riskBehaviors: 3
   hygiene: 0
   environment: 0
   jobPerformance: 0
